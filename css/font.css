@@ -1,0 +1,28 @@
+@font-face {
+  font-family: ProductSans-Regular;
+  src: url(..//font/ProductSans-Regular.ttf);
+}
+@font-face {
+  font-family: ProductSans-Medium;
+  src: url(..//font/ProductSans-Medium.ttf);
+}
+@font-face {
+  font-family: ProductSans-Bold;
+  src: url(..//font/ProductSans-Bold.ttf);
+}
+@font-face {
+  font-family: Cambon-Medium;
+  src: url(..//font/Cambon-Medium.ttf);
+}
+@font-face {
+  font-family: Cambon-Regular;
+  src: url(..//font/Cambon-Regular.ttf);
+}
+@font-face {
+  font-family: Cambon-SemiBold;
+  src: url(..//font/Cambon-SemiBold.ttf);
+}
+@font-face {
+  font-family: Cambon-Bold;
+  src: url(..//font/Cambon-Bold.ttf);
+}
