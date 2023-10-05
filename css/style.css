@@ -1182,6 +1182,12 @@ body {
   }
 }
 @media only screen and (max-width: 992.5px) {
+  .navbar-collapse {
+    position: absolute;
+    width: 90%;
+    top: 100px;
+    z-index: 10;
+  }
   .header-wrap .login-btn {
     margin-top: 10px;
   }
@@ -1352,6 +1358,9 @@ body {
   .repeat-purchases .purchases-slider .purchases-wrapper .purchases-content a {
     font-size: 18px;
   }
+  .team-section .team-member .team-wrap {
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 525px) {
   .wrapper-title h1 {
@@ -1365,5 +1374,182 @@ body {
   }
   .wrapper-title p {
     font-size: 16px;
+  }
+  .shipping-service .wrapper-title h1::after {
+    content: "";
+    right: -10px;
+    bottom: -20px;
+  }
+  .shipping-offer .wrapper-shipping {
+    padding-top: 30px;
+  }
+  .Enhance-customer .Enhance-inner .Enhance-title p {
+    color: #534064;
+    font-size: 16px;
+    margin-top: 14px;
+  }
+  .Enhance-customer .Enhance-inner .enables-wrapper .Enhance-content h3 {
+    font-size: 30px;
+    line-height: initial;
+    margin-top: 20px;
+  }
+  .Enhance-customer .Enhance-inner .Enhance-title h2 span::after {
+    content: "";
+    bottom: -34px;
+    width: 160px;
+  }
+  .fulfillment-section .wrapper-title h1::after {
+    content: "";
+    bottom: -20px;
+    width: 120px;
+  }
+  .company-card .company-card-inner {
+    padding: 20px 25px;
+  }
+  .Enhance-customer .Enhance-inner .Enhance-title h2 {
+    font-size: 36px;
+  }
+  .deliveries-support .deliveries-inner h2 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  .deliveries-support .deliveries-inner p {
+    font-size: 18px;
+  }
+  .deliveries-support .deliveries-inner img {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+  .services-section .services-head .rounded-logo {
+    height: 65px;
+    width: 65px;
+    margin: unset;
+  }
+  .services-section .services-head .rounded-logo img {
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+  }
+  .services-section .services-head h1 {
+    font-size: 22px;
+  }
+  .services-section .services-inner-wrap .services-inner-video {
+    height: 230px;
+  }
+  .services-section .services-inner-wrap .services-content h3 {
+    font-size: 25px;
+  }
+  .services-section .services-inner-wrap .services-content p {
+    font-size: 12px;
+  }
+  .services-section .services-inner-wrap .services-experiences {
+    padding: 0px 15px;
+  }
+  .services-section {
+    margin: 60px 0px 120px;
+  }
+  .team-section .team-head h1 {
+    font-size: 40px;
+  }
+  .team-section .team-member {
+    margin-top: 25px;
+  }
+  .company-card .company-card-inner .company-card-content {
+    padding: 20px 0px;
+  }
+  .shipping-offer::after {
+    content: "";
+    width: 140px;
+    height: 300px;
+    left: 0px;
+    bottom: 20px;
+  }
+  .fulfillment-section .fulfillment-inner::after {
+    clip-path: polygon(50% 1%, 100% 0%, 100% 100%, 50% 98%, 0 100%, 0 0);
+  }
+  .Banner-section .banner-content .banner-headingText .banner-light::after {
+    content: "";
+    top: -45px;
+    right: -20px;
+  }
+  .Banner-section .banner-content .banner-headingText .banner-volume::before {
+    content: "";
+    width: 50px;
+    height: 40px;
+    top: 37px;
+    left: 0px;
+  }
+  .footer-section {
+    padding-top: 190px;
+  }
+  .shipping-service {
+    padding: 58px 0px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .Banner-section .banner-content .banner-headingText h2 {
+    font-size: 28px;
+  }
+  .Banner-section .banner-content .banner-wrap-btn .banner-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .Banner-section .banner-content .banner-wrap-btn a {
+    font-size: 15px;
+  }
+  .Banner-section .banner-content .banner-wrap-dec p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .Banner-section .banner-img {
+    width: 90%;
+    margin: auto;
+  }
+  .shipping-offer .wrapper-shipping .wrapper-shipping-box {
+    margin-bottom: 24px;
+    padding: 20px;
+  }
+  .shipping-offer .wrapper-shipping .wrapper-shipping-box a {
+    color: #3626f1;
+    font-size: 14px;
+  }
+  .company-card .company-card-inner .company-card-content h1 {
+    font-size: 30px;
+  }
+  .company-card .company-card-inner .company-card-content p {
+    font-size: 14px;
+  }
+  .swiper {
+    padding-top: 20px;
+  }
+  .shipping-service {
+    padding: 48px 0px 30px;
+  }
+  .Enhance-customer .Enhance-inner .enables-wrapper .Enhance-content h3 {
+    font-size: 25px;
+  }
+  .deliveries-support .deliveries-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .fulfillment-section .fulfillment-inner .fulfillment-img {
+    width: 70%;
+  }
+  .services-section .services-head h1 {
+    font-size: 18px;
+  }
+  .services-section .services-inner-wrap .services-experiences {
+    padding: 0px 15px;
+    flex-wrap: wrap;
+  }
+  .services-section .services-inner-wrap .services-content {
+    width: 50%;
+    padding: 20px 0px;
+  }
+  .company-card .company-card-inner .company-card-content {
+    padding: 0px 0px 30px;
+  }
+  .footer-section .footer-content .footer-title h3 {
+    margin-bottom: 15px;
   }
 }
