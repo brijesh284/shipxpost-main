@@ -91,6 +91,32 @@ body {
   width: 25px;
 }
 /* Header */
+.header-sticky {
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 20px 0;
+  z-index: 1;
+}
+.header-sticky.is-sticky {
+  position: fixed;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 8px 0;
+  backdrop-filter: blur(5px);
+  animation: slideDown 0.35s ease-out;
+  z-index: 999;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .header-wrap {
   padding: 28px 0px;
 }
@@ -1379,6 +1405,9 @@ body {
   }
 }
 @media only screen and (max-width: 525px) {
+  .header-wrap {
+    padding: 12px 0px;
+  }
   .wrapper-title h1 {
     font-size: 26px;
   }

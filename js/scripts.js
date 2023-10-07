@@ -1,4 +1,20 @@
 /* --------------------------------------------------
+ * sticky-Header
+ * --------------------------------------------------*/
+
+const header = document.querySelector(".header-sticky");
+const toggleClass = "is-sticky";
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll > 150) {
+    header.classList.add(toggleClass);
+  } else {
+    header.classList.remove(toggleClass);
+  }
+});
+
+/* --------------------------------------------------
  * back to top
  * --------------------------------------------------*/
 if ($("#back-to-top").length) {
@@ -142,6 +158,4 @@ counters.forEach((counter) => {
   updateCounter();
 });
 
-/* --------------------------------------------------
- * Phone-Number
- * --------------------------------------------------*/
+
