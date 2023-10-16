@@ -1,0 +1,109 @@
+.banner-retensiontext h2 {
+    color: #070330;
+    font-family: ProductSans-Bold;
+    font-size: 54px;
+}
+
+.banner-content.hero_div_detail {
+    max-width: 80%;
+}
+
+.banner-retensiontext h2 span {
+    color: #3626f1;
+}
+
+.technology_div h2 span {
+    color: transparent;
+    background: -webkit-linear-gradient(260deg, #0045ff 0%, #FF9BB6 100%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.technology_div h2 {
+    font-size: 54px;
+    
+    font-family: ProductSans-Bold;
+}
+
+section.Technology_detail .container {
+    padding: 80px;
+    background-image: url(../img/customer-engagement/company-card-bg.png);
+    padding: 100px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.recoveries {
+    /* color: #ffff; */
+    margin: 40px 0 0;
+}
+
+.per_detail.text-left p {
+    margin-bottom: 0;
+    /* color: #ffff; */
+}
+
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+div#accordionExample h4 {
+    font-size: 20px;
+}
+
+button.accordion-button {
+    color: black !important;
+    font-size: 22px;
+}
+
+section.accordian {
+    padding: 0 0 100px;
+}
+
+h1.faq_head {
+    color: #070330;
+    font-family: Cambon-SemiBold;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+div#v-pills-tab button {
+    letter-spacing: .48px;
+    color: #283465;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    padding: 20px 50px;
+}
+
+div#v-pills-tab {
+    border: 1px solid #0000001a;
+    border-radius: 10px;
+}
+
+div#v-pills-tab button.active {
+    background: #92bfff;
+}
+
+div#v-pills-tabContent {
+    padding-left: 60px;
+    max-width: 100%;
+}
+
+div#v-pills-tabContent div {
+    font-size: 22px !important;
+}
+
+section.tab_view {
+    padding: 0px 0 100px;
+}
+
+h1.revenue {
+    color: #070330;
+    font-family: Cambon-SemiBold;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
