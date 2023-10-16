@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ShipXPost - Get Your Ecommerce</title>
+  <title>ShipXPost - checkout-optimisation</title>
   <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
   <link rel="stylesheet" href="css/owl.carousel.min.css" />
   <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
@@ -40,11 +40,11 @@
                 Services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Air Freight</a></li>
-                <li><a class="dropdown-item" href="#">Ocean Freight</a></li>
-                <li><a class="dropdown-item" href="#">Ground Shipping</a></li>
-                <li><a class="dropdown-item" href="#">Warehousing</a></li>
-                <li><a class="dropdown-item" href="#">Storage</a></li>
+                <li><a class="dropdown-item" href="domestic-shipping.html">Domestic Shipping</a></li>
+                <li><a class="dropdown-item" href="international-shipping.html">International Shipping</a></li>
+                <!-- <li><a class="dropdown-item" href="#"></a></li> -->
+                <li><a class="dropdown-item" href="b2c_filfillment.html">B2C fulfillment</a></li>
+                <li><a class="dropdown-item" href="b2b_filfillment.html">B2B fulfillment</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -155,8 +155,8 @@
   <section class="know_detail">
     <div class="container">
       <div class="wrapper-title checkout">
-        <h1>Introducing</h1>
-        <h2>Shiprocket Checkout</h2>
+        <h1>Introducing <span>Shiprocket Checkout</span></h1>
+        
         <p>Swift transactions, smoother purchases. Multiply your cart conversions with our technology-backed,
           single-page checkout tool.</p>
         <img src="img/customer-engagement/checkout.jpg" alt="">
@@ -240,114 +240,227 @@
   <!-- accordian -->
   <section class="accordian">
     <div class="container">
+      <h1 class="faq_head">Frequently asked <span> questions</span></h1>
       <div class="row align-content-center justify-content-center">
-        <h1 class="faq_head">Frequently asked <span> questions</span></h1>
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="true" aria-controls="collapseOne">
-                How does Shiprocket Checkout prefill addresses?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <h4>Shiprocket has delivered orders to over 150 Mn customers so far. We prefill the addresses on the
-                  basis of our past delivery data for all the orders we have shipped to the customers.</h4>
+        <div class="col-lg-6">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  How does Shiprocket Checkout prefill addresses?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket has delivered orders to over 150 Mn customers so far. We prefill the addresses on the
+                    basis of our past delivery data for all the orders we have shipped to the customers.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What is the address prefill rate?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Our address prefill rate of approximately 85%. Shiprocket has been in the delivery system for the
+                    past 10 years currently, delivering 2cr. order per month</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                What is the address prefill rate?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <h4>Our address prefill rate of approximately 85%. Shiprocket has been in the delivery system for the
-                  past 10 years currently, delivering 2cr. order per month</h4>
+        </div>
+        <div class="col-lg-6">
+          <!-- <h1 class="faq_head">Frequently asked <span> questions</span></h1> -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  How does Shiprocket Checkout prefill addresses?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket has delivered orders to over 150 Mn customers so far. We prefill the addresses on the
+                    basis of our past delivery data for all the orders we have shipped to the customers.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What is the address prefill rate?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Our address prefill rate of approximately 85%. Shiprocket has been in the delivery system for the
+                    past 10 years currently, delivering 2cr. order per month</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  How much time will it take for Shiprocket Checkout to be integrated in my store?
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
+                    day.</h4>
+                </div>
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                How much time will it take for Shiprocket Checkout to be integrated in my store?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
-                  day.</h4>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingfour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
-                How much time will it take for Shiprocket Checkout to be integrated in my store?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
-                  day.</h4>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                How much time will it take for Shiprocket Checkout to be integrated in my store?
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
-                  day.</h4>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                How much time will it take for Shiprocket Checkout to be integrated in my store?
-              </button>
-            </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
-                  day.</h4>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSeven">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                How much time will it take for Shiprocket Checkout to be integrated in my store?
-              </button>
-            </h2>
-            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <h4>Shiprocket Checkout integration is a quick process. We can get your site up and running the same
-                  day.</h4>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

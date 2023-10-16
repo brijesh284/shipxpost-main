@@ -1,16 +1,15 @@
 .caseStudyBanner.gradientBanner.carrierIntegration {
-    padding: 200px 0px 220px;
-    background: transparent linear-gradient(244deg, #FDE6CD 0%, #EBEBFF 100%) 0% 0% no-repeat padding-box;
     background-position: bottom;
     z-index: 0;
     padding: 165px 0 180px;
-    margin-top: -135px;
+    /* margin-top: -135px; */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
+    height: 100vh;
 }
-.caseStudyBanner.gradientBanner.carrierIntegration::before {
+/* .caseStudyBanner.gradientBanner.carrierIntegration::before {
     content: '';
     position: absolute;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -19,7 +18,7 @@
     width: 120%;
     height: 30%;
     top: -60px;
-}
+} */
 .caseStudyBanner.gradientBanner.carrierIntegration:after {
     transform: rotate(-3deg);
     bottom: -50px;
@@ -250,14 +249,29 @@
     text-align: center;
     color: #0A0753;
     font-weight: 700;
+    position: relative;
+}
+.faq-section .contentWrapper .headingText::after {
+    content: "";
+    position: absolute;
+    background-image: url(..//img/text-underline.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 50%;
+    bottom: -35px;
+    width: 210px;
+    height: 100%;
+    z-index: -1;
+    transform: translate(-50%, 0);
 }
 .faq-section .accordion {
     margin-top: 30px;
 }
 .faq-section .accordion .accordion-item{
-    margin: 10px 0px;
+    margin: 5px 0px;
     border: none;
     border-radius: 20px;
+    width: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .faq-section .accordion button{
@@ -307,6 +321,10 @@
     .faq-section {
         padding-top: 4rem;
         padding-bottom: 4rem;
+    }
+    .caseStudyBanner.gradientBanner.carrierIntegration {
+        padding: 100px 0 100px;
+        height: 80vh;
     }
 }
 @media (max-width: 767px) {
@@ -379,7 +397,8 @@
         display: none;
     }
     .caseStudyBanner.gradientBanner.carrierIntegration {
-        padding: 165px 0 50px;
+        padding: 50px 0 50px;
+        height: auto;
     }
     .stepModule .upperCotentWrapper h2 {
         font-size: 37px;

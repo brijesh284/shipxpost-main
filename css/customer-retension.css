@@ -5,6 +5,11 @@
 }
 
 .banner-content.hero_div_detail {
+    max-width: 90%;
+}
+
+.banner-img.customer_engagement_img {
+    text-align: center;
     max-width: 80%;
 }
 
@@ -12,16 +17,29 @@
     color: #3626f1;
 }
 
+section.Banner-section.customer_engangement {
+    height: 80vh;
+}
+
 .technology_div h2 span {
     color: transparent;
-    background: -webkit-linear-gradient(260deg, #0045ff 0%, #FF9BB6 100%, #000000 100%);
+    background: #3626f1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.per_detail.text-left p {
+    font-weight: 600;
+}
+
+.recoveries p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .technology_div h2 {
     font-size: 54px;
-    
+
     font-family: ProductSans-Bold;
 }
 
@@ -106,4 +124,35 @@ h1.revenue {
     font-family: Cambon-SemiBold;
     font-size: 48px;
     margin-bottom: 50px;
+}
+
+.faq_head h1 span:after {
+    content: "";
+    position: absolute;
+    background-image: url(..//img/customer-text-underline.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: -0px;
+    bottom: 0px;
+    width: 210px;
+    height: 100%;
+    /* z-index: ; */
+}
+
+h1.faq_head {
+    position: relative;
+    
+}
+
+h1.faq_head span:after {
+    content: "";
+    position: absolute;
+    background-image: url(..//img/customer-text-underline.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 350px;
+    bottom: -45px;
+    width: 210px;
+    height: 100%;
+    z-index: -1;
 }

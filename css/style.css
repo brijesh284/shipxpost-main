@@ -2249,6 +2249,6 @@ input[type="radio"]:checked + label span {
 @media only screen and (max-width: 380px) {
 }
 
-.container-main.web-view.pad_main {
+/* .container-main.web-view.pad_main {
   padding: 0;
-}
+} */
