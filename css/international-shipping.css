@@ -1,0 +1,522 @@
+.headerOne.gradientBanner {
+    background: transparent linear-gradient(244deg, #fde6cd, #ebebff) 0 0 no-repeat padding-box;
+    background-position: bottom;
+    z-index: 0;
+    padding: 180px 0 160px;
+    margin-top: -155px;
+    overflow: hidden;
+    position: relative;
+}
+
+.headerOne.gradientBanner:before {
+    content: "";
+    position: absolute;
+    background: #fff 0 0 no-repeat padding-box;
+    opacity: 1;
+    filter: blur(50px);
+    width: 120%;
+    height: 20%;
+    top: -60px;
+    z-index: 1;
+}
+
+.headerOne.gradientBanner:after {
+    transform: rotate(-3deg);
+    bottom: -50px;
+    right: -5px;
+    z-index: 0;
+    width: 102%;
+    height: 100px;
+    background: linear-gradient(0deg,
+            #d2ddf3 -14.39%,
+            rgba(226, 234, 247, 0.67) 47.39%,
+            rgba(255, 255, 255, 0.1) 97.67%);
+    position: absolute;
+    content: "";
+}
+
+.ShippingFromBanner .fontSize72 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #0a0753;
+    font-size: 60px;
+    line-height: 76px;
+    z-index: 3;
+    font-weight: 900;
+}
+
+.ShippingFromBanner .fontSize18 {
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #575757;
+    font-size: 18px;
+}
+
+.blueBtn {
+    background: #3626f1;
+    box-shadow: 0 24px 48px #4429BE3C;
+    border-radius: 10px;
+    border: 1px solid #3626f1;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 18px 48px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all .3s ease;
+}
+
+.blueBtn:hover {
+    background: #fff;
+    color: #3626f1;
+}
+
+
+
+
+.srxPricingCalc.srxHome.Section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.srxPricingCalc.srxHome .row .contentWrapper {
+    flex-basis: 40%;
+}
+
+.srxPricingCalc.srxHome .row {
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.srxPricingCalc.srxHome .row:before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/international-shipping/curve-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 190px;
+    height: 140px;
+    bottom: 10%;
+    left: 34%;
+}
+
+.contentWrapper .headingText {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.srxPricingCalc.srxHome .row .contentWrapper span.rateLabel {
+    letter-spacing: .48px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    padding: 6px 20px;
+    margin-top: 30px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.srxPricingCalc.srxHome .row .contentWrapper span.rateLabel:before {
+    content: "";
+    position: absolute;
+    background: transparent linear-gradient(283deg, #3626f1, #1d113e) 0 0 no-repeat padding-box;
+    border-radius: 5px;
+    opacity: .80;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.srxPricingCalc.srxHome .calcDivWrapper {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-basis: 50%;
+    background: #fff 0 0 no-repeat padding-box;
+    box-shadow: 4px 8px 40px #6f5bdd0d;
+    border-radius: 16px;
+}
+
+.srxPricingCalc.srxHome .calcWrapperPricing {
+    width: 100%;
+    padding: 30px 40px;
+}
+
+.srxPricingCalc.srxHome .calcWrapperPricing h3 {
+    letter-spacing: 0;
+    color: #0a0753;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle {
+    margin-top: 20px;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle .intForm {
+    padding: 0;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle .intForm .innerDiv {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.srxPricingCalc.srxHome .formSide {
+    display: flex;
+    flex-flow: wrap;
+    gap: 25px 20px;
+}
+
+.srxPricingCalc.srxHome .formSide div:nth-child(odd) {
+    flex-basis: calc(50% - 10px);
+    margin: 0;
+}
+
+.srxPricingCalc.srxHome .formSide div:nth-child(2n) {
+    flex-basis: calc(50% - 10px);
+    margin: 0;
+}
+
+.srxPricingCalc.srxHome .calcWrapperPricing .dimensions,
+.srxPricingCalc.srxHome .calcWrapperPricing .domesticWeight,
+.srxPricingCalc.srxHome .calcWrapperPricing .internationalButton {
+    flex-basis: 100% !important;
+}
+
+.calcComponentStyle .domesticForm>div:first-child,
+.calcComponentStyle .domesticWeight>div,
+.calcComponentStyle .intForm>div:first-child {
+    display: flex;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle label {
+    letter-spacing: 0;
+    color: #4c4c4c;
+    opacity: 1;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle input,
+.srxPricingCalc.srxHome .calcComponentStyle select {
+    letter-spacing: 0;
+    color: #4c4c4c;
+    opacity: 1;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 11px 17px;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle .domesticWeight>div span {
+    display: inline-block;
+    padding: 10px 16px;
+    line-height: 14px;
+    letter-spacing: .24px;
+    color: #a9b0bc;
+    opacity: 1;
+    background: #f3f7fe 0 0 no-repeat padding-box;
+    border-radius: 0 5px 5px 0;
+}
+
+.calcComponentStyle .dimensions div {
+    display: flex;
+    align-items: center;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle .dimensions>div input {
+    width: 33.33333%;
+    margin-right: 15px;
+    padding: 11px 10px 11px 17px;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle .dimensions>div p {
+    margin: 0;
+    margin-right: 15px;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle .dimensions>div input:last-child {
+    display: inline-block;
+    padding: 10px 16px;
+    line-height: 14px;
+    letter-spacing: .24px;
+    color: #a9b0bc;
+    opacity: 1;
+    background: #f3f7fe 0 0 no-repeat padding-box;
+    border-radius: 5px;
+    margin: 0;
+    width: 52px;
+}
+
+.srxPricingCalc.srxHome .calcComponentStyle button {
+    padding: 16px 61px;
+    margin-top: 15px;
+    letter-spacing: .36px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    background: #3626f1;
+    border: 1px solid #00000000;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.curveLogoPostion.srx.darkBg {
+    background-color: #1d113e;
+    padding: 100px 0;
+    background-image: url(../img/international-shipping/map-globe-1.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+
+.curveLogoPostion.srx.darkBg .contentWrapper {
+    padding: 0;
+    /* max-width: 775px; */
+}
+
+.curveLogoPostion.srx.darkBg .contentWrapper h2 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.curveLogoPostion.srx.darkBg .contentWrapper p {
+    color: #fff;
+    text-transform: none;
+    line-height: 28px;
+    letter-spacing: 1.6px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.clienLogoSection.curveLogoPostion ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.clienLogoSection.curveLogoPostion ul li {
+    background: #fff 0 0 no-repeat padding-box;
+    box-shadow: -10px 20px 30px #38383812;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 70px;
+    padding: 2rem;
+    align-items: center;
+}
+
+.Section.srxRightContent {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.Section.srxRightContent .imageWrapper img {
+    border-radius: 20px;
+}
+
+.contentWrapper .headingText {
+    color: #3626f1;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.srxRightContent .content {
+    margin-top: 30px;
+    letter-spacing: .36px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #5a5a5a;
+}
+
+
+.Section.srxLeftContentRightImage {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.srxLeftContentRightImage .row .contentWrapper.pr-3 {
+    padding-right: 35px;
+}
+
+.srxLeftContentRightImage .row .contentWrapper h3 {
+    letter-spacing: .36px;
+    color: #3626f1;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.contentWrapper .headingText {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 10px;
+    color: #0a0753;
+    font-family: Cambon-bold;
+}
+
+.srxLeftContentRightImage .row .contentWrapper p {
+    margin-top: 20px;
+    line-height: 28px;
+    letter-spacing: .36px;
+    font-size: 18px;
+    color: #5a5a5a;
+}
+
+.leftContentRightVideo .videoAndContentWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftContentRightVideo .videoAndContentWrapper .contentWrapper {
+    flex-basis: 50%;
+}
+.contentWrapper h3.headingText {
+    letter-spacing: 0;
+    color: #1d113e;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.leftContentRightVideo .videoAndContentWrapper .videoWrapper {
+    flex-basis: 50%;
+    text-align: center;
+}
+.videoAndContentWrapper .content{
+    max-width: 500px;
+}
+
+@media (max-width:991px) {
+    .ShippingFromBanner .fontSize72 {
+        font-size: 42px;
+        line-height: 46px;
+        font-weight: 700;
+    }
+
+    .clienLogoSection.curveLogoPostion ul li {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .srxPricingCalc.srxHome.Section,
+    .Section.srxRightContent,
+    .Section.srxLeftContentRightImage {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .srxPricingCalc.srxHome .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .srxPricingCalc.srxHome .row:before {
+        content: none;
+    }
+
+    .srxPricingCalc.srxHome .calcWrapperPricing {
+        padding: 30px 0px;
+    }
+    Section.ShippingFromBanner.gradientBanner .row{
+        gap: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .srxPricingCalc.srxHome .calcWrapperPricing h3 {
+        font-size: 25px;
+    }
+
+    .contentWrapper .headingText {
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    .srxLeftContentRightImage .row .contentWrapper p {
+        font-size: 16px;
+    }
+    .curveLogoPostion.srx.darkBg .contentWrapper h2 {
+        line-height: 36px;
+    }
+    .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
+        font-size: 40px;
+        line-height: 0px;
+    }
+    .curveLogoPostion.srx.darkBg{
+        padding: 60px 0px;
+    }
+    .leftContentRightVideo .videoAndContentWrapper {
+        flex-direction: column;
+    }
+    .leftContentRightVideo .videoAndContentWrapper .contentWrapper {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:568px) {
+    .curveLogoPostion.srx.darkBg .contentWrapper h2 {
+        line-height: 36px;
+    }
+    .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
+        font-size: 26px;
+        line-height: 0px;
+    }
+    .contentWrapper h3.headingText {
+        font-size: 27px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width:425px) {
+    .clienLogoSection.curveLogoPostion ul li {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+.company-card .company-card-inner {
+    background: transparent linear-gradient(244deg, #ffd9af, #adadf7) 0 0 no-repeat padding-box;
+}
+
+.company-card-content {
+    border-radius: 25px;
+    background-image: url(../img/international-shipping/map-globe-1.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+}

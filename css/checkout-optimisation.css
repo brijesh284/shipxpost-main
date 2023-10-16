@@ -1,0 +1,157 @@
+.customer_herodetail {
+    margin-right: 40px;
+}
+
+.customer_herodetail span {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5a5a5a;
+}
+
+.Banner-section .banner-content .banner-headingText .banner-light::after {
+    display: none;
+}
+
+.Banner-section .banner-content .banner-headingText .banner-volume::before {
+    display: none;
+}
+
+.banner-wrap-dec.superfast p {
+    margin-bottom: 30px;
+}
+
+.banner-wrap-btn.get_started {
+    margin: 0px 0 30px !important;
+}
+
+.per_detail {
+    max-width: 80%;
+    margin: auto;
+}
+
+section.know_detail {
+    padding: 0 0 100px;
+}
+
+section.know_detail .wrapper-title {
+    margin-bottom: 40px;
+}
+
+h1.first_per {
+    background: -webkit-linear-gradient(#765cbf, #37a1ce);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+    line-height: 80px;
+    margin: 16px 0;
+}
+
+h1.sec_per {
+    background: -webkit-linear-gradient(#69d3e3, #8ce9af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+    line-height: 80px;
+    margin: 16px 0;
+}
+
+h1.third_per {
+    background: -webkit-linear-gradient(#b570ce, #e228a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+    line-height: 80px;
+    margin: 16px 0;
+}
+
+.per_detail.text-center p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: .4px;
+    color: #5a5a5a;
+    margin: 20px 0 0;
+}
+
+.wrapper-title.checkout img {
+    max-width: 70%;
+}
+
+.wrapper-title.checkout p {
+    margin-bottom: 40px !important;
+    max-width: 70%;
+    margin: auto;
+}
+
+.wrapper-title h1::after {
+    display: none;
+}
+
+.wrapper-title.checkout h2 {
+    color: transparent;
+    background: -webkit-linear-gradient(280deg, #56d2ff, #4ccc7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+}
+
+.awesome_img img {
+    max-width: 100%;
+}
+
+section.inbuild_detail {
+    padding-bottom: 100px;
+}
+
+h1.Inbuilt {
+    color: #070330;
+    font-family: Cambon-SemiBold;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.row.align-items-center.justify-content-center.easy_new {
+    margin-top: 50px;
+}
+
+h1.faq_head {
+    color: #070330;
+    font-family: Cambon-SemiBold;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+div#accordionExample h4 {
+    font-size: 20px;
+}
+
+button.accordion-button {
+    color: black !important;
+    font-size: 22px;
+}
+section.accordian {
+    padding: 0 0 100px;
+}
+.joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
+    max-width: 60%;
+    color: #070330;
+    font-family: Cambon-SemiBold;
+    font-size: 50px;
+}
+
+.Join_league a {
+    background: #fff;
+    color: #050038;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+section.join_us {
+    background: #0078ff2e;
+    padding: 100px 0;
+}
