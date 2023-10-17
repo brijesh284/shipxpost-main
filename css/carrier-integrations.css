@@ -422,3 +422,136 @@
         line-height: 46px;
     }
 }
+
+@media (max-width: 1240px) {
+    .caseStudyBanner.integration .leftCards img:first-child,
+    .caseStudyBanner.integration .leftCards img:nth-child(2),
+    .caseStudyBanner.integration .leftCards img:nth-child(3),
+    .caseStudyBanner.integration .leftCards img:last-child,
+    .caseStudyBanner.integration .rightCards img:first-child,
+    .caseStudyBanner.integration .rightCards img:nth-child(2),
+    .caseStudyBanner.integration .rightCards img:nth-child(3),
+    .caseStudyBanner.integration .rightCards img:last-child {
+        z-index: -1;
+        filter: blur(2px);
+    }
+}
+@media (max-width: 1024px) {
+    .caseStudyLogos.integration.srx .logos .caseStudyLogo {
+        width: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .caseStudyBanner.gradientBanner .fontSize72 {
+        margin-bottom: 15px;
+        font-size: 42px;
+        line-height: 54px;
+        letter-spacing: 0px;
+        color: #0A0753;
+        margin: 0px 0px 20px;
+        font-weight: 700;
+    }
+    .faq-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .caseStudyBanner.gradientBanner.carrierIntegration {
+        padding: 100px 0 100px;
+        height: 80vh;
+    }
+}
+@media (max-width: 767px) {
+    .caseStudyLogos.integration.srx .logos .caseStudyLogo {
+        width: 100%;
+    }
+}
+@media (max-width: 568px) {
+    .caseStudyBanner.integration .leftCards img:first-child {
+        top: 0px;
+        left: 20px;
+        height: 90px;
+        width: 90px;
+    }
+    .caseStudyBanner.integration .rightCards img:first-child{
+        top: 0px;
+        right: 20px;
+        height: 90px;
+        width: 90px;
+    }
+    .caseStudyBanner.integration .leftCards img:nth-child(2) {
+        top: 120px;
+        left: 130px;
+        height: 90px;
+        width: 90px;
+    }
+    .caseStudyBanner.integration .rightCards img:nth-child(2) {
+        top: 120px;
+        right: 130px;
+        height: 90px;
+        width: 90px;
+    }
+    .caseStudyBanner.integration .leftCards img:nth-child(3) {
+        display: none;
+    }
+    .caseStudyBanner.integration .rightCards img:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 475px) {
+    .caseStudyBanner.integration .leftCards img:first-child {
+        top: 0px;
+        left: 20px;
+        height: 90px;
+        width: 90px;
+    }
+    .caseStudyBanner.integration .rightCards img:first-child{
+        top: 0px;
+        right: 20px;
+        height: 90px;
+        width: 90px;
+    }
+    .caseStudyBanner.integration .leftCards img:nth-child(2) {
+        top: 120px;
+        left: 50px;
+        height: 90px;
+        width: 90px;
+    }
+    .caseStudyBanner.integration .rightCards img:nth-child(2) {
+        top: 120px;
+        right: 50px;
+        height: 90px;
+        width: 90px;
+    }
+    .caseStudyBanner.integration .leftCards img:nth-child(3) {
+        display: none;
+    }
+    .caseStudyBanner.integration .rightCards img:nth-child(3) {
+        display: none;
+    }
+    .caseStudyBanner.gradientBanner.carrierIntegration {
+        padding: 50px 0 50px;
+        height: auto;
+    }
+    .stepModule .upperCotentWrapper h2 {
+        font-size: 37px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .caseStudyBanner.integration .leftCards img:first-child,
+    .caseStudyBanner.integration .leftCards img:nth-child(2),
+    .caseStudyBanner.integration .leftCards img:nth-child(3),
+    .caseStudyBanner.integration .leftCards img:last-child,
+    .caseStudyBanner.integration .rightCards img:first-child,
+    .caseStudyBanner.integration .rightCards img:nth-child(2),
+    .caseStudyBanner.integration .rightCards img:nth-child(3),
+    .caseStudyBanner.integration .rightCards img:last-child {
+        display: none;
+    }
+    .faq-section .contentWrapper .headingText {
+        font-size: 40px;
+        line-height: 46px;
+    }
+}

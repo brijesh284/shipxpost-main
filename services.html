@@ -4,9 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ShipXPost - e-Commerce-Plugins</title>
+  <title>ShipXPost - services</title>
   <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
-
   <link rel="stylesheet" href="css/owl.carousel.min.css" />
   <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
   <link rel="stylesheet" href="css/style.css" />
@@ -48,7 +47,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="" href="partner.html" tabindex="-1" aria-disabled="true">Partners</a>
+              <a class="" href="#" tabindex="-1" aria-disabled="true">Partners</a>
             </li>
             <li class="nav-item">
               <a class="" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
@@ -62,12 +61,8 @@
       </div>
     </nav>
   </header>
-  <!-- Banner-section -->
-  <section class="banner-asd">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde et sed blanditiis. Aspernatur laboriosam velit quas
-    repudiandae! Doloremque quia perspiciatis nihil architecto minus consequuntur doloribus ducimus in, deserunt, neque
-    repudiandae.
-  </section>
+  
+
   <!-- Footer -->
   <section class="footer-section one-footer">
     <div class="container">
@@ -107,7 +102,7 @@
               <div class="footer-menus">
                 <ul>
                   <li><a href="login.html"> Login</a></li>
-                  <li><a href="register.html"> Register</a></li>
+                  <li><a href="register.html">Register</a></li>
                 </ul>
               </div>
             </div>
@@ -153,44 +148,8 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/scripts.js"></script>
   <script src="js/slick-carousel_min.js"></script>
-  <script>
-    // Get titles from the DOM
-    var titleMain = $("#animatedHeading");
-    var titleSubs = titleMain.find("slick-active");
-
-    if (titleMain.length) {
-      titleMain.slick({
-        autoplay: false,
-        arrows: false,
-        dots: false,
-        slidesToShow: 3,
-        centerPadding: "10px",
-        draggable: false,
-        infinite: true,
-        pauseOnHover: false,
-        swipe: false,
-        touchMove: false,
-        vertical: true,
-        verticalScrolling: true,
-        speed: 1000,
-        autoplaySpeed: 2000,
-        useTransform: true,
-        cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1.000)",
-        adaptiveHeight: true,
-      });
-
-      // On init
-      $(".slick-dupe").each(function (index, el) {
-        $("#animatedHeading").slick(
-          "slickAdd",
-          "<div>" + el.innerHTML + "</div>"
-        );
-      });
-
-      // Manually refresh positioning of slick
-      titleMain.slick("slickPlay");
-    }
-  </script>
+  
+ 
 </body>
 
 </html>

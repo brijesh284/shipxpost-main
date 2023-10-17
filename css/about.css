@@ -198,9 +198,10 @@ ul.expe_detail li {
 
 .readmore_btn.text-center a {
   border: 2px solid #3726f1a3;
+  background-color: #3726f1;
   padding: 14px 40px;
   border-radius: 30px;
-  color: #000000bc;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: normal;
@@ -213,10 +214,10 @@ section.team-section.new_team {
 }
 
 .readmore_btn.text-center a:hover {
-  background: black;
-  color: white;
+  background: #ffffff;
+  color: #3726f1;
   transition: all 0.5s;
-  border: 2px solid black;
+  border: 2px solid #3626f1;
 }
 
 .learn_more a {

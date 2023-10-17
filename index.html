@@ -47,7 +47,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="" href="#" tabindex="-1" aria-disabled="true">Partners</a>
+              <a class="" href="partner.html" tabindex="-1" aria-disabled="true">Partners</a>
             </li>
             <li class="nav-item">
               <a class="" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
@@ -715,8 +715,8 @@
                 <ul>
                   <li><a href="index.html"> Home</a></li>
                   <li><a href="about.html"> about us</a></li>
-                  <li><a href="#">Information </a></li>
-                  <li><a href="#">services</a></li>
+                  <li><a href="Information.html">Information </a></li>
+                  <li><a href="services.html">services</a></li>
                   <li><a href="contact.html">Contact us </a></li>
                 </ul>
               </div>
@@ -742,9 +742,9 @@
               </div>
               <div class="footer-menus">
                 <ul>
-                  <li><a href="#"> Privacy Policy</a></li>
-                  <li><a href="#"> Refunds & Cancellations</a></li>
-                  <li><a href="#"> Terms & Conditions</a></li>
+                  <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
+                  <li><a href="Refunds-Cancellations.html"> Refunds & Cancellations</a></li>
+                  <li><a href="Terms-Conditions.html"> Terms & Conditions</a></li>
                 </ul>
               </div>
             </div>
@@ -814,43 +814,7 @@
       titleMain.slick("slickPlay");
     }
   </script>
-  <script>
-    var titleMain = $("#animatedHeading2");
-    var titleSubs = titleMain.find("slick-active");
-
-    if (titleMain.length) {
-      titleMain.slick({
-        autoplay: false,
-        arrows: false,
-        dots: false,
-        slidesToShow: 3,
-        centerPadding: "10px",
-        draggable: false,
-        infinite: true,
-        pauseOnHover: false,
-        swipe: false,
-        touchMove: false,
-        vertical: true,
-        verticalScrolling: true,
-        speed: 1000,
-        autoplaySpeed: 2000,
-        useTransform: true,
-        cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1.000)",
-        adaptiveHeight: true,
-      });
-
-      // On init
-      $(".slick-dupe").each(function (index, el) {
-        $("#animatedHeading2").slick(
-          "slickAdd",
-          "<div>" + el.innerHTML + "</div>"
-        );
-      });
-
-      // Manually refresh positioning of slick
-      titleMain.slick("slickPlay");
-    }
-  </script>
+ 
 </body>
 
 </html>
