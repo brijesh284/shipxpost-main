@@ -39,10 +39,9 @@
     margin-bottom: 15px;
     margin-top: 30px;
     color: #0a0753;
-    font-size: 60px;
+    font-size: 72px;
     line-height: 76px;
     z-index: 3;
-    font-weight: 900;
 }
 
 .ShippingFromBanner .fontSize18 {
@@ -90,7 +89,11 @@
     align-items: center;
     position: relative;
 }
-
+section.Banner-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
 .srxPricingCalc.srxHome .row:before {
     content: "";
     position: absolute;
@@ -108,6 +111,7 @@
     line-height: 56px;
     margin-bottom: 10px;
     font-weight: 700;
+    font-family: ;
 }
 
 .srxPricingCalc.srxHome .row .contentWrapper span.rateLabel {
@@ -116,7 +120,7 @@
     font-size: 24px;
     line-height: 29px;
     position: relative;
-    padding: 6px 20px;
+    padding: 10px 40px;
     margin-top: 30px;
     display: inline-block;
     z-index: 2;
@@ -296,7 +300,7 @@
     color: #fff;
     font-size: 48px;
     line-height: 56px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-weight: 700;
     text-align: center;
 }
@@ -315,6 +319,7 @@
     letter-spacing: 1.6px;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .clienLogoSection.curveLogoPostion ul {
@@ -406,6 +411,7 @@
 .leftContentRightVideo .videoAndContentWrapper .contentWrapper {
     flex-basis: 50%;
 }
+
 .contentWrapper h3.headingText {
     letter-spacing: 0;
     color: #1d113e;
@@ -413,11 +419,13 @@
     line-height: 48px;
     text-transform: uppercase;
 }
+
 .leftContentRightVideo .videoAndContentWrapper .videoWrapper {
     flex-basis: 50%;
     text-align: center;
 }
-.videoAndContentWrapper .content{
+
+.videoAndContentWrapper .content {
     max-width: 500px;
 }
 
@@ -452,7 +460,8 @@
     .srxPricingCalc.srxHome .calcWrapperPricing {
         padding: 30px 0px;
     }
-    Section.ShippingFromBanner.gradientBanner .row{
+
+    Section.ShippingFromBanner.gradientBanner .row {
         gap: 30px;
     }
 }
@@ -470,19 +479,24 @@
     .srxLeftContentRightImage .row .contentWrapper p {
         font-size: 16px;
     }
+
     .curveLogoPostion.srx.darkBg .contentWrapper h2 {
         line-height: 36px;
     }
+
     .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
         font-size: 40px;
         line-height: 0px;
     }
-    .curveLogoPostion.srx.darkBg{
+
+    .curveLogoPostion.srx.darkBg {
         padding: 60px 0px;
     }
+
     .leftContentRightVideo .videoAndContentWrapper {
         flex-direction: column;
     }
+
     .leftContentRightVideo .videoAndContentWrapper .contentWrapper {
         padding-right: 0px;
     }
@@ -492,10 +506,12 @@
     .curveLogoPostion.srx.darkBg .contentWrapper h2 {
         line-height: 36px;
     }
+
     .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
         font-size: 26px;
         line-height: 0px;
     }
+
     .contentWrapper h3.headingText {
         font-size: 27px;
         line-height: 32px;
@@ -510,13 +526,28 @@
 }
 
 .company-card .company-card-inner {
-    background: transparent linear-gradient(244deg, #ffd9af, #adadf7) 0 0 no-repeat padding-box;
+    border-radius: 20px;
+    background: #fff;
+    backdrop-filter: blur(1.8734697103500366px);
+    background-image: url(..//img/company-card-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: transparent linear-gradient(244deg, #ffd9af, #adadf7) 0 0 no-repeat padding-box; */
+}
+
+.banner-img.overflow-hidden img {
+    max-width: 90%;
+}
+
+.banner-img.overflow-hidden {
+    text-align: center;
 }
 
 .company-card-content {
     border-radius: 25px;
     background-image: url(../img/international-shipping/map-globe-1.svg);
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: right;
     background-size: contain;
 }

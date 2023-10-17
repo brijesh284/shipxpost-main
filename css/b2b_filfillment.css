@@ -1,0 +1,153 @@
+.heroimg img {
+    max-width: 100% !important;
+}
+
+.offer img {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto !important;
+    display: flex;
+}
+
+.offer-heading h3 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 30px;
+    letter-spacing: 0px;
+    color: #0b0757;
+    text-align: center;
+}
+
+.know_more h2 {
+    color: #070330;
+    font-family: ProductSans-Bold;
+    font-size: 58px;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+
+.know_more p {
+    color: #261335;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.know_more {
+    max-width: 75%;
+}
+
+.knowmore-contain {
+    padding-left: 100px;
+}
+
+.know_more img {
+    max-width: 100%;
+}
+
+.row.align-items-center.know-more-detail {
+    max-width: 70%;
+    margin: auto;
+    border-radius: 40px;
+    background: #fff;
+    backdrop-filter: blur(1.8734697103500366px);
+    background-image: url(..//img/company-card-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+}
+
+.know_more a {
+    border-radius: 12px;
+    background: #3626f1;
+    border: 2px solid #3626f1;
+    padding: 10px 16px;
+    color: #fff;
+    font-size: 16px;
+    font-family: ProductSans-Bold;
+}
+
+.wrapper-title.text-left {
+    text-align: left;
+}
+
+section.knowmore-section {
+    margin-bottom: -170px;
+    z-index: 99 !important;
+    position: relative;
+}
+
+.wrapper-title.text-left p {
+    color: #735ae5;
+    margin-bottom: 10px;
+}
+
+.wrapper-title h1::after {
+    display: none;
+}
+
+.fulfillment img {
+    margin-bottom: 20px;
+}
+
+.fulfillment {
+    width: 100%;
+    background: #0000ff14;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 10px 0px;
+}
+
+.banner-content.delivery h2 {
+    color: #070330;
+    font-family: Cambon-SemiBold;
+    font-size: 48px;
+    margin-bottom: 8px;
+    position: relative;
+    display: inline-block;
+    z-index: 9;
+}
+
+a.read-btn {
+    border-radius: 12px;
+    background: #3626f1;
+    border: 2px solid #3626f1;
+    padding: 10px 16px;
+    color: #fff;
+    font-size: 16px;
+    font-family: ProductSans-Bold;
+}
+
+.deliveryimg img {
+    max-width: 100%;
+}
+
+section.deivery-section {
+    padding: 0px 0 100px;
+}
+
+.deliveryimg video {
+    max-width: 70%;
+}
+
+.banner-headingText.badges {
+    margin-bottom: 10px;
+}
+
+.banner-wrap-dec p {
+    margin-bottom: 20px;
+}
+
+.wrapper-title h1 span::after {
+    content: "";
+    position: absolute;
+    background-image: url(..//img/text-underline.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    bottom: -35px;
+    width: 210px;
+    height: 100%;
+    z-index: -1;
+}

@@ -1,13 +1,15 @@
 .headerOne.gradientBanner {
-    background: transparent linear-gradient(244deg, #fde6cd, #ebebff) 0 0 no-repeat padding-box;
+    background: transparent linear-gradient(244deg, #fff6ed, #ebebff) 0 0 no-repeat padding-box;
     background-position: bottom;
     z-index: 0;
     padding: 180px 0 160px;
     margin-top: -155px;
     overflow: hidden;
     position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
-
 .headerOne.gradientBanner:before {
     content: "";
     position: absolute;
@@ -19,22 +21,25 @@
     top: -60px;
     z-index: 1;
 }
-
-.headerOne.gradientBanner:after {
+/* .headerOne.gradientBanner:after {
     transform: rotate(-3deg);
     bottom: -50px;
     right: -5px;
     z-index: 0;
     width: 102%;
     height: 100px;
-    background: linear-gradient(0deg,
-            #d2ddf3 -14.39%,
-            rgba(226, 234, 247, 0.67) 47.39%,
-            rgba(255, 255, 255, 0.1) 97.67%);
+    background: linear-gradient(
+        0deg,
+        #d2ddf3 -14.39%,
+        rgba(226, 234, 247, 0.67) 47.39%,
+        rgba(255, 255, 255, 0.1) 97.67%
+      );
     position: absolute;
     content: "";
+} */
+.imageWrapper img {
+    max-width: 120%;
 }
-
 .ShippingFromBanner .fontSize72 {
     margin-bottom: 15px;
     margin-top: 30px;
@@ -42,16 +47,13 @@
     font-size: 60px;
     line-height: 76px;
     z-index: 3;
-    font-weight: 900;
 }
-
 .ShippingFromBanner .fontSize18 {
     line-height: 28px;
     margin-bottom: 30px;
     color: #575757;
     font-size: 18px;
 }
-
 .blueBtn {
     background: #3626f1;
     box-shadow: 0 24px 48px #4429BE3C;
@@ -67,8 +69,7 @@
     margin-top: 20px;
     transition: all .3s ease;
 }
-
-.blueBtn:hover {
+.blueBtn:hover{
     background: #fff;
     color: #3626f1;
 }
@@ -76,7 +77,6 @@
 .contentWithCards.twoGridLayout.largeHeading {
     padding: 80px 0 80px;
 }
-
 .contentWrapper .headingAboveText {
     width: auto;
     display: inline-block;
@@ -86,7 +86,6 @@
     font-weight: 600;
     margin: 0px 0px 15px;
 }
-
 .contentWithCards.twoGridLayout.largeHeading .upperWrap .headingText {
     margin: 0px;
     font-size: 52px;
@@ -94,19 +93,17 @@
     color: #1e1745;
     font-weight: 600;
     font-family: Cambon-bold;
+    position: relative;
 }
-
 .contentWrapper .content {
     letter-spacing: .36px;
     line-height: 30px;
     font-size: 18px;
     color: #5a5a5a;
 }
-
 .contentWithCards.twoGridLayout .cards {
     margin-top: 50px;
 }
-
 .contentWithCards.twoGridLayout .cards ul {
     gap: 45px;
     display: flex;
@@ -117,7 +114,6 @@
     margin: 0;
     padding: 0;
 }
-
 .contentWithCards.twoGridLayout.threeGidLayout .cards ul li {
     background: transparent;
     box-shadow: none;
@@ -129,7 +125,6 @@
     flex-basis: 30%;
     transition: none;
 }
-
 .contentWithCards.twoGridLayout .cards ul li .iconWrap {
     background-color: transparent;
     width: 56px;
@@ -139,15 +134,14 @@
     justify-content: center;
     align-items: center;
 }
-
 .contentWithCards.twoGridLayout .cards ul li h3 {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0;
     color: #1e1745;
     margin: 20px 0 12px;
+    font-weight: 700;
 }
-
 .contentWithCards.twoGridLayout .cards ul li p {
     margin: 0;
     letter-spacing: 0;
@@ -155,7 +149,6 @@
     font-size: 16px;
     line-height: 24px;
 }
-
 .contentWithCards.twoGridLayout .cards ul li .linkBtn {
     margin-top: 20px;
     font-size: 18px;
@@ -167,7 +160,6 @@
     /* background: #fff; */
     padding: 8rem 0;
 }
-
 .contentWrapper .headingAboveText {
     width: auto;
     display: inline-block;
@@ -177,7 +169,6 @@
     font-weight: 500;
     margin: 0px 0px 15px;
 }
-
 .gridBoxFeatures .contentWrapper .headingText {
     color: #0B0757;
     margin: 0 0 10px;
@@ -186,7 +177,6 @@
     font-weight: 700;
     font-family: Cambon-bold;
 }
-
 .gridBoxFeatures .contentWrapper p.content {
     color: #666666;
     font-size: 48px;
@@ -195,7 +185,6 @@
     line-height: 30px;
     font-size: 18px;
 }
-
 .gridBoxFeatures .fourBlocks {
     gap: 0px 180px;
     display: grid;
@@ -204,7 +193,6 @@
     border-bottom: 2px dashed #dadada;
     padding-bottom: 40px;
 }
-
 .gridBoxFeatures .fourBlocks .blocks h4 {
     color: #0A0753;
     font-size: 35px;
@@ -214,7 +202,6 @@
     font-weight: 700;
     padding-left: 10px;
 }
-
 .fourBlocks .blocks h4:before {
     content: "";
     position: absolute;
@@ -224,12 +211,10 @@
     top: 0;
     left: 0;
 }
-
 .fourBlocks .blocks h4:before {
     background: transparent linear-gradient(171deg, #3626f1 0%, #1e1745 100%) 0% 0% no-repeat padding-box;
     border-radius: 12px;
 }
-
 .gridBoxFeatures .fourBlocks .blocks p {
     color: #8D8AB4;
     font-size: 16px;
@@ -250,39 +235,34 @@
     text-align: left;
     position: relative;
 }
-
 .shippingStep.stepSix .upperCotentWrapper h2 {
     background: none;
     font-weight: 700;
     color: #0B0757;
     font-family: Cambon-bold;
+    font-size: 50px;
 }
-
 .shippingStep.stepSix .upperCotentWrapper p {
     color: #666666;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: .36px;
 }
-
-.stepSix.stepModule p a.blueBtn {
+.stepSix.stepModule  p a.blueBtn {
     position: absolute;
     right: 0;
     top: 15px;
 }
-
 .stepSix .steps {
     display: flex;
     justify-content: space-between;
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
-
 .stepSix .steps .step {
     position: relative;
     -ms-flex-preferred-size: 275px;
     flex-basis: 275px;
 }
-
 .shippingStep .steps .step:before {
     content: '';
     position: absolute;
@@ -290,20 +270,17 @@
     width: 151px;
     height: 86px;
     z-index: 0;
-    right: -120px;
+    right: -200px;
     top: 25%;
 }
-
 .shippingStep .steps .step:nth-child(2):before {
     background-image: url(../img/domestic-shipping/curvedArrows-1.svg);
     width: 168px;
     height: 119px;
 }
-
 .shippingStep .steps .step:last-child:before {
     background-image: none;
 }
-
 .shippingStep.stepModule.stepSix .steps .imgWrap {
     z-index: 9;
     position: relative;
@@ -315,9 +292,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
-
 .shippingStep.stepModule.stepSix .steps .step .contentWrap h3 {
     letter-spacing: 0.4px;
     color: #3626f1;
@@ -326,7 +302,6 @@
     line-height: 24px;
     margin: 0px 0px 12px;
 }
-
 .stepModule.stepSix .steps .step .contentWrap p {
     letter-spacing: 0.36px;
     color: #333333;
@@ -335,17 +310,14 @@
     line-height: 25px;
     margin: 0px;
 }
-
 .blogModule.liteBg {
     padding: 0 0 60px;
 }
-
 .blogModule .contentWrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .blogModule.liteBg .contentWrapper .headingText {
     font-size: 52px;
     line-height: 62px;
@@ -354,18 +326,15 @@
     color: #0A0753;
     font-family: Cambon-bold;
 }
-
 .contentWrapper .content {
     letter-spacing: .36px;
     line-height: 30px;
     font-size: 18px;
     color: #5a5a5a;
 }
-
 .blogModule.liteBg .blogCards {
     margin-top: 30px !important;
 }
-
 @media only screen and (min-width:992px) {
     .blogModule .blogCards {
         display: flex;
@@ -374,24 +343,20 @@
         margin-top: 6rem;
     }
 }
-
 .blogModule .blogCards .blogCard {
-    flex-basis: calc(100% / 3 - 3rem);
+    flex-basis: calc(100% / 3 - 1rem);
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 22px #745BE71A;
     z-index: 9;
 }
-
 .blogModule.liteBg .blogCards .blogCard>a img {
     min-height: 225px;
     border-radius: 20px 20px 0 0;
 }
-
 .blogModule.liteBg .blogCards .blogCard .content {
     padding: 2rem;
 }
-
 .blogModule .blogCards .blogCard .content .post-categories {
     list-style: none;
     display: flex;
@@ -401,23 +366,20 @@
     overflow-x: auto;
     padding: 0px;
 }
-
 .blogModule .blogCards .blogCard .content .post-categories li {
     display: flex;
     white-space: nowrap;
 }
-
 .blogModule .blogCards .blogCard .content .post-categories li a {
     padding: 1px 10px;
     font-size: 12px;
     font-weight: 500;
-    color: #222;
+    color: #fff;
     text-transform: uppercase;
-    background-color: #ebfcf3;
+    background-color: #0000ff;
     border-radius: 4px;
 
 }
-
 .blogModule .blogCards .blogCard .content h4 {
     font-size: 24px;
     font-weight: 600;
@@ -429,7 +391,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 .linkBtn {
     font-size: 18px;
     text-decoration: none;
@@ -446,26 +407,22 @@
 .uppperHeadingContent {
     padding: 80px 0;
 }
-
 .uppperHeadingContent .contentImageWrapper {
     display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .uppperHeadingContent .contentImageWrapper {
     gap: 40px;
-    padding: 60px 65px;
+    padding: 0px 65px;
     border-radius: 20px;
     backdrop-filter: blur(100px);
-    background: #d2ddf3;
+    background:#d2ddf3 ;
 }
-
 .uppperHeadingContent .contentImageWrapper>div {
     flex-basis: calc(100% / 2 - 30px);
 }
-
 .uppperHeadingContent .contentImageWrapper .contentWrapper .headingText {
     letter-spacing: 0;
     line-height: 48px;
@@ -475,7 +432,6 @@
     color: #1e1745;
     font-family: Cambon-bold;
 }
-
 .contentWrapper .content {
     letter-spacing: .36px;
     line-height: 30px;
@@ -484,7 +440,6 @@
     line-height: 28px;
     margin: 0;
 }
-
 .linkBtn {
     font-size: 18px;
     text-decoration: none;
@@ -498,101 +453,114 @@
     transition: all .3s ease;
 }
 
+.banner-headingText .banner-volume::before{
+    content: none !important;
+}
+
+.contentWithCards.twoGridLayout.largeHeading .upperWrap .headingText::after {
+    content: "";
+    position: absolute;
+    background-image: url(..//img/text-underline.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 25%;
+    bottom: -60px;
+    width: 210px;
+    height: 100%;
+    z-index: -1;
+    transform: translate(-50%, 0);
+}
+
 @media (max-width:991px) {
     .gridBoxFeatures {
         padding: 4rem 0;
     }
-
     .gridBoxFeatures .fourBlocks .blocks {
         width: 100%;
     }
-
     .contentWithCards.twoGridLayout.threeGidLayout .cards ul li {
         flex-basis: 45%;
     }
-
     .contentWithCards.twoGridLayout .cards ul {
         gap: 20px;
     }
-
     .gridBoxFeatures .fourBlocks {
         grid-template-columns: 2fr 2fr;
     }
-
     .stepSix .steps {
         flex-direction: column;
         gap: 40px;
+        margin-top: 6rem;
     }
-
-    .shippingStep .steps .step:before,
-    .shippingStep .steps .step:nth-child(2):before {
+    .shippingStep .steps .step:before, .shippingStep .steps .step:nth-child(2):before{
         content: none;
     }
-
     .ShippingFromBanner .fontSize72 {
-        margin-bottom: 15px;
-        margin-top: 30px;
-        color: #0a0753;
-        font-size: 60px;
-        line-height: 76px;
-        z-index: 3;
-        font-weight: 900;
+        font-size: 42px;
+        line-height: 46px;
+        font-weight: 700;
     }
-
     .contentWithCards.twoGridLayout.largeHeading .upperWrap .headingText {
         font-size: 30px;
         line-height: 32px;
         font-weight: 600;
     }
-
-    .stepSix.stepModule p a.blueBtn {
+    .stepSix.stepModule  p a.blueBtn {
         left: 0;
         right: auto;
         top: 90px;
     }
-
     .uppperHeadingContent .contentImageWrapper .contentWrapper .headingText {
         font-size: 36px;
         line-height: 40px;
     }
-
     .linkBtn {
         margin-top: 20px;
         font-size: 18px;
         line-height: 24px;
     }
-
     .uppperHeadingContent {
         padding: 0px 0 40px;
     }
-
     .uppperHeadingContent .contentImageWrapper {
         flex-direction: column;
         padding: 20px;
     }
+    .shippingStep.stepSix .upperCotentWrapper h2 {
+        font-size: 40px;
+    }
 }
-
 @media (max-width:767px) {
-    .stepSix.stepModule p a.blueBtn {
+    .stepSix.stepModule  p a.blueBtn {
         left: 0;
         right: auto;
         top: 110px;
     }
 }
-
 @media (max-width:568px) {
     .gridBoxFeatures .fourBlocks {
         grid-template-columns: 1fr 1fr;
         gap: 0px 10px;
     }
-
-    .stepSix.stepModule p a.blueBtn {
-        left: 0;
-        right: auto;
+    .stepSix.stepModule  p a.blueBtn {
         top: 120px;
     }
-
     .contentWithCards.twoGridLayout.threeGidLayout .cards ul li {
         flex-basis: 100%;
+    }
+}
+@media (max-width:425px) {
+    .stepSix.stepModule  p a.blueBtn {
+        top: 150px;
+    }
+}
+@media (max-width:375px) {
+    .stepSix.stepModule  p a.blueBtn {
+        top: 200px;
+    }
+}
+@media (max-width:320px) {
+    .stepSix.stepModule  p a.blueBtn {
+        top: 230px;
     }
 }
