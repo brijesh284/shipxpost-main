@@ -111,7 +111,7 @@ section.Banner-section {
     line-height: 56px;
     margin-bottom: 10px;
     font-weight: 700;
-    font-family: ;
+    /* font-family: ; */
 }
 
 .srxPricingCalc.srxHome .row .contentWrapper span.rateLabel {
@@ -542,6 +542,119 @@ section.Banner-section {
 
 .banner-img.overflow-hidden {
     text-align: center;
+}
+
+.company-card-content {
+    border-radius: 25px;
+    background-image: url(../img/international-shipping/map-globe-1.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+@media (max-width:991px) {
+    .ShippingFromBanner .fontSize72 {
+        font-size: 42px;
+        line-height: 46px;
+        font-weight: 700;
+    }
+
+    .clienLogoSection.curveLogoPostion ul li {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .srxPricingCalc.srxHome.Section,
+    .Section.srxRightContent,
+    .Section.srxLeftContentRightImage {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .srxPricingCalc.srxHome .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .srxPricingCalc.srxHome .row:before {
+        content: none;
+    }
+
+    .srxPricingCalc.srxHome .calcWrapperPricing {
+        padding: 30px 0px;
+    }
+    Section.ShippingFromBanner.gradientBanner .row{
+        gap: 30px;
+    }
+    .Banner-section .banner-img {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .srxPricingCalc.srxHome .calcWrapperPricing h3 {
+        font-size: 25px;
+    }
+
+    .contentWrapper .headingText {
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    .srxLeftContentRightImage .row .contentWrapper p {
+        font-size: 16px;
+    }
+    .curveLogoPostion.srx.darkBg .contentWrapper h2 {
+        line-height: 36px;
+    }
+    .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
+        font-size: 40px;
+        line-height: 0px;
+    }
+    .curveLogoPostion.srx.darkBg{
+        padding: 60px 0px;
+    }
+    .leftContentRightVideo .videoAndContentWrapper {
+        flex-direction: column;
+    }
+    .leftContentRightVideo .videoAndContentWrapper .contentWrapper {
+        padding-right: 0px;
+    }
+    .Banner-section .banner-img img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:568px) {
+    .curveLogoPostion.srx.darkBg .contentWrapper h2 {
+        line-height: 36px;
+    }
+    .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
+        font-size: 26px;
+        line-height: 0px;
+    }
+    .contentWrapper h3.headingText {
+        font-size: 27px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width:425px) {
+    .clienLogoSection.curveLogoPostion ul li {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+.company-card .company-card-inner {
+    border-radius: 20px;
+    background: #fff;
+    backdrop-filter: blur(1.8734697103500366px);
+    background-image: url(..//img/company-card-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: transparent linear-gradient(244deg, #ffd9af, #adadf7) 0 0 no-repeat padding-box; */
 }
 
 .company-card-content {

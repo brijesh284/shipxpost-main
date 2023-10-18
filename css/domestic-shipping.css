@@ -529,6 +529,14 @@
     .shippingStep.stepSix .upperCotentWrapper h2 {
         font-size: 40px;
     }
+    .Banner-section .banner-img {
+        width: 100%;
+    }
+}
+@media (max-width:768px) {
+    .Banner-section .banner-img img {
+        max-width: 100%;
+    }
 }
 @media (max-width:767px) {
     .stepSix.stepModule  p a.blueBtn {

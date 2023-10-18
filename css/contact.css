@@ -377,60 +377,74 @@ span.iconsContactUs {
       width: 100%;
   }
   
-  
-  
+
   @media (max-width:1024px) {
-      .contact-us .contact-info .single-info {
-          padding-left: 90px;
-      }
-  }
-  
-  @media (max-width:991px) {
-      .contact-us {
-          padding-top: 160px;
-          padding-bottom: 60px;
-      }
-      .contact-form-head {
-          padding-top: 60px;
-          padding-bottom: 60px;
-      }
-      .contact-form-head::before {
-          width: 100%;
-      }
-      .contact-form-head .form-main {
-          padding: 35px;
-          margin-top: 40px;
-      }
-      .mapouter {
-          height: 400px;
-      }
-      .gmap_canvas {
-          height: 400px;
-      }
-  }
-  
-  @media (max-width:767px) {
-      .mapouter {
-          height: 400px;
-      }
-      .gmap_canvas {
-          height: 400px;
-      }
-  }
-  
-  @media (max-width:568px) {
-    .floatImageLeft span:first-child {
-      bottom: 20%;
-      top: unset;
-      left: 13%;
-      width: 100px;
-      height: 100px;
-    } 
-    .floatImageRight span:first-child {
-      bottom: 10%;
-      top: unset;
-      right: 13%;
-      width: 100px;
-      height: 100px;
+    .contact-us .contact-info .single-info {
+        padding-left: 90px;
     }
+}
+
+@media (max-width:991px) {
+    .contact-us {
+        padding-top: 160px;
+        padding-bottom: 60px;
+    }
+    .contact-form-head {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .contact-form-head::before {
+        width: 100%;
+    }
+    .contact-form-head .form-main {
+        padding: 35px;
+        margin-top: 40px;
+    }
+    .mapouter {
+        height: 400px;
+    }
+    .gmap_canvas {
+        height: 400px;
+    }
+    .floatImageLeft span:first-child,
+    .floatImageLeft span:nth-child(2),
+    .floatImageLeft span:last-child,
+    .floatImageRight span:first-child,
+    .floatImageRight span:nth-child(2),
+    .floatImageRight span:last-child {
+        z-index: -1;
+        filter: blur(2px);
+    }
+}
+
+
+@media (max-width:768px) {
+    .caseStudyBanner.gradientBanner.carrierIntegration {
+        padding: 0px !important;
+        height: 60vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:568px) {
+  .floatImageLeft span:first-child {
+    bottom: 20%;
+    top: unset;
+    left: 13%;
+    width: 100px;
+    height: 100px;
+  } 
+  .floatImageRight span:first-child {
+    bottom: 10%;
+    top: unset;
+    right: 13%;
+    width: 100px;
+    height: 100px;
   }
+  .section-title h2 {
+    font-size: 43px;
+    line-height: 50px;
+  }
+}
