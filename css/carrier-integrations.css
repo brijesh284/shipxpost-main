@@ -1,13 +1,13 @@
 .caseStudyBanner.gradientBanner.carrierIntegration {
-    background-position: bottom;
-    z-index: 0;
-    padding: 165px 0 180px;
-    /* margin-top: -135px; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
-    height: 100vh;
+  background-position: bottom;
+  z-index: 0;
+  padding: 165px 0 180px;
+  /* margin-top: -135px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
 }
 /* .caseStudyBanner.gradientBanner.carrierIntegration::before {
     content: '';
@@ -20,538 +20,558 @@
     top: -60px;
 } */
 .caseStudyBanner.gradientBanner.carrierIntegration:after {
-    transform: rotate(-3deg);
-    bottom: -50px;
-    right: -5px;
-    z-index: 0;
-    width: 102%;
-    height: 100px;
-    background: linear-gradient(
-        0deg,
-        #d2ddf3 -14.39%,
-        rgba(226, 234, 247, 0.67) 47.39%,
-        rgba(255, 255, 255, 0.1) 97.67%
-      );;
-    position: absolute;
-    content: '';
+  transform: rotate(-3deg);
+  bottom: -50px;
+  right: -5px;
+  z-index: 0;
+  width: 102%;
+  height: 100px;
+  background: linear-gradient(
+    0deg,
+    #d2ddf3 -14.39%,
+    rgba(226, 234, 247, 0.67) 47.39%,
+    rgba(255, 255, 255, 0.1) 97.67%
+  );
+  position: absolute;
+  content: "";
 }
-.caseStudyBanner .leftCards, .caseStudyBanner .rightCards {
-    position: relative;
+.caseStudyBanner .leftCards,
+.caseStudyBanner .rightCards {
+  position: relative;
 }
-.caseStudyBanner.integration .leftCards img, .caseStudyBanner.integration .rightCards img {
-    display: inline-block;
-    position: absolute;
+.caseStudyBanner.integration .leftCards img,
+.caseStudyBanner.integration .rightCards img {
+  display: inline-block;
+  position: absolute;
 }
 .caseStudyBanner.integration .leftCards img:first-child {
-    top: 80px;
-    left: 90px;
-    height: 90px;
-    width: 90px;
+  top: 80px;
+  left: 90px;
+  height: 90px;
+  width: 90px;
 }
 .caseStudyBanner.integration .leftCards img:nth-child(2) {
-    top: 200px;
-    left: 190px;
-    height: 90px;
-    width: 90px;
+  top: 200px;
+  left: 190px;
+  height: 90px;
+  width: 90px;
 }
 .caseStudyBanner.integration .leftCards img:nth-child(3) {
-    top: 380px;
-    left: 250px;
-    height: 80px;
-    width: 80px;
+  top: 380px;
+  left: 250px;
+  height: 80px;
+  width: 80px;
 }
 .caseStudyBanner.integration .leftCards img:last-child {
-    top: 260px;
-    left: 40px;
-    height: 100px;
-    width: 100px;
+  top: 260px;
+  left: 40px;
+  height: 100px;
+  width: 100px;
 }
 .caseStudyBanner.integration .rightCards img:first-child {
-    top: 60px;
-    right: 75px;
-    height: 98px;
-    width: 97px;
+  top: 60px;
+  right: 75px;
+  height: 98px;
+  width: 97px;
 }
 .caseStudyBanner.integration .rightCards img:nth-child(2) {
-    top: 200px;
-    right: 190px;
-    height: 90px;
-    width: 90px;
+  top: 200px;
+  right: 190px;
+  height: 90px;
+  width: 90px;
 }
 .caseStudyBanner.integration .rightCards img:nth-child(3) {
-    top: 380px;
-    right: 250px;
-    height: 80px;
-    width: 80px;
+  top: 380px;
+  right: 250px;
+  height: 80px;
+  width: 80px;
 }
 .caseStudyBanner.integration .rightCards img:last-child {
-    top: 260px;
-    right: 40px;
-    height: 100px;
-    width: 100px;
+  top: 260px;
+  right: 40px;
+  height: 100px;
+  width: 100px;
 }
 
 .caseStudyBanner.integration .contentWrapper {
-    padding: 0rem;
-    max-width: 900px;
-    text-align: center;
-    margin: auto;
+  padding: 0rem;
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
 }
 .caseStudyBanner.gradientBanner .fontSize72 {
-    margin-bottom: 15px;
-    font-size: 72px;
-    line-height: 74px;
-    letter-spacing: 0px;
-    color: #0A0753;
-    margin: 0px 0px 20px;
-    font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 72px;
+  line-height: 74px;
+  letter-spacing: 0px;
+  color: #0a0753;
+  margin: 0px 0px 20px;
+  font-weight: 700;
 }
 .caseStudyBanner .contentWrapper p {
-    font-size: 16px;
-    letter-spacing: .32px;
-    color: #5a5a5a;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: #5a5a5a;
 }
 .blueBtn {
-    background: #3626f1;
-    box-shadow: 0 24px 48px #4429BE3C;
-    border-radius: 10px;
-    border: 1px solid #3626f1;
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 18px 48px;
-    font-weight: 400;
-    line-height: 24px;
-    display: inline-block;
-    margin-top: 20px;
-    transition: all .3s ease;
+  background: #3626f1;
+  box-shadow: 0 24px 48px #4429be3c;
+  border-radius: 10px;
+  border: 1px solid #3626f1;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 18px 48px;
+  font-weight: 400;
+  line-height: 24px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: all 0.3s ease;
 }
 .blueBtn:hover {
-    background: #fff;
-    color: #3626f1;
+  background: #fff;
+  color: #3626f1;
 }
-
 
 .caseStudyLogos.integration.srx {
-    padding: 80px 0 0px;
+  padding: 80px 0 0px;
 }
-.caseStudyLogos.integration.srx .row{
-    justify-content: center;
+.caseStudyLogos.integration.srx .row {
+  justify-content: center;
 }
 .caseStudyLogos .upperCotentWrapper {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .stepModule .upperCotentWrapper h2 {
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 64px;
-    color: #0A0753;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #0a0753;
 }
 .stepModule .upperCotentWrapper p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: .36px;
-    color: #5a5a5a;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  color: #5a5a5a;
 }
 
 .caseStudyLogos.integration.srx .logos {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    grid-row-gap: 40px;
-    justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  grid-row-gap: 40px;
+  justify-content: space-evenly;
 }
 .caseStudyLogos.integration .logos .caseStudyLogo {
-    background: #fff;
-    border: 1px solid #00000014;
-    border-radius: 12px;
-    flex-direction: column;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    width: calc(100% / 3 - 3rem);
-    transition: all .3s ease;
+  background: #fff;
+  border: 1px solid #00000014;
+  border-radius: 12px;
+  flex-direction: column;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% / 3 - 3rem);
+  transition: all 0.3s ease;
 }
 .caseStudyLogos.integration.srx .logos .caseStudyLogo {
-    width: 300px;
-    height: auto;
-    transition: all .3s ease;
-    width: 30%;
+  width: 300px;
+  height: auto;
+  transition: all 0.3s ease;
+  width: 30%;
 }
 .caseStudyLogos.integration.srx .logos .caseStudyLogo .logo {
-    padding: 2rem 2rem 1rem;
-    width: 100%;
-    border-bottom: 1px solid #00000014;
+  padding: 2rem 2rem 1rem;
+  width: 100%;
+  border-bottom: 1px solid #00000014;
 }
-.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .logo img {
-    max-height: 44px;
-    width: auto;
+.caseStudyLogos.integration.srx.carrierIntegration
+  .logos
+  .caseStudyLogo
+  .logo
+  img {
+  max-height: 44px;
+  width: auto;
 }
-.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .content {
-    min-height: 260px;
-    padding: 2rem;
+.caseStudyLogos.integration.srx.carrierIntegration
+  .logos
+  .caseStudyLogo
+  .content {
+  min-height: 260px;
+  padding: 2rem;
 }
-.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .content>p {
-    margin-bottom: 20px;
-    color: #333333;
-    font-size: 14px;
-    line-height: 20px;
+.caseStudyLogos.integration.srx.carrierIntegration
+  .logos
+  .caseStudyLogo
+  .content
+  > p {
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 14px;
+  line-height: 20px;
 }
 .caseStudyLogos.integration.srx .logos .caseStudyLogo .content .option {
-    display: -ms-flexbox;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1rem;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
 .caseStudyLogos.integration.srx .logos .caseStudyLogo .content .option p {
-    color: #000000E6;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 14px;
-    margin: 0px 0px 12px;
+  color: #000000e6;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  margin: 0px 0px 12px;
 }
-.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .content .option p:last-child {
-    font-weight: bold;
+.caseStudyLogos.integration.srx.carrierIntegration
+  .logos
+  .caseStudyLogo
+  .content
+  .option
+  p:last-child {
+  font-weight: bold;
 }
 
-.caseStudyLogos.integration .logos .caseStudyLogo div:not(.content):not(.option):not(.logo) {
-    width: 100%;
-    border-top: 1px solid #00000014;
-    padding: 1.5rem ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.caseStudyLogos.integration
+  .logos
+  .caseStudyLogo
+  div:not(.content):not(.option):not(.logo) {
+  width: 100%;
+  border-top: 1px solid #00000014;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .caseStudyLogos.integration.srx .logos .caseStudyLogo .link {
-    -ms-flex-pack: start !important;
-    justify-content: flex-start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
 }
-.linkBtn ,.linkBtn:hover {
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 500;
-    line-height: 24px;
-    display: inline-block;
-    color: #3626f1;
+.linkBtn,
+.linkBtn:hover {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 24px;
+  display: inline-block;
+  color: #3626f1;
 }
 
 .faq-section {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+  padding-top: 90px;
 }
 .faq-section .contentWrapper .headingText {
-    font-size: 48px;
-    line-height: 56px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: #0A0753;
-    font-weight: 700;
-    position: relative;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0a0753;
+  font-weight: 700;
+  position: relative;
 }
 .faq-section .contentWrapper .headingText::after {
-    content: "";
-    position: absolute;
-    background-image: url(..//img/text-underline.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    left: 50%;
-    bottom: -35px;
-    width: 210px;
-    height: 100%;
-    z-index: -1;
-    transform: translate(-50%, 0);
+  content: "";
+  position: absolute;
+  background-image: url(..//img/text-underline.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 50%;
+  bottom: -35px;
+  width: 210px;
+  height: 100%;
+  z-index: -1;
+  transform: translate(-50%, 0);
 }
 .faq-section .accordion {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-.faq-section .accordion .accordion-item{
-    margin: 5px 0px;
-    border: none;
-    border-radius: 20px;
-    width: 100%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.faq-section .accordion .accordion-item {
+  margin: 0px 0px 30px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 3px 0px;
 }
-.faq-section .accordion button{
-    color: #0A0753;
-    background: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    box-shadow: none;
-    border-radius: 20px !important;
+.faq-section .accordion button {
+  color: #0a0753;
+  background: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: none;
+  border-radius: 20px !important;
 }
 .faq-section .accordion button:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
-.faq-section .accordion .accordion-collapse.collapse{
-    border: none;
-}
-
-@media (max-width: 1240px) {
-    .caseStudyBanner.integration .leftCards img:first-child,
-    .caseStudyBanner.integration .leftCards img:nth-child(2),
-    .caseStudyBanner.integration .leftCards img:nth-child(3),
-    .caseStudyBanner.integration .leftCards img:last-child,
-    .caseStudyBanner.integration .rightCards img:first-child,
-    .caseStudyBanner.integration .rightCards img:nth-child(2),
-    .caseStudyBanner.integration .rightCards img:nth-child(3),
-    .caseStudyBanner.integration .rightCards img:last-child {
-        z-index: -1;
-        filter: blur(2px);
-    }
-}
-@media (max-width: 1024px) {
-    .caseStudyLogos.integration.srx .logos .caseStudyLogo {
-        width: 300px;
-    }
-}
-@media (max-width: 768px) {
-    .caseStudyBanner.gradientBanner .fontSize72 {
-        margin-bottom: 15px;
-        font-size: 42px;
-        line-height: 54px;
-        letter-spacing: 0px;
-        color: #0A0753;
-        margin: 0px 0px 20px;
-        font-weight: 700;
-    }
-    .faq-section {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
-    .caseStudyBanner.gradientBanner.carrierIntegration {
-        padding: 100px 0 100px;
-        height: 80vh;
-    }
-}
-@media (max-width: 767px) {
-    .caseStudyLogos.integration.srx .logos .caseStudyLogo {
-        width: 100%;
-    }
-}
-@media (max-width: 568px) {
-    .caseStudyBanner.integration .leftCards img:first-child {
-        top: 0px;
-        left: 20px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .rightCards img:first-child{
-        top: 0px;
-        right: 20px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .leftCards img:nth-child(2) {
-        top: 120px;
-        left: 130px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .rightCards img:nth-child(2) {
-        top: 120px;
-        right: 130px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .leftCards img:nth-child(3) {
-        display: none;
-    }
-    .caseStudyBanner.integration .rightCards img:nth-child(3) {
-        display: none;
-    }
-}
-
-@media (max-width: 475px) {
-    .caseStudyBanner.integration .leftCards img:first-child {
-        top: 0px;
-        left: 20px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .rightCards img:first-child{
-        top: 0px;
-        right: 20px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .leftCards img:nth-child(2) {
-        top: 120px;
-        left: 50px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .rightCards img:nth-child(2) {
-        top: 120px;
-        right: 50px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .leftCards img:nth-child(3) {
-        display: none;
-    }
-    .caseStudyBanner.integration .rightCards img:nth-child(3) {
-        display: none;
-    }
-    .caseStudyBanner.gradientBanner.carrierIntegration {
-        padding: 50px 0 50px;
-        height: auto;
-    }
-    .stepModule .upperCotentWrapper h2 {
-        font-size: 37px;
-        line-height: 40px;
-    }
-}
-
-@media (max-width: 425px) {
-    .caseStudyBanner.integration .leftCards img:first-child,
-    .caseStudyBanner.integration .leftCards img:nth-child(2),
-    .caseStudyBanner.integration .leftCards img:nth-child(3),
-    .caseStudyBanner.integration .leftCards img:last-child,
-    .caseStudyBanner.integration .rightCards img:first-child,
-    .caseStudyBanner.integration .rightCards img:nth-child(2),
-    .caseStudyBanner.integration .rightCards img:nth-child(3),
-    .caseStudyBanner.integration .rightCards img:last-child {
-        display: none;
-    }
-    .faq-section .contentWrapper .headingText {
-        font-size: 40px;
-        line-height: 46px;
-    }
+.faq-section .accordion .accordion-collapse.collapse {
+  border: none;
 }
 
 @media (max-width: 1240px) {
-    .caseStudyBanner.integration .leftCards img:first-child,
-    .caseStudyBanner.integration .leftCards img:nth-child(2),
-    .caseStudyBanner.integration .leftCards img:nth-child(3),
-    .caseStudyBanner.integration .leftCards img:last-child,
-    .caseStudyBanner.integration .rightCards img:first-child,
-    .caseStudyBanner.integration .rightCards img:nth-child(2),
-    .caseStudyBanner.integration .rightCards img:nth-child(3),
-    .caseStudyBanner.integration .rightCards img:last-child {
-        z-index: -1;
-        filter: blur(2px);
-    }
+  .caseStudyBanner.integration .leftCards img:first-child,
+  .caseStudyBanner.integration .leftCards img:nth-child(2),
+  .caseStudyBanner.integration .leftCards img:nth-child(3),
+  .caseStudyBanner.integration .leftCards img:last-child,
+  .caseStudyBanner.integration .rightCards img:first-child,
+  .caseStudyBanner.integration .rightCards img:nth-child(2),
+  .caseStudyBanner.integration .rightCards img:nth-child(3),
+  .caseStudyBanner.integration .rightCards img:last-child {
+    z-index: -1;
+    filter: blur(2px);
+  }
 }
 @media (max-width: 1024px) {
-    .caseStudyLogos.integration.srx .logos .caseStudyLogo {
-        width: 300px;
-    }
+  .caseStudyLogos.integration.srx .logos .caseStudyLogo {
+    width: 300px;
+  }
 }
 @media (max-width: 768px) {
-    .caseStudyBanner.gradientBanner .fontSize72 {
-        margin-bottom: 15px;
-        font-size: 42px;
-        line-height: 54px;
-        letter-spacing: 0px;
-        color: #0A0753;
-        margin: 0px 0px 20px;
-        font-weight: 700;
-    }
-    .faq-section {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
-    .caseStudyBanner.gradientBanner.carrierIntegration {
-        padding: 100px 0 100px;
-        height: 80vh;
-    }
+  .caseStudyBanner.gradientBanner .fontSize72 {
+    margin-bottom: 15px;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: 0px;
+    color: #0a0753;
+    margin: 0px 0px 20px;
+    font-weight: 700;
+  }
+  .faq-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .caseStudyBanner.gradientBanner.carrierIntegration {
+    padding: 100px 0 100px;
+    height: 80vh;
+  }
 }
 @media (max-width: 767px) {
-    .caseStudyLogos.integration.srx .logos .caseStudyLogo {
-        width: 100%;
-    }
+  .caseStudyLogos.integration.srx .logos .caseStudyLogo {
+    width: 100%;
+  }
 }
 @media (max-width: 568px) {
-    .caseStudyBanner.integration .leftCards img:first-child {
-        top: 0px;
-        left: 20px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .rightCards img:first-child{
-        top: 0px;
-        right: 20px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .leftCards img:nth-child(2) {
-        top: 120px;
-        left: 130px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .rightCards img:nth-child(2) {
-        top: 120px;
-        right: 130px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .leftCards img:nth-child(3) {
-        display: none;
-    }
-    .caseStudyBanner.integration .rightCards img:nth-child(3) {
-        display: none;
-    }
+  .caseStudyBanner.integration .leftCards img:first-child {
+    top: 0px;
+    left: 20px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .rightCards img:first-child {
+    top: 0px;
+    right: 20px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .leftCards img:nth-child(2) {
+    top: 120px;
+    left: 130px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .rightCards img:nth-child(2) {
+    top: 120px;
+    right: 130px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .leftCards img:nth-child(3) {
+    display: none;
+  }
+  .caseStudyBanner.integration .rightCards img:nth-child(3) {
+    display: none;
+  }
 }
 
 @media (max-width: 475px) {
-    .caseStudyBanner.integration .leftCards img:first-child {
-        top: 0px;
-        left: 20px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .rightCards img:first-child{
-        top: 0px;
-        right: 20px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .leftCards img:nth-child(2) {
-        top: 120px;
-        left: 50px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .rightCards img:nth-child(2) {
-        top: 120px;
-        right: 50px;
-        height: 90px;
-        width: 90px;
-    }
-    .caseStudyBanner.integration .leftCards img:nth-child(3) {
-        display: none;
-    }
-    .caseStudyBanner.integration .rightCards img:nth-child(3) {
-        display: none;
-    }
-    .caseStudyBanner.gradientBanner.carrierIntegration {
-        padding: 50px 0 50px;
-        height: auto;
-    }
-    .stepModule .upperCotentWrapper h2 {
-        font-size: 37px;
-        line-height: 40px;
-    }
+  .caseStudyBanner.integration .leftCards img:first-child {
+    top: 0px;
+    left: 20px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .rightCards img:first-child {
+    top: 0px;
+    right: 20px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .leftCards img:nth-child(2) {
+    top: 120px;
+    left: 50px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .rightCards img:nth-child(2) {
+    top: 120px;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .leftCards img:nth-child(3) {
+    display: none;
+  }
+  .caseStudyBanner.integration .rightCards img:nth-child(3) {
+    display: none;
+  }
+  .caseStudyBanner.gradientBanner.carrierIntegration {
+    padding: 50px 0 50px;
+    height: auto;
+  }
+  .stepModule .upperCotentWrapper h2 {
+    font-size: 37px;
+    line-height: 40px;
+  }
 }
 
 @media (max-width: 425px) {
-    .caseStudyBanner.integration .leftCards img:first-child,
-    .caseStudyBanner.integration .leftCards img:nth-child(2),
-    .caseStudyBanner.integration .leftCards img:nth-child(3),
-    .caseStudyBanner.integration .leftCards img:last-child,
-    .caseStudyBanner.integration .rightCards img:first-child,
-    .caseStudyBanner.integration .rightCards img:nth-child(2),
-    .caseStudyBanner.integration .rightCards img:nth-child(3),
-    .caseStudyBanner.integration .rightCards img:last-child {
-        display: none;
-    }
-    .faq-section .contentWrapper .headingText {
-        font-size: 40px;
-        line-height: 46px;
-    }
+  .caseStudyBanner.integration .leftCards img:first-child,
+  .caseStudyBanner.integration .leftCards img:nth-child(2),
+  .caseStudyBanner.integration .leftCards img:nth-child(3),
+  .caseStudyBanner.integration .leftCards img:last-child,
+  .caseStudyBanner.integration .rightCards img:first-child,
+  .caseStudyBanner.integration .rightCards img:nth-child(2),
+  .caseStudyBanner.integration .rightCards img:nth-child(3),
+  .caseStudyBanner.integration .rightCards img:last-child {
+    display: none;
+  }
+  .faq-section .contentWrapper .headingText {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .caseStudyBanner.integration .leftCards img:first-child,
+  .caseStudyBanner.integration .leftCards img:nth-child(2),
+  .caseStudyBanner.integration .leftCards img:nth-child(3),
+  .caseStudyBanner.integration .leftCards img:last-child,
+  .caseStudyBanner.integration .rightCards img:first-child,
+  .caseStudyBanner.integration .rightCards img:nth-child(2),
+  .caseStudyBanner.integration .rightCards img:nth-child(3),
+  .caseStudyBanner.integration .rightCards img:last-child {
+    z-index: -1;
+    filter: blur(2px);
+  }
+}
+@media (max-width: 1024px) {
+  .caseStudyLogos.integration.srx .logos .caseStudyLogo {
+    width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .caseStudyBanner.gradientBanner .fontSize72 {
+    margin-bottom: 15px;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: 0px;
+    color: #0a0753;
+    margin: 0px 0px 20px;
+    font-weight: 700;
+  }
+  .faq-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .caseStudyBanner.gradientBanner.carrierIntegration {
+    padding: 100px 0 100px;
+    height: 80vh;
+  }
+}
+@media (max-width: 767px) {
+  .caseStudyLogos.integration.srx .logos .caseStudyLogo {
+    width: 100%;
+  }
+}
+@media (max-width: 568px) {
+  .caseStudyBanner.integration .leftCards img:first-child {
+    top: 0px;
+    left: 20px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .rightCards img:first-child {
+    top: 0px;
+    right: 20px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .leftCards img:nth-child(2) {
+    top: 120px;
+    left: 130px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .rightCards img:nth-child(2) {
+    top: 120px;
+    right: 130px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .leftCards img:nth-child(3) {
+    display: none;
+  }
+  .caseStudyBanner.integration .rightCards img:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 475px) {
+  .caseStudyBanner.integration .leftCards img:first-child {
+    top: 0px;
+    left: 20px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .rightCards img:first-child {
+    top: 0px;
+    right: 20px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .leftCards img:nth-child(2) {
+    top: 120px;
+    left: 50px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .rightCards img:nth-child(2) {
+    top: 120px;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+  .caseStudyBanner.integration .leftCards img:nth-child(3) {
+    display: none;
+  }
+  .caseStudyBanner.integration .rightCards img:nth-child(3) {
+    display: none;
+  }
+  .caseStudyBanner.gradientBanner.carrierIntegration {
+    padding: 50px 0 50px;
+    height: auto;
+  }
+  .stepModule .upperCotentWrapper h2 {
+    font-size: 37px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .caseStudyBanner.integration .leftCards img:first-child,
+  .caseStudyBanner.integration .leftCards img:nth-child(2),
+  .caseStudyBanner.integration .leftCards img:nth-child(3),
+  .caseStudyBanner.integration .leftCards img:last-child,
+  .caseStudyBanner.integration .rightCards img:first-child,
+  .caseStudyBanner.integration .rightCards img:nth-child(2),
+  .caseStudyBanner.integration .rightCards img:nth-child(3),
+  .caseStudyBanner.integration .rightCards img:last-child {
+    display: none;
+  }
+  .faq-section .contentWrapper .headingText {
+    font-size: 40px;
+    line-height: 46px;
+  }
 }

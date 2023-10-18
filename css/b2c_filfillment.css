@@ -21,7 +21,7 @@
 
 .know_more h2 {
   color: #070330;
-  font-family: ProductSans-Bold;
+  font-family: Cambon-Bold;
   font-size: 58px;
   letter-spacing: -1px;
   margin-bottom: 16px;
@@ -38,7 +38,7 @@
 }
 
 .knowmore-contain {
-  padding-left: 100px;
+  padding-left: 50px;
 }
 
 .know_more img {
@@ -94,7 +94,11 @@ section.knowmore-section {
   padding: 20px 30px;
   margin: 10px 0px;
 }
-
+.fulfillment h3 {
+  font-family: Cambon-Bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 .banner-content.delivery {
   padding-left: 300px;
   max-width: 90%;
@@ -182,7 +186,6 @@ section.deivery-section {
     justify-content: center;
   }
 }
-
 
 @media only screen and (max-width: 1024px) {
   .banner-content.delivery {
@@ -274,7 +277,6 @@ section.deivery-section {
   .Banner-section .banner-content {
     padding-left: 0;
   }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -291,8 +293,7 @@ section.deivery-section {
 @media only screen and (max-width: 400px) {
   .row.align-items-center.know-more-detail {
     border-radius: 20px;
-}
-
+  }
 
   .banner-content.delivery h2 {
     font-size: 32px;
@@ -302,17 +303,16 @@ section.deivery-section {
 @media only screen and (max-width: 380px) {
   .banner-content.delivery {
     padding-left: 10px;
-}
+  }
   section#shipping-offer {
     padding-bottom: 0;
   }
 }
 
 @media only screen and (max-width: 350px) {
-
-.banner-content.delivery h2 {
+  .banner-content.delivery h2 {
     font-size: 28px;
-}
+  }
   section.deivery-section {
     padding-bottom: 50px;
   }

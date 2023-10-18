@@ -159,10 +159,6 @@ section.experience {
   padding: 100px 0;
 }
 
-.experience_main_img img {
-  max-width: 750px;
-}
-
 ul.expe_detail {
   padding: 0;
   margin: 0;
@@ -206,7 +202,6 @@ ul.expe_detail li {
   font-weight: 600;
   letter-spacing: normal;
   transition: all 0.5s;
-
 }
 
 section.team-section.new_team {
@@ -315,6 +310,6 @@ section.Enhance-customer.acieve_section {
 
 #style_1::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px #ffffff(0, 0, 0, .3);
+  -webkit-box-shadow: inset 0 0 6px #ffffff(0, 0, 0, 0.3);
   background-color: #ffffff;
 }

@@ -1,293 +1,293 @@
 .heroimg img {
-    max-width: 100% !important;
+  max-width: 100% !important;
 }
 
 .offer img {
-    height: 200px;
-    width: 200px;
-    margin: 0 auto !important;
-    display: flex;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto !important;
+  display: flex;
 }
 
 .offer-heading h3 {
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 40px;
-    margin-top: 30px;
-    letter-spacing: 0px;
-    color: #0b0757;
-    text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-top: 30px;
+  letter-spacing: 0px;
+  color: #0b0757;
+  text-align: center;
 }
 
 .know_more h2 {
-    color: #070330;
-    font-family: ProductSans-Bold;
-    font-size: 58px;
-    letter-spacing: -1px;
-    margin-bottom: 16px;
+  color: #070330;
+  font-family: Cambon-Bold;
+  font-size: 58px;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
 }
 
 .know_more p {
-    color: #261335;
-    font-size: 18px;
-    line-height: 28px;
+  color: #261335;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .know_more {
-    max-width: 75%;
+  max-width: 75%;
 }
 
 .knowmore-contain {
-    padding-left: 100px;
+  padding-left: 50px;
 }
 
 .know_more img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .row.align-items-center.know-more-detail {
-    max-width: 70%;
-    margin: auto;
-    border-radius: 40px;
-    background: #fff;
-    backdrop-filter: blur(1.8734697103500366px);
-    background-image: url(..//img/company-card-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px 0px;
+  max-width: 70%;
+  margin: auto;
+  border-radius: 40px;
+  background: #fff;
+  backdrop-filter: blur(1.8734697103500366px);
+  background-image: url(..//img/company-card-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0px;
 }
 
 .know_more a {
-    border-radius: 12px;
-    background: #3626f1;
-    border: 2px solid #3626f1;
-    padding: 10px 16px;
-    color: #fff;
-    font-size: 16px;
-    font-family: ProductSans-Bold;
+  border-radius: 12px;
+  background: #3626f1;
+  border: 2px solid #3626f1;
+  padding: 10px 16px;
+  color: #fff;
+  font-size: 16px;
+  font-family: ProductSans-Bold;
 }
 
 .wrapper-title.text-left {
-    text-align: left;
+  text-align: left;
 }
 
 section.knowmore-section {
-    margin-bottom: -170px;
-    z-index: 99 !important;
-    position: relative;
+  margin-bottom: -170px;
+  z-index: 99 !important;
+  position: relative;
 }
 
 .wrapper-title.text-left p {
-    color: #735ae5;
-    margin-bottom: 10px;
+  color: #735ae5;
+  margin-bottom: 10px;
 }
 
 .wrapper-title h1::after {
-    display: none;
+  display: none;
 }
 
 .fulfillment img {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .fulfillment {
-    width: 100%;
-    background: #0000ff14;
-    border-radius: 10px;
-    padding: 20px 30px;
-    margin: 10px 0px;
+  width: 100%;
+  background: #0000ff14;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin: 10px 0px;
 }
-
+.fulfillment h3 {
+  font-family: Cambon-Bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 .banner-content.delivery h2 {
-    color: #070330;
-    font-family: Cambon-SemiBold;
-    font-size: 48px;
-    margin-bottom: 8px;
-    position: relative;
-    display: inline-block;
-    z-index: 9;
+  color: #070330;
+  font-family: Cambon-SemiBold;
+  font-size: 48px;
+  margin-bottom: 8px;
+  position: relative;
+  display: inline-block;
+  z-index: 9;
 }
 
 a.read-btn {
-    border-radius: 12px;
-    background: #3626f1;
-    border: 2px solid #3626f1;
-    padding: 10px 16px;
-    color: #fff;
-    font-size: 16px;
-    font-family: ProductSans-Bold;
+  border-radius: 12px;
+  background: #3626f1;
+  border: 2px solid #3626f1;
+  padding: 10px 16px;
+  color: #fff;
+  font-size: 16px;
+  font-family: ProductSans-Bold;
 }
 
 .deliveryimg img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 section.deivery-section {
-    padding: 0px 0 100px;
+  padding: 0px 0 100px;
 }
 
 .deliveryimg video {
-    max-width: 70%;
+  max-width: 70%;
 }
 
 .banner-headingText.badges {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .banner-wrap-dec p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .wrapper-title h1 span::after {
-    content: "";
-    position: absolute;
-    background-image: url(..//img/text-underline.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 0;
-    bottom: -35px;
-    width: 210px;
-    height: 100%;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  background-image: url(..//img/text-underline.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 0;
+  bottom: -35px;
+  width: 210px;
+  height: 100%;
+  z-index: -1;
 }
 @media only screen and (max-width: 1600px) {
-
 }
 @media only screen and (max-width: 1440px) {
-    .knowmore-contain{
-        padding-left: 50px;
-    }
-    .know_more h2 {
-        font-size: 46px;
-    }
+  .knowmore-contain {
+    padding-left: 50px;
+  }
+  .know_more h2 {
+    font-size: 46px;
+  }
 }
 @media only screen and (max-width: 1200px) {
-    .col-lg-6.know-more-center {
-        display: flex;
-        justify-content: center;
-    }
+  .col-lg-6.know-more-center {
+    display: flex;
+    justify-content: center;
+  }
 }
-
 
 @media only screen and (max-width: 1024px) {
-    .row.align-items-center.know-more-detail {
-        max-width: 80%;
-    }
-    .knowmore-contain {
-        padding-left: 30px;
-    }
-    
-    .know_more h2 {
-        font-size: 38px;
-    }
-    
-    .know_more {
-        max-width: 90%;
-    }
+  .row.align-items-center.know-more-detail {
+    max-width: 80%;
+  }
+  .knowmore-contain {
+    padding-left: 30px;
+  }
+
+  .know_more h2 {
+    font-size: 38px;
+  }
+
+  .know_more {
+    max-width: 90%;
+  }
 }
 @media only screen and (max-width: 993px) {
-    .banner-content.delivery h2 {
-        font-size: 40px;
-    }
-    .Banner-section .banner-content {
-        padding-left: 40px;
-    }
-    .offer-heading h3 {
-        font-size: 20px;
-    }
-    .offer-heading h3 {
-        font-size: 20px;
-    }
-    
-    .shipping-offer {
-        padding: 70px 0;
-    }
-    
-    .fulfillment h3 {
-        font-size: 24px;
-    }
-    
-    .fulfillment {
-        padding: 20px 18px;
-    }
+  .banner-content.delivery h2 {
+    font-size: 40px;
+  }
+  .Banner-section .banner-content {
+    padding-left: 40px;
+  }
+  .offer-heading h3 {
+    font-size: 20px;
+  }
+  .offer-heading h3 {
+    font-size: 20px;
+  }
+
+  .shipping-offer {
+    padding: 70px 0;
+  }
+
+  .fulfillment h3 {
+    font-size: 24px;
+  }
+
+  .fulfillment {
+    padding: 20px 18px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .banner-content.delivery h2 {
-        font-size: 40px;
-    }
-    
-    .banner-content.delivery {
-        margin-bottom: 40px;
-    }
-    
-    .row.align-items-center.know-more-detail {
-        max-width: 90%;
-    }
-    
-    .knowmore-contain {
-        text-align: center;
-        margin-bottom: 30px;
-    }
+  .banner-content.delivery h2 {
+    font-size: 40px;
+  }
+
+  .banner-content.delivery {
+    margin-bottom: 40px;
+  }
+
+  .row.align-items-center.know-more-detail {
+    max-width: 90%;
+  }
+
+  .knowmore-contain {
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }
 @media only screen and (max-width: 768px) {
-    .Banner-section {
-        padding-top: 30px;
-    }
+  .Banner-section {
+    padding-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 525px) {
-    section#shipping-offer {
-        padding: 50px 0;
-    }
-    
-    .Banner-section .banner-content {
-        padding-left: 0;
-    }
+  section#shipping-offer {
+    padding: 50px 0;
+  }
 
+  .Banner-section .banner-content {
+    padding-left: 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    section#shipping-offer {
-        padding: 50px 0;
-    }
-    .wrapper-title h1 span::after {
-        bottom: -16px;
-        width: 160px;
-    }
+  section#shipping-offer {
+    padding: 50px 0;
+  }
+  .wrapper-title h1 span::after {
+    bottom: -16px;
+    width: 160px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-
-    .banner-content.delivery h2 {
-        font-size: 32px;
-    }
+  .banner-content.delivery h2 {
+    font-size: 32px;
+  }
 }
 
 @media only screen and (max-width: 380px) {
-    section#shipping-offer {
-        padding-bottom: 0;
-    }
+  section#shipping-offer {
+    padding-bottom: 0;
+  }
 }
 
 @media only screen and (max-width: 350px) {
-    section.deivery-section {
-        padding-bottom: 50px;
-    }
-.row.align-items-center.know-more-detail {
+  section.deivery-section {
+    padding-bottom: 50px;
+  }
+  .row.align-items-center.know-more-detail {
     max-width: 95%;
-}
+  }
 
-.know_more h2 {
+  .know_more h2 {
     font-size: 32px;
-}
+  }
 
-.knowmore-contain {
+  .knowmore-contain {
     padding-left: 0;
-}
+  }
 
-.row.align-items-center.know-more-detail {
+  .row.align-items-center.know-more-detail {
     border-radius: 20px;
-}
+  }
 }
