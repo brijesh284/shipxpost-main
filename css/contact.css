@@ -5,6 +5,7 @@ span.iconsContactUs {
   /* height: 100px; */
   /* background-size: 755px; */
 }
+
 .caseStudyBanner.gradientBanner.carrierIntegration {
   padding: 0px !important;
   height: 90vh !important;
@@ -12,6 +13,7 @@ span.iconsContactUs {
   justify-content: center;
   align-items: center;
 }
+
 .floatImageLeft span:first-child {
   position: absolute;
   top: 20%;
@@ -24,6 +26,7 @@ span.iconsContactUs {
   background-size: cover;
   z-index: 1;
 }
+
 .floatImageLeft span:nth-child(2) {
   position: absolute;
   top: 40%;
@@ -36,6 +39,7 @@ span.iconsContactUs {
   background-size: cover;
   z-index: 1;
 }
+
 .floatImageLeft span:last-child {
   position: absolute;
   top: 60%;
@@ -48,6 +52,7 @@ span.iconsContactUs {
   background-size: cover;
   z-index: 1;
 }
+
 .floatImageRight span:first-child {
   position: absolute;
   top: 20%;
@@ -61,6 +66,7 @@ span.iconsContactUs {
   background-size: cover;
   z-index: 1;
 }
+
 .floatImageRight span:nth-child(2) {
   position: absolute;
   top: 35%;
@@ -73,6 +79,7 @@ span.iconsContactUs {
   background-size: cover;
   z-index: 1;
 }
+
 .floatImageRight span:last-child {
   position: absolute;
   top: 50%;
@@ -85,6 +92,7 @@ span.iconsContactUs {
   background-size: cover;
   z-index: 1;
 }
+
 /* contact title css start */
 .contact-us {
   /* position: relative;
@@ -97,6 +105,7 @@ span.iconsContactUs {
   position: relative;
   overflow: hidden;
 }
+
 /* .contact-us::before {
     content: '';
     position: absolute;
@@ -132,6 +141,7 @@ span.iconsContactUs {
   position: relative;
   z-index: 5;
 }
+
 .section-title h3 {
   font-size: 15px;
   font-weight: 600;
@@ -140,6 +150,7 @@ span.iconsContactUs {
   color: #3626f1;
   text-transform: uppercase;
 }
+
 .section-title h2 {
   font-size: 54px;
   margin-bottom: 25px;
@@ -149,12 +160,15 @@ span.iconsContactUs {
   font-weight: 800;
   font-family: Cambon-Bold;
 }
+
 .section-title h2 span {
   color: #3626f1;
 }
+
 .section-title p {
   font-size: 25px;
 }
+
 /* info section css start */
 .contact-us .contact-info .single-info {
   margin-top: 30px;
@@ -168,9 +182,11 @@ span.iconsContactUs {
   z-index: 2;
   backdrop-filter: blur(10px);
 }
+
 .contact-us .contact-info .single-info:hover {
   background-color: #3626f1;
 }
+
 .contact-us .contact-info .single-info i {
   font-size: 30px;
   color: #3626f1;
@@ -179,9 +195,11 @@ span.iconsContactUs {
   top: 40px;
   transition: all 0.3s ease;
 }
+
 .contact-us .contact-info .single-info:hover i {
   color: #fff;
 }
+
 .contact-us .contact-info .single-info h3 {
   font-size: 24px;
   font-family: Cambon-Bold;
@@ -189,22 +207,27 @@ span.iconsContactUs {
   margin-bottom: 15px;
   transition: all 0.3s ease;
 }
+
 .contact-us .contact-info .single-info:hover h3 {
   color: #fff;
 }
+
 .contact-us .contact-info .single-info ul {
   padding: 0px;
   margin-bottom: 0px;
 }
+
 .contact-us .contact-info .single-info ul li {
   display: block;
   margin-bottom: 2px;
   transition: all 0.3s ease;
   font-weight: 500;
 }
+
 .contact-us .contact-info .single-info:hover ul li {
   color: #fff;
 }
+
 .contact-us .contact-info .single-info ul li a {
   color: #888;
   font-weight: 500;
@@ -212,13 +235,16 @@ span.iconsContactUs {
   transition: all 0.3s ease;
   word-break: break-word;
 }
+
 .contact-us .contact-info .single-info:hover ul li a {
   color: #fff;
 }
+
 .contact-us .contact-info .single-info:hover ul li a:hover {
   opacity: 0.8 !important;
   color: #fff;
 }
+
 /* contact form css start */
 .contact-form-head {
   background-image: url("/img/img_5.jpg");
@@ -230,6 +256,7 @@ span.iconsContactUs {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .contact-form-head::before {
   position: absolute;
   content: "";
@@ -240,6 +267,7 @@ span.iconsContactUs {
   background-color: #1e1541;
   z-index: -1;
 }
+
 .contact-form-head .contact-inner-title h2 {
   font-size: 46px;
   display: block;
@@ -247,6 +275,7 @@ span.iconsContactUs {
   color: #fff;
   font-family: Cambon-Bold;
 }
+
 .contact-form-head .contact-inner-title p {
   color: #fff;
   margin: 0;
@@ -254,11 +283,13 @@ span.iconsContactUs {
   font-size: 18px;
   line-height: 24px;
 }
+
 .contact-form-head .contact-inner-title .question {
   display: block;
   min-height: 70px;
   margin-top: 40px;
 }
+
 .contact-form-head .contact-inner-title .question img {
   height: 70px;
   width: 70px;
@@ -266,32 +297,38 @@ span.iconsContactUs {
   float: left;
   margin-right: 20px;
 }
+
 .contact-form-head .contact-inner-title .question h4 {
   font-size: 20px;
   font-weight: 600;
   padding-top: 15px;
   color: #fff;
 }
+
 .contact-form-head .contact-inner-title .question h4 span {
   font-size: 13px;
   font-weight: 500;
   display: block;
   margin-bottom: 5px;
 }
+
 .contact-form-head .contact-inner-title .day-list {
   display: block;
   margin-top: 40px;
   padding: 0;
 }
+
 .contact-form-head .contact-inner-title .day-list li {
   color: #fff;
   font-weight: 500;
   margin-bottom: 3px;
   display: block;
 }
+
 .contact-form-head .contact-inner-title .day-list li:last-child {
   margin: 0;
 }
+
 .contact-form-head .contact-inner-title .call-back {
   font-size: 15px;
   font-weight: 500;
@@ -300,11 +337,13 @@ span.iconsContactUs {
   margin-top: 30px;
   text-transform: capitalize;
 }
+
 .contact-form-head .contact-inner-title .call-back i {
   font-size: 15px;
   display: inline-block;
   margin-left: 5px;
 }
+
 .contact-form-head .form-main {
   padding: 50px 50px;
   background-color: #fff;
@@ -312,10 +351,12 @@ span.iconsContactUs {
   box-shadow: 0px 1px 30px 0px rgba(32, 32, 32, 0.11);
   border-radius: 8px;
 }
+
 .contact-form-head .form-main .form .form-group {
   margin-bottom: 15px;
   display: block;
 }
+
 .contact-form-head .form-main .form .form-group input {
   height: 52px;
   line-height: 52px;
@@ -327,6 +368,7 @@ span.iconsContactUs {
   border-radius: 5px;
   background-color: #f9f9f9;
 }
+
 .contact-form-head .form-main .form .form-group textarea {
   height: 180px;
   width: 100%;
@@ -339,10 +381,12 @@ span.iconsContactUs {
   border-radius: 5px;
   background-color: #f9f9f9;
 }
+
 .contact-form-head .form-main .form .form-group.button {
   width: 100%;
   margin-bottom: 0;
 }
+
 .contact-form-head .form-main .form .form-group.button .btn {
   height: 50px;
   border: none;
@@ -363,11 +407,13 @@ span.iconsContactUs {
   margin-right: 7px;
   overflow: hidden;
 }
+
 .contact-form-head .form-main .form .form-group.button .btn:hover {
   color: #fff;
   background-color: #070330;
   box-shadow: 0px 4px 4px #0000000f;
 }
+
 /* map section css */
 .mapouter {
   position: relative;
@@ -375,6 +421,7 @@ span.iconsContactUs {
   height: 500px;
   width: 100%;
 }
+
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
@@ -393,23 +440,29 @@ span.iconsContactUs {
     padding-top: 160px;
     padding-bottom: 60px;
   }
+
   .contact-form-head {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .contact-form-head::before {
     width: 100%;
   }
+
   .contact-form-head .form-main {
     padding: 35px;
     margin-top: 40px;
   }
+
   .mapouter {
     height: 400px;
   }
+
   .gmap_canvas {
     height: 400px;
   }
+
   .floatImageLeft span:first-child,
   .floatImageLeft span:nth-child(2),
   .floatImageLeft span:last-child,
@@ -418,6 +471,26 @@ span.iconsContactUs {
   .floatImageRight span:last-child {
     z-index: -1;
     filter: blur(2px);
+  }
+}
+
+@media (max-width: 1440px) {
+  .section-title h2 {
+    font-size: 46px;
+  }
+
+  .contact-form-head .contact-inner-title h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-title h2 {
+    font-size: 38px;
+  }
+
+  .contact-form-head .contact-inner-title h2 {
+    font-size: 34px;
   }
 }
 
@@ -439,6 +512,7 @@ span.iconsContactUs {
     width: 100px;
     height: 100px;
   }
+
   .floatImageRight span:first-child {
     bottom: 10%;
     top: unset;
@@ -446,8 +520,12 @@ span.iconsContactUs {
     width: 100px;
     height: 100px;
   }
+
   .section-title h2 {
-    font-size: 43px;
-    line-height: 50px;
+    font-size: 38px;
+    line-height: 40px;
   }
+  .section-title p {
+    font-size: 20px;
+}
 }

@@ -313,3 +313,137 @@ section.Enhance-customer.acieve_section {
   -webkit-box-shadow: inset 0 0 6px #ffffff(0, 0, 0, 0.3);
   background-color: #ffffff;
 }
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1440px) {
+  .about-Banner-section .about-Banner-dec h2 {
+    font-size: 46px !important;
+  }
+
+  .wrapper-title h1 {
+    font-size: 41px !important;
+  }
+
+  .team-section .team-head h1 {
+    font-size: 50px !important;
+  }
+
+  section.experience {
+    padding: 70px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-delivery .about-delivery-dec h1 {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-Banner-section .about-Banner-dec h2 {
+    font-size: 40px !important;
+  }
+
+  .about-Banner-section .about-Banner-dec p {
+    width: 100%;
+  }
+
+  .Enhance-customer .Enhance-inner .Enhance-title h2 {
+    font-size: 40px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .wrapper-title h1 {
+    font-size: 36px !important;
+  }
+
+  .experience_heading h2 {
+    font-size: 26px !important;
+  }
+
+  .expe_newhead h4 {
+    font-size: 22px !important;
+  }
+
+  .team-section .team-head h1 {
+    font-size: 42px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 575px) {
+  .wrapper-title h1::after {
+    display: none;
+  }
+
+  .Enhance-img.text-center {
+    margin-bottom: 30px;
+  }
+
+  ul.Enhance-content {
+    padding-left: 30px;
+  }
+
+  section.Enhance-customer.acieve_section {
+    padding: 50px 0;
+  }
+
+  .about-delivery .about-delivery-dec {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  section.experience {
+    padding: 40px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-delivery .about-delivery-dec h1 {
+    font-size: 38px;
+  }
+
+  .about-delivery .about-delivery-dec h1 span::after {
+    display: none;
+  }
+
+  .wrapper-title h1 {
+    font-size: 30px !important;
+  }
+
+  .about-Banner-section .about-Banner-dec h2 {
+    font-size: 34px !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .Enhance-customer .Enhance-inner .Enhance-title h2 {
+    font-size: 36px !important;
+  }
+
+  ul.Enhance-content {
+    padding-left: 0;
+  }
+
+  ul.Enhance-content {
+    padding-left: 0;
+  }
+
+  .wrapper-title h1 {
+    font-size: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 390px) {}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 350px) {
+  .about-delivery .about-delivery-dec h1 {
+    font-size: 33px;
+  }
+}

@@ -9,6 +9,7 @@
   overflow: hidden;
   height: 100vh;
 }
+
 /* .caseStudyBanner.gradientBanner.carrierIntegration::before {
     content: '';
     position: absolute;
@@ -26,66 +27,74 @@
   z-index: 0;
   width: 102%;
   height: 100px;
-  background: linear-gradient(
-    0deg,
-    #d2ddf3 -14.39%,
-    rgba(226, 234, 247, 0.67) 47.39%,
-    rgba(255, 255, 255, 0.1) 97.67%
-  );
+  background: linear-gradient(0deg,
+      #d2ddf3 -14.39%,
+      rgba(226, 234, 247, 0.67) 47.39%,
+      rgba(255, 255, 255, 0.1) 97.67%);
   position: absolute;
   content: "";
 }
+
 .caseStudyBanner .leftCards,
 .caseStudyBanner .rightCards {
   position: relative;
 }
+
 .caseStudyBanner.integration .leftCards img,
 .caseStudyBanner.integration .rightCards img {
   display: inline-block;
   position: absolute;
 }
+
 .caseStudyBanner.integration .leftCards img:first-child {
   top: 80px;
   left: 90px;
   height: 90px;
   width: 90px;
 }
+
 .caseStudyBanner.integration .leftCards img:nth-child(2) {
   top: 200px;
   left: 190px;
   height: 90px;
   width: 90px;
 }
+
 .caseStudyBanner.integration .leftCards img:nth-child(3) {
   top: 380px;
   left: 250px;
   height: 80px;
   width: 80px;
 }
+
 .caseStudyBanner.integration .leftCards img:last-child {
   top: 260px;
   left: 40px;
   height: 100px;
   width: 100px;
 }
+
 .caseStudyBanner.integration .rightCards img:first-child {
   top: 60px;
   right: 75px;
   height: 98px;
   width: 97px;
 }
+
 .caseStudyBanner.integration .rightCards img:nth-child(2) {
   top: 200px;
   right: 190px;
   height: 90px;
   width: 90px;
 }
+
 .caseStudyBanner.integration .rightCards img:nth-child(3) {
   top: 380px;
   right: 250px;
   height: 80px;
   width: 80px;
 }
+
 .caseStudyBanner.integration .rightCards img:last-child {
   top: 260px;
   right: 40px;
@@ -99,6 +108,7 @@
   text-align: center;
   margin: auto;
 }
+
 .caseStudyBanner.gradientBanner .fontSize72 {
   margin-bottom: 15px;
   font-size: 72px;
@@ -108,11 +118,13 @@
   margin: 0px 0px 20px;
   font-weight: 700;
 }
+
 .caseStudyBanner .contentWrapper p {
   font-size: 16px;
   letter-spacing: 0.32px;
   color: #5a5a5a;
 }
+
 .blueBtn {
   background: #3626f1;
   box-shadow: 0 24px 48px #4429be3c;
@@ -128,6 +140,7 @@
   margin-top: 20px;
   transition: all 0.3s ease;
 }
+
 .blueBtn:hover {
   background: #fff;
   color: #3626f1;
@@ -136,18 +149,22 @@
 .caseStudyLogos.integration.srx {
   padding: 80px 0 0px;
 }
+
 .caseStudyLogos.integration.srx .row {
   justify-content: center;
 }
+
 .caseStudyLogos .upperCotentWrapper {
   margin-bottom: 50px;
 }
+
 .stepModule .upperCotentWrapper h2 {
   font-size: 55px;
   font-weight: 700;
   line-height: 64px;
   color: #0a0753;
 }
+
 .stepModule .upperCotentWrapper p {
   font-size: 18px;
   font-weight: 400;
@@ -164,6 +181,7 @@
   grid-row-gap: 40px;
   justify-content: space-evenly;
 }
+
 .caseStudyLogos.integration .logos .caseStudyLogo {
   background: #fff;
   border: 1px solid #00000014;
@@ -175,42 +193,37 @@
   width: calc(100% / 3 - 3rem);
   transition: all 0.3s ease;
 }
+
 .caseStudyLogos.integration.srx .logos .caseStudyLogo {
   width: 300px;
   height: auto;
   transition: all 0.3s ease;
   width: 30%;
 }
+
 .caseStudyLogos.integration.srx .logos .caseStudyLogo .logo {
   padding: 2rem 2rem 1rem;
   width: 100%;
   border-bottom: 1px solid #00000014;
 }
-.caseStudyLogos.integration.srx.carrierIntegration
-  .logos
-  .caseStudyLogo
-  .logo
-  img {
+
+.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .logo img {
   max-height: 44px;
   width: auto;
 }
-.caseStudyLogos.integration.srx.carrierIntegration
-  .logos
-  .caseStudyLogo
-  .content {
+
+.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .content {
   min-height: 260px;
   padding: 2rem;
 }
-.caseStudyLogos.integration.srx.carrierIntegration
-  .logos
-  .caseStudyLogo
-  .content
-  > p {
+
+.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .content>p {
   margin-bottom: 20px;
   color: #333333;
   font-size: 14px;
   line-height: 20px;
 }
+
 .caseStudyLogos.integration.srx .logos .caseStudyLogo .content .option {
   display: -ms-flexbox;
   display: flex;
@@ -218,6 +231,7 @@
   justify-content: space-between;
   margin-bottom: 1rem;
 }
+
 .caseStudyLogos.integration.srx .logos .caseStudyLogo .content .option p {
   color: #000000e6;
   font-size: 14px;
@@ -225,19 +239,12 @@
   line-height: 14px;
   margin: 0px 0px 12px;
 }
-.caseStudyLogos.integration.srx.carrierIntegration
-  .logos
-  .caseStudyLogo
-  .content
-  .option
-  p:last-child {
+
+.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .content .option p:last-child {
   font-weight: bold;
 }
 
-.caseStudyLogos.integration
-  .logos
-  .caseStudyLogo
-  div:not(.content):not(.option):not(.logo) {
+.caseStudyLogos.integration .logos .caseStudyLogo div:not(.content):not(.option):not(.logo) {
   width: 100%;
   border-top: 1px solid #00000014;
   padding: 1.5rem;
@@ -245,10 +252,12 @@
   justify-content: center;
   align-items: center;
 }
+
 .caseStudyLogos.integration.srx .logos .caseStudyLogo .link {
   -ms-flex-pack: start !important;
   justify-content: flex-start !important;
 }
+
 .linkBtn,
 .linkBtn:hover {
   font-size: 18px;
@@ -262,6 +271,7 @@
 .faq-section {
   padding-top: 90px;
 }
+
 .faq-section .contentWrapper .headingText {
   font-size: 48px;
   line-height: 56px;
@@ -271,6 +281,7 @@
   font-weight: 700;
   position: relative;
 }
+
 .faq-section .contentWrapper .headingText::after {
   content: "";
   position: absolute;
@@ -284,9 +295,11 @@
   z-index: -1;
   transform: translate(-50%, 0);
 }
+
 .faq-section .accordion {
   margin-top: 30px;
 }
+
 .faq-section .accordion .accordion-item {
   margin: 0px 0px 30px;
   border: none;
@@ -294,6 +307,7 @@
   width: 100%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 3px 0px;
 }
+
 .faq-section .accordion button {
   color: #0a0753;
   background: #fff;
@@ -302,15 +316,28 @@
   box-shadow: none;
   border-radius: 20px !important;
 }
+
 .faq-section .accordion button:focus {
   outline: none;
   box-shadow: none;
 }
+
 .faq-section .accordion .accordion-collapse.collapse {
   border: none;
 }
 
+@media (max-width: 1440px) {
+  .caseStudyBanner.gradientBanner .fontSize72 {
+    font-size: 56px;
+  }
+
+  .stepModule .upperCotentWrapper h2 {
+    font-size: 46px;
+  }
+}
+
 @media (max-width: 1240px) {
+
   .caseStudyBanner.integration .leftCards img:first-child,
   .caseStudyBanner.integration .leftCards img:nth-child(2),
   .caseStudyBanner.integration .leftCards img:nth-child(3),
@@ -323,11 +350,17 @@
     filter: blur(2px);
   }
 }
+
 @media (max-width: 1024px) {
+  .caseStudyBanner.gradientBanner .fontSize72 {
+    font-size: 48px;
+  }
+
   .caseStudyLogos.integration.srx .logos .caseStudyLogo {
     width: 300px;
   }
 }
+
 @media (max-width: 768px) {
   .caseStudyBanner.gradientBanner .fontSize72 {
     margin-bottom: 15px;
@@ -338,88 +371,130 @@
     margin: 0px 0px 20px;
     font-weight: 700;
   }
+
   .faq-section {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+
   .caseStudyBanner.gradientBanner.carrierIntegration {
     padding: 100px 0 100px;
     height: 80vh;
   }
 }
+
 @media (max-width: 767px) {
+  .faq-section .contentWrapper .headingText {
+    font-size: 36px;
+  }
+
+  .caseStudyBanner.gradientBanner .fontSize72 {
+    font-size: 36px;
+  }
+
   .caseStudyLogos.integration.srx .logos .caseStudyLogo {
     width: 100%;
   }
 }
+
 @media (max-width: 568px) {
+
+
+  .stepModule .upperCotentWrapper h2 {
+    font-size: 36px;
+    line-height: normal;
+  }
+
   .caseStudyBanner.integration .leftCards img:first-child {
     top: 0px;
     left: 20px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .rightCards img:first-child {
     top: 0px;
     right: 20px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .leftCards img:nth-child(2) {
     top: 120px;
     left: 130px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .rightCards img:nth-child(2) {
     top: 120px;
     right: 130px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .leftCards img:nth-child(3) {
     display: none;
   }
+
   .caseStudyBanner.integration .rightCards img:nth-child(3) {
     display: none;
   }
 }
 
+@media (max-width: 480px) {
+  .caseStudyBanner.gradientBanner .fontSize72 {
+    font-size: 32px !important;
+  }
+
+  .stepModule .upperCotentWrapper h2 {
+    font-size: 30px !important;
+  }
+}
+
 @media (max-width: 475px) {
+
   .caseStudyBanner.integration .leftCards img:first-child {
     top: 0px;
     left: 20px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .rightCards img:first-child {
     top: 0px;
     right: 20px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .leftCards img:nth-child(2) {
     top: 120px;
     left: 50px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .rightCards img:nth-child(2) {
     top: 120px;
     right: 50px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .leftCards img:nth-child(3) {
     display: none;
   }
+
   .caseStudyBanner.integration .rightCards img:nth-child(3) {
     display: none;
   }
+
   .caseStudyBanner.gradientBanner.carrierIntegration {
     padding: 50px 0 50px;
     height: auto;
   }
+
   .stepModule .upperCotentWrapper h2 {
     font-size: 37px;
     line-height: 40px;
@@ -427,6 +502,7 @@
 }
 
 @media (max-width: 425px) {
+
   .caseStudyBanner.integration .leftCards img:first-child,
   .caseStudyBanner.integration .leftCards img:nth-child(2),
   .caseStudyBanner.integration .leftCards img:nth-child(3),
@@ -437,6 +513,7 @@
   .caseStudyBanner.integration .rightCards img:last-child {
     display: none;
   }
+
   .faq-section .contentWrapper .headingText {
     font-size: 40px;
     line-height: 46px;
@@ -444,6 +521,10 @@
 }
 
 @media (max-width: 1240px) {
+  .stepModule .upperCotentWrapper h2 {
+    font-size: 46px;
+  }
+
   .caseStudyBanner.integration .leftCards img:first-child,
   .caseStudyBanner.integration .leftCards img:nth-child(2),
   .caseStudyBanner.integration .leftCards img:nth-child(3),
@@ -456,12 +537,18 @@
     filter: blur(2px);
   }
 }
+
 @media (max-width: 1024px) {
   .caseStudyLogos.integration.srx .logos .caseStudyLogo {
     width: 300px;
   }
 }
+
 @media (max-width: 768px) {
+  .faq-section .contentWrapper .headingText::after {
+    display: none;
+  }
+
   .caseStudyBanner.gradientBanner .fontSize72 {
     margin-bottom: 15px;
     font-size: 42px;
@@ -471,20 +558,24 @@
     margin: 0px 0px 20px;
     font-weight: 700;
   }
+
   .faq-section {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+
   .caseStudyBanner.gradientBanner.carrierIntegration {
     padding: 100px 0 100px;
     height: 80vh;
   }
 }
+
 @media (max-width: 767px) {
   .caseStudyLogos.integration.srx .logos .caseStudyLogo {
     width: 100%;
   }
 }
+
 @media (max-width: 568px) {
   .caseStudyBanner.integration .leftCards img:first-child {
     top: 0px;
@@ -492,27 +583,32 @@
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .rightCards img:first-child {
     top: 0px;
     right: 20px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .leftCards img:nth-child(2) {
     top: 120px;
     left: 130px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .rightCards img:nth-child(2) {
     top: 120px;
     right: 130px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .leftCards img:nth-child(3) {
     display: none;
   }
+
   .caseStudyBanner.integration .rightCards img:nth-child(3) {
     display: none;
   }
@@ -525,34 +621,41 @@
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .rightCards img:first-child {
     top: 0px;
     right: 20px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .leftCards img:nth-child(2) {
     top: 120px;
     left: 50px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .rightCards img:nth-child(2) {
     top: 120px;
     right: 50px;
     height: 90px;
     width: 90px;
   }
+
   .caseStudyBanner.integration .leftCards img:nth-child(3) {
     display: none;
   }
+
   .caseStudyBanner.integration .rightCards img:nth-child(3) {
     display: none;
   }
+
   .caseStudyBanner.gradientBanner.carrierIntegration {
     padding: 50px 0 50px;
     height: auto;
   }
+
   .stepModule .upperCotentWrapper h2 {
     font-size: 37px;
     line-height: 40px;
@@ -560,6 +663,10 @@
 }
 
 @media (max-width: 425px) {
+  .repeat-purchases .purchases-title h2 {
+    font-size: 32px;
+  }
+
   .caseStudyBanner.integration .leftCards img:first-child,
   .caseStudyBanner.integration .leftCards img:nth-child(2),
   .caseStudyBanner.integration .leftCards img:nth-child(3),
@@ -570,8 +677,24 @@
   .caseStudyBanner.integration .rightCards img:last-child {
     display: none;
   }
+
   .faq-section .contentWrapper .headingText {
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 390px) {
+  .stepModule .upperCotentWrapper h2 {
+    font-size: 30px;
+  }
+
+  .caseStudyBanner.gradientBanner .fontSize72 {
+    font-size: 30px !important;
+    line-height: normal;
+  }
+
+  .caseStudyLogos.integration.srx {
+    padding-top: 20px;
   }
 }
