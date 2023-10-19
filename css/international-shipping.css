@@ -425,6 +425,11 @@ section.Banner-section {
 .videoAndContentWrapper .content {
   max-width: 500px;
 }
+@media (max-width: 1200px) {
+  .company-card .company-card-inner .company-card-content h1 {
+    font-size: 48px !important;
+}
+}
 
 @media (max-width: 991px) {
   .ShippingFromBanner .fontSize72 {
@@ -464,6 +469,9 @@ section.Banner-section {
 }
 
 @media (max-width: 768px) {
+  .company-card .company-card-inner .company-card-content h1 {
+    font-size: 30px !important;
+}
   .srxPricingCalc.srxHome .calcWrapperPricing h3 {
     font-size: 25px;
   }
@@ -483,7 +491,7 @@ section.Banner-section {
 
   .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
     font-size: 40px;
-    line-height: 0px;
+    line-height: 50px !important;
   }
 
   .curveLogoPostion.srx.darkBg {
@@ -500,6 +508,9 @@ section.Banner-section {
 }
 
 @media (max-width: 568px) {
+  section.srxPricingCalc.srxHome.Section {
+    padding: 60px 10px;
+}
   .curveLogoPostion.srx.darkBg .contentWrapper h2 {
     line-height: 36px;
   }
@@ -589,6 +600,7 @@ section.Banner-section {
 }
 
 @media (max-width: 768px) {
+ 
   .srxPricingCalc.srxHome .calcWrapperPricing h3 {
     font-size: 25px;
   }
@@ -606,7 +618,7 @@ section.Banner-section {
   }
   .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
     font-size: 40px;
-    line-height: 0px;
+    line-height: 0px !important;
   }
   .curveLogoPostion.srx.darkBg {
     padding: 60px 0px;

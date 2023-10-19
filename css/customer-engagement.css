@@ -172,6 +172,7 @@ section.join_us {
 .exceptional {
     max-width: 70%;
 }
+
 .exceptional a {
     border-radius: 12px;
     background: #3626f1;
@@ -181,197 +182,235 @@ section.join_us {
     padding: 10px 16px;
     font-family: ProductSans-Bold;
 }
+
 .exceptional p {
     max-width: 70%;
 }
 
 
 @media only screen and (max-width: 1600px) {
-   
+
     section.join_us {
         padding: 80px 30px;
         margin-bottom: -170px;
     }
-    
+
     .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
         font-size: 44px;
     }
-      }
-      
-      @media only screen and (max-width: 1440px) {
-       
-      }
-      
-      @media only screen and (max-width: 1200px) {
-    
+}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1200px) {
+
     .Banner-section .banner-content {
         padding-left: 60px;
     }
-        .customer_herodetail {
-            margin-right: 10px;
-        }
-        h1.first_per {
-            font-size: 74px;
-        }
-        
-        h1.sec_per {
-            font-size: 74px;
-        }
-        
-        h1.third_per {
-            font-size: 74px;
-        }
-        
-        section.know_detail {
-            padding-bottom: 70px;
-        }
-        
-        .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
-            font-size: 36px;
-        }
-      }
-      
-      
-      @media only screen and (max-width: 1024px) {
-       
-      }
-      
-      @media only screen and (max-width: 993px) {
-        section.join_us {
-            margin-bottom: -150px;
-        }
-        h1.Inbuilt {
-            font-size: 42px;
-        }
-        
-        button.accordion-button {
-            font-size: 20px;
-        }
-        
-        div#accordionExample h4 {
-            font-size: 19px;
-        }
-      }
-      
-      @media only screen and (max-width: 768px) {
-        .banner-wrap-div.d-flex {
-            justify-content: center;
-        }
-        
-        .Banner-section .banner-content {
-            padding-left: 0;
-            margin-bottom: 40px;
-        }
-        
-        .wrapper-title h1 {
-            font-size: 42px;
-        }
-        
-        section.know_detail .wrapper-title {
-            margin-bottom: 20px;
-        }
-        
-        .awesome_img img {
-            margin-bottom: 30px;
-        }
-        
-        section.inbuild_detail {
-            padding-bottom: 50px;
-        }
-        
-        section.join_us {
-            max-width: 90%;
-            padding: 50px 20px;
-            margin-bottom: -110px;
-        }
-      }
-      
-      @media only screen and (max-width: 768px) {
-        .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
-            font-size: 30px;
-            
-        }
-        section.join_us {
-            
-            margin-bottom: -110px;
-        }
-      }
-      @media only screen and (max-width: 575px) {
-        h1.faq_head {
-            font-size: 40px;
-        }
-        .awesome_img img {
-            max-width: 80%;
-            display: flex;
-            margin: auto;
-            margin-bottom: 20px;
-        }
-        
-        h1.Inbuilt {
-            font-size: 38px;
-        }
-        
-        .per_detail {
-            max-width: 90%;
-        }
-      }
-      
-      @media only screen and (max-width: 525px) {
-        h1.faq_head {
-            font-size: 36px;
-        }
-        .joinus_mainhead.d-flex.align-items-center.justify-content-between {
-            display: block !important;
-        }
-        
-        .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
-            max-width: 100%;
-            margin-bottom: 20px;
-        }
-      }
-      
-      @media only screen and (max-width: 480px) {
-        .banner-wrap-div.d-flex {
-            flex-direction: column;
-        }
-      }
-      
-      @media only screen and (max-width: 400px) {
-    
-        section.join_us{
-            border-radius: 20px;
-        }
-        .customer_herodetail {
-            margin-right: 0;
-            margin-bottom: 20px;
-        }
-        .wrapper-title h1 {
-            font-size: 36px;
-        }
-        
-        h1.third_per {
-            font-size: 66px;
-        }
-        
-        h1.sec_per {
-            font-size: 66px;
-        }
-        
-        h1.first_per {
-            font-size: 66px;
-            
-        }
-      }
-      
-      @media only screen and (max-width: 380px) {
-        .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
-            font-size: 24px;
-        }
-      }
-      
-      @media only screen and (max-width: 350px) {
-      
-        .wrapper-title h1 {
-            font-size: 28px;
-        }
-      }
+
+    .customer_herodetail {
+        margin-right: 10px;
+    }
+
+    h1.first_per {
+        font-size: 74px;
+    }
+
+    h1.sec_per {
+        font-size: 74px;
+    }
+
+    h1.third_per {
+        font-size: 74px;
+    }
+
+    section.know_detail {
+        padding-bottom: 70px;
+    }
+
+    .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
+        font-size: 36px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 993px) {
+    section.join_us {
+        margin-bottom: -150px;
+    }
+
+    h1.Inbuilt {
+        font-size: 42px;
+    }
+
+    button.accordion-button {
+        font-size: 20px;
+    }
+
+    div#accordionExample h4 {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-wrap-div.d-flex {
+        justify-content: center;
+    }
+
+    .Banner-section .banner-content {
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .wrapper-title h1 {
+        font-size: 42px;
+    }
+
+    section.know_detail .wrapper-title {
+        margin-bottom: 20px;
+    }
+
+    .awesome_img img {
+        margin-bottom: 30px;
+    }
+
+    section.inbuild_detail {
+        padding-bottom: 50px;
+    }
+
+    section.join_us {
+        max-width: 90%;
+        padding: 50px 20px;
+        margin-bottom: -110px;
+    }
+}
+
+@media only screen and (max-width: 923px) {
+    .Banner-section .banner-content {
+        padding-left: 20px !important;
+        text-align: left !important;
+    }
+
+    .Banner-section .banner-headingText {
+        text-align: left !important;
+        align-items: baseline !important;
+    }
+
+    .Banner-section .banner-content .banner-wrap-btn {
+        justify-content: left !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
+        font-size: 30px;
+    }
+
+    section.join_us {
+        margin-bottom: -110px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .joinus_mainhead.d-flex.align-items-center.justify-content-between {
+        flex-direction: column !important;
+    }
+
+    .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .Join_league a {
+        PADDING: 16px 10px !important;
+    }
+
+    .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
+        FONT-SIZE: 28px;
+    }
+
+    h1.faq_head {
+        font-size: 40px;
+    }
+
+    .awesome_img img {
+        max-width: 80%;
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    h1.Inbuilt {
+        font-size: 38px;
+    }
+
+    .per_detail {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    h1.faq_head {
+        font-size: 36px;
+    }
+
+    .joinus_mainhead.d-flex.align-items-center.justify-content-between {
+        display: block !important;
+    }
+
+    .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .banner-wrap-div.d-flex {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    section.join_us {
+        border-radius: 20px;
+    }
+
+    .customer_herodetail {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .wrapper-title h1 {
+        font-size: 36px;
+    }
+
+    h1.third_per {
+        font-size: 66px;
+    }
+
+    h1.sec_per {
+        font-size: 66px;
+    }
+
+    h1.first_per {
+        font-size: 66px;
+
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .joinus_mainhead.d-flex.align-items-center.justify-content-between h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .wrapper-title h1 {
+        font-size: 28px;
+    }
+}

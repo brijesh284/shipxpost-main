@@ -141,7 +141,7 @@ h1.revenue {
 
 h1.faq_head {
     position: relative;
-    
+
 }
 
 h1.faq_head span:after {
@@ -161,14 +161,16 @@ h1.faq_head span:after {
 .accordian .accordion {
     margin-top: 30px;
 }
-.accordian .accordion .accordion-item{
+
+.accordian .accordion .accordion-item {
     margin: 5px 0px;
     border: none;
     border-radius: 20px;
     width: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.accordian .accordion button{
+
+.accordian .accordion button {
     color: #0A0753;
     background: #fff;
     font-size: 20px;
@@ -176,51 +178,137 @@ h1.faq_head span:after {
     box-shadow: none;
     border-radius: 20px !important;
 }
+
 .accordian .accordion button:focus {
     outline: none;
     box-shadow: none;
 }
-.accordian .accordion .accordion-collapse.collapse{
+
+.accordian .accordion .accordion-collapse.collapse {
     border: none;
 }
 
+@media (max-width:1440px) {
+    .banner-retensiontext h2 {
+        font-size: 46px;
+    }
+
+    .banner-content.hero_div_detail {
+        max-width: 100%;
+        padding-left: 90px;
+    }
+}
+
+@media (max-width:1200px) {
+    section.Banner-section.customer_engangement {
+        height: 60vh;
+    }
+
+    .banner-content.hero_div_detail {
+        padding-left: 50px;
+    }
+
+    .technology_div h2 {
+        font-size: 42px;
+    }
+
+    section.Technology_detail .container {
+        padding: 70px 40px;
+    }
+
+    h1.faq_head span:after {
+        right: 260px !important;
+    }
+}
+
 @media (max-width:1024px) {
-    .banner-content.hero_div_detail{
+    .banner-content.hero_div_detail {
         max-width: 100%;
         padding-left: 20px;
     }
+
     section.Banner-section.customer_engangement {
         height: 60vh;
     }
 }
+
 @media (max-width: 991px) {
+    .banner-retensiontext h2 {
+        font-size: 42px;
+    }
+
     section.Banner-section.customer_engangement {
         height: auto;
     }
-    .banner-content.hero_div_detail{
+
+    .banner-content.hero_div_detail {
         max-width: 100%;
         padding-left: 0px;
     }
 }
+
 @media (max-width: 768px) {
+    h1.faq_head {
+        margin-bottom: 20px;
+    }
+
+    .shipping-service {
+        padding: 40px 0;
+    }
+
+    .company-card .company-card-inner .company-card-content h1 {
+        font-size: 46px;
+    }
+
     .banner-retensiontext h2 {
         font-size: 34px;
     }
+
     .technology_div h2 {
         font-size: 34px;
     }
+
     h1.faq_head span:after {
-        right: 230px;
+        right: 90px !important;
+        bottom: -30px;
     }
+
     h1.faq_head {
         font-size: 38px;
     }
 }
+
+@media (max-width: 575px) {
+    .img-fluid {
+        margin-bottom: 40px;
+    }
+
+    .shipping-service .wrapper-title h1::after {
+        display: none;
+    }
+}
+
 @media (max-width: 568px) {
     h1.faq_head span:after {
         right: 50px;
     }
+
     section.Technology_detail .container {
         padding: 40px 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .banner-img.customer_engagement_img {
+        max-width: 100% !important;
+    }
+
+    .company-card .company-card-inner .company-card-content h1 {
+        font-size: 36px;
+    }
+}
+@media (max-width: 350px) {
+    section.Banner-section.customer_engangement {
+        padding-top: 0;
     }
 }
