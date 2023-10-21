@@ -100,10 +100,18 @@ section.knowmore-section {
   margin-bottom: 10px;
 }
 .banner-content.delivery {
-  padding-left: 300px;
+  padding-left: 200px;
   max-width: 90%;
 }
+.row.d-flex.align-items-center.cost-detail {
+  background: #7f6bf652;
+  border-radius: 20px;
+  padding: 50px 40px;
+}
 
+section.deliver {
+  padding-bottom: 100px;
+}
 .banner-content.delivery h2 {
   color: #070330;
   font-family: Cambon-SemiBold;
@@ -113,7 +121,31 @@ section.knowmore-section {
   display: inline-block;
   z-index: 9;
 }
+.built h1 {
+  color: #070330;
+  font-family: Cambon-SemiBold;
+  font-size: 48px;
+  margin-bottom: 8px;
+}
 
+.costs h2 {
+  color: #000;
+}
+
+.costs {
+  position: relative;
+  padding-left: 20px;
+}
+
+.costs:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 6px;
+  background: transparent linear-gradient(4deg, #FFC465 0%, #5338FF 100%) 0% 0% no-repeat padding-box;
+}
 a.read-btn {
   border-radius: 12px;
   background: #3626f1;
@@ -143,6 +175,21 @@ section.deivery-section {
 .banner-wrap-dec p {
   margin-bottom: 20px;
 }
+ul.Lower {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+ul.Lower li {
+  width: 50%;
+}
+
+
 
 @media only screen and (max-width: 1600px) {
   .banner-content.delivery {
