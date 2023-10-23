@@ -14,7 +14,6 @@
   padding: 0 14px;
   box-sizing: border-box;
   border: 1px solid rgba(128, 128, 128, 0.349);
-  margin-right: 10px;
 }
 
 .testimonials {
@@ -78,10 +77,11 @@ ul.e-commerce-detail {
 
 .rocket-box_detail {
   padding: 40px 50px;
-  background: #3626f11a;
   border-radius: 10px;
 }
-
+.rocket-box {
+  background: #3626f11a;
+}
 .rocket-box_detail h1 {
   position: relative;
 }
@@ -95,7 +95,7 @@ ul.e-commerce-detail {
   color: #ffffff;
   font-size: 100px;
   line-height: 60px;
-  font-family: 'Cambon-Bold';
+  font-family: "Cambon-Bold";
   top: 50px;
   z-index: -9;
 }
@@ -129,7 +129,6 @@ ul.e-commerce-detail {
 }
 
 #customers-testimonials .item-details h5 span {
-
   float: right;
   padding-right: 20px;
 }
@@ -143,12 +142,12 @@ ul.e-commerce-detail {
   margin-bottom: 80px;
 }
 
-.owl-carousel .owl-nav [class*=owl-] {
+.owl-carousel .owl-nav [class*="owl-"] {
   transition: all 0.3s ease;
 }
 
-.owl-carousel .owl-nav [class*=owl-].disabled:hover {
-  background-color: #D6D6D6;
+.owl-carousel .owl-nav [class*="owl-"].disabled:hover {
+  background-color: #d6d6d6;
 }
 
 .owl-carousel {
@@ -178,7 +177,7 @@ ul.e-commerce-detail {
 }
 
 section.slide-option {
-  margin: 0 0 50px 0;
+  margin: 100px 0 50px 0;
 }
 
 section.slide-option .no-marg {
@@ -285,7 +284,11 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier::before {
   top: 0;
   left: 0;
-  background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 #infinite div.highway-barrier::after {
@@ -324,7 +327,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   outline: none;
   color: #fff;
   cursor: pointer !important;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   border: 2px solid #3626f1;
   box-shadow: inset 0 0 0 0 #3626f1;
   display: flex;
@@ -340,6 +343,9 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 .pincode {
   margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .heroimg {
@@ -507,15 +513,12 @@ section.deivery-section {
   z-index: -1;
 }
 
-@media only screen and (max-width: 1600px) {}
+@media only screen and (max-width: 1600px) {
+}
 
 @media only screen and (max-width: 1440px) {
   .rocket-box_detail.padding {
     padding-bottom: 50px;
-  }
-
-  .pincode input {
-    margin-bottom: 10px;
   }
 
   .rocket-box_detail {
@@ -640,10 +643,12 @@ section.deivery-section {
     text-align: center;
     margin-bottom: 30px;
   }
+  section.slide-option {
+    margin: 50px 0 50px 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-
   .owl-nav {
     display: none;
   }
@@ -693,40 +698,41 @@ section.deivery-section {
 }
 
 @media only screen and (max-width: 414px) {
-  .knowmore-contain {padding-left: 20px;}
+  .knowmore-contain {
+    padding-left: 20px;
+  }
 
-.know_more h2 {
+  .know_more h2 {
     font-size: 26px;
-}
+  }
 
-.know_more p {
+  .know_more p {
     font-size: 16px;
-}
+  }
 
-.testimonials {
+  .testimonials {
     padding-top: 50px;
-}
+  }
 
-section.deivery-section {
+  section.deivery-section {
     padding: 0 0 50px;
-}
+  }
 
-section#shipping-offer {
+  section#shipping-offer {
     padding-bottom: 0;
-}
+  }
   .rocket-box_detail.padding {
     padding: 20px 10px;
   }
   .rocket-box_detail h3 {
     font-size: 30px;
     margin-bottom: 10px;
-}
+  }
 
-.rocket-box_detail.remove-bg {
+  .rocket-box_detail.remove-bg {
     padding-right: 20px;
     padding-left: 20px;
-}
-
+  }
 
   ul.e-commerce-detail {
     margin-top: 20px !important;
@@ -748,23 +754,23 @@ section#shipping-offer {
 @media only screen and (max-width: 350px) {
   .banner-content.delivery h2 {
     font-size: 26px;
-}
+  }
 
-.wrapper-title h1 span::after {
+  .wrapper-title h1 span::after {
     display: none;
-}
+  }
 
-.wrapper-title h1 {
+  .wrapper-title h1 {
     font-size: 22px;
-}
+  }
 
-.shipping-offer .wrapper-shipping {
+  .shipping-offer .wrapper-shipping {
     padding-top: 10px;
-}
+  }
 
-.offer-heading h3 {
+  .offer-heading h3 {
     margin-top: 10px;
-}
+  }
   section.deivery-section {
     padding-bottom: 50px;
   }
@@ -784,5 +790,5 @@ section#shipping-offer {
 @media only screen and (max-width: 350px) {
   #customers-testimonials .item {
     margin-bottom: 40px;
-}
+  }
 }

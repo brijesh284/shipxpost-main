@@ -1,9 +1,9 @@
-.owl-carousel .owl-nav [class*=owl-] {
+.owl-carousel .owl-nav [class*="owl-"] {
   transition: all 0.3s ease;
 }
 
-.owl-carousel .owl-nav [class*=owl-].disabled:hover {
-  background-color: #D6D6D6;
+.owl-carousel .owl-nav [class*="owl-"].disabled:hover {
+  background-color: #d6d6d6;
 }
 
 .owl-carousel {
@@ -140,7 +140,11 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier::before {
   top: 0;
   left: 0;
-  background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 #infinite div.highway-barrier::after {
@@ -162,7 +166,6 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier ul.highway-lane li.highway-car span.fab {
   font-size: 65px;
 }
-
 
 .heroimg img {
   max-width: 100% !important;
@@ -315,7 +318,8 @@ section.deliver {
   top: 0;
   height: 100%;
   width: 6px;
-  background: transparent linear-gradient(4deg, #FFC465 0%, #5338FF 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(4deg, #ffc465 0%, #5338ff 100%) 0% 0%
+    no-repeat padding-box;
 }
 
 a.read-btn {
@@ -414,7 +418,7 @@ section.request-sec {
 
 .form-detail {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -428,7 +432,6 @@ section.request-sec {
 }
 
 @media only screen and (max-width: 1440px) {
-
   .Banner-section .banner-content {
     padding-left: 80px;
   }
@@ -463,7 +466,6 @@ section.request-sec {
 }
 
 @media only screen and (max-width: 1200px) {
-  
   .name input {
     width: 350px;
   }
@@ -510,7 +512,6 @@ section.request-sec {
   .know_more {
     max-width: 90%;
   }
-
 }
 
 @media only screen and (max-width: 993px) {
