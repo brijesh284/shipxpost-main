@@ -1,12 +1,15 @@
 .headerOne.gradientBanner {
-  background: transparent linear-gradient(174deg, #3626f140, #e6edf8) 0 0
-    no-repeat padding-box;
+  background: transparent linear-gradient(244deg, #fde6cd, #ebebff) 0 0 no-repeat padding-box;
   background-position: bottom;
   z-index: 0;
+  padding: 180px 0 160px;
+  margin-top: -155px;
   overflow: hidden;
   position: relative;
 }
-
+.company-card-content.text-center h1 {
+  font-size: 40px !important;
+}
 .headerOne.gradientBanner:before {
   content: "";
   position: absolute;
@@ -26,23 +29,21 @@
   z-index: 0;
   width: 102%;
   height: 100px;
-  background: linear-gradient(
-    0deg,
-    #d2ddf3 -14.39%,
-    rgba(226, 234, 247, 0.67) 47.39%,
-    rgba(255, 255, 255, 0.1) 97.67%
-  );
+  background: linear-gradient(0deg,
+          #d2ddf3 -14.39%,
+          rgba(226, 234, 247, 0.67) 47.39%,
+          rgba(255, 255, 255, 0.1) 97.67%);
   position: absolute;
   content: "";
 }
 
 .ShippingFromBanner .fontSize72 {
   margin-bottom: 15px;
+  margin-top: 30px;
   color: #0a0753;
-  font-size: 52px;
+  font-size: 72px;
   line-height: 76px;
   z-index: 3;
-  font-family: Cambon-Bold;
 }
 
 .ShippingFromBanner .fontSize18 {
@@ -54,7 +55,7 @@
 
 .blueBtn {
   background: #3626f1;
-  box-shadow: 0 24px 48px #4429be3c;
+  box-shadow: 0 24px 48px #4429BE3C;
   border-radius: 10px;
   border: 1px solid #3626f1;
   color: #fff;
@@ -65,13 +66,16 @@
   line-height: 24px;
   display: inline-block;
   margin-top: 20px;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .blueBtn:hover {
-  background: transparent;
+  background: #fff;
   color: #3626f1;
 }
+
+
+
 
 .srxPricingCalc.srxHome.Section {
   padding-top: 8rem;
@@ -87,11 +91,7 @@
   align-items: center;
   position: relative;
 }
-section.Banner-section {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-}
+
 .srxPricingCalc.srxHome .row:before {
   content: "";
   position: absolute;
@@ -109,11 +109,10 @@ section.Banner-section {
   line-height: 56px;
   margin-bottom: 10px;
   font-weight: 700;
-  /* font-family: ; */
 }
 
 .srxPricingCalc.srxHome .row .contentWrapper span.rateLabel {
-  letter-spacing: 0.48px;
+  letter-spacing: .48px;
   color: #fff;
   font-size: 24px;
   line-height: 29px;
@@ -127,10 +126,9 @@ section.Banner-section {
 .srxPricingCalc.srxHome .row .contentWrapper span.rateLabel:before {
   content: "";
   position: absolute;
-  background: transparent linear-gradient(283deg, #3626f1, #1d113e) 0 0
-    no-repeat padding-box;
+  background: transparent linear-gradient(283deg, #3626f1, #1d113e) 0 0 no-repeat padding-box;
   border-radius: 5px;
-  opacity: 0.8;
+  opacity: .80;
   width: 100%;
   height: 100%;
   top: 0;
@@ -196,9 +194,9 @@ section.Banner-section {
   flex-basis: 100% !important;
 }
 
-.calcComponentStyle .domesticForm > div:first-child,
-.calcComponentStyle .domesticWeight > div,
-.calcComponentStyle .intForm > div:first-child {
+.calcComponentStyle .domesticForm>div:first-child,
+.calcComponentStyle .domesticWeight>div,
+.calcComponentStyle .intForm>div:first-child {
   display: flex;
 }
 
@@ -226,11 +224,11 @@ section.Banner-section {
   width: 100%;
 }
 
-.srxPricingCalc.srxHome .calcComponentStyle .domesticWeight > div span {
+.srxPricingCalc.srxHome .calcComponentStyle .domesticWeight>div span {
   display: inline-block;
   padding: 10px 16px;
   line-height: 14px;
-  letter-spacing: 0.24px;
+  letter-spacing: .24px;
   color: #a9b0bc;
   opacity: 1;
   background: #f3f7fe 0 0 no-repeat padding-box;
@@ -242,22 +240,22 @@ section.Banner-section {
   align-items: center;
 }
 
-.srxPricingCalc.srxHome .calcComponentStyle .dimensions > div input {
+.srxPricingCalc.srxHome .calcComponentStyle .dimensions>div input {
   width: 33.33333%;
   margin-right: 15px;
   padding: 11px 10px 11px 17px;
 }
 
-.srxPricingCalc.srxHome .calcComponentStyle .dimensions > div p {
+.srxPricingCalc.srxHome .calcComponentStyle .dimensions>div p {
   margin: 0;
   margin-right: 15px;
 }
 
-.srxPricingCalc.srxHome .calcComponentStyle .dimensions > div input:last-child {
+.srxPricingCalc.srxHome .calcComponentStyle .dimensions>div input:last-child {
   display: inline-block;
   padding: 10px 16px;
   line-height: 14px;
-  letter-spacing: 0.24px;
+  letter-spacing: .24px;
   color: #a9b0bc;
   opacity: 1;
   background: #f3f7fe 0 0 no-repeat padding-box;
@@ -269,7 +267,7 @@ section.Banner-section {
 .srxPricingCalc.srxHome .calcComponentStyle button {
   padding: 16px 61px;
   margin-top: 15px;
-  letter-spacing: 0.36px;
+  letter-spacing: .36px;
   color: #fff;
   font-size: 18px;
   line-height: 21px;
@@ -279,6 +277,7 @@ section.Banner-section {
   border-radius: 6px;
   cursor: pointer;
 }
+
 
 .curveLogoPostion.srx.darkBg {
   background-color: #1d113e;
@@ -359,11 +358,12 @@ section.Banner-section {
 
 .srxRightContent .content {
   margin-top: 30px;
-  letter-spacing: 0.36px;
+  letter-spacing: .36px;
   line-height: 30px;
   font-size: 18px;
   color: #5a5a5a;
 }
+
 
 .Section.srxLeftContentRightImage {
   padding-top: 8rem;
@@ -375,7 +375,7 @@ section.Banner-section {
 }
 
 .srxLeftContentRightImage .row .contentWrapper h3 {
-  letter-spacing: 0.36px;
+  letter-spacing: .36px;
   color: #3626f1;
   font-size: 18px;
   line-height: 21px;
@@ -388,13 +388,12 @@ section.Banner-section {
   line-height: 56px;
   margin-bottom: 10px;
   color: #0a0753;
-  font-family: Cambon-bold;
 }
 
 .srxLeftContentRightImage .row .contentWrapper p {
   margin-top: 20px;
   line-height: 28px;
-  letter-spacing: 0.36px;
+  letter-spacing: .36px;
   font-size: 18px;
   color: #5a5a5a;
 }
@@ -408,7 +407,6 @@ section.Banner-section {
 .leftContentRightVideo .videoAndContentWrapper .contentWrapper {
   flex-basis: 50%;
 }
-
 .contentWrapper h3.headingText {
   letter-spacing: 0;
   color: #1d113e;
@@ -416,14 +414,303 @@ section.Banner-section {
   line-height: 48px;
   text-transform: uppercase;
 }
-
 .leftContentRightVideo .videoAndContentWrapper .videoWrapper {
   flex-basis: 50%;
   text-align: center;
 }
-
-.videoAndContentWrapper .content {
+.videoAndContentWrapper .content{
   max-width: 500px;
+}
+
+@media (max-width:991px) {
+  .ShippingFromBanner .fontSize72 {
+      font-size: 42px;
+      line-height: 46px;
+      font-weight: 700;
+  }
+
+  .clienLogoSection.curveLogoPostion ul li {
+      width: 45%;
+      margin: 10px;
+  }
+
+  .srxPricingCalc.srxHome.Section,
+  .Section.srxRightContent,
+  .Section.srxLeftContentRightImage {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+  }
+
+  .srxPricingCalc.srxHome .row {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .srxPricingCalc.srxHome .row:before {
+      content: none;
+  }
+
+  .srxPricingCalc.srxHome .calcWrapperPricing {
+      padding: 30px 0px;
+  }
+  Section.ShippingFromBanner.gradientBanner .row{
+      gap: 30px;
+  }
+  .Banner-section .banner-img {
+      width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .srxPricingCalc.srxHome .calcWrapperPricing h3 {
+      font-size: 25px;
+  }
+
+  .contentWrapper .headingText {
+      font-size: 27px;
+      line-height: 33px;
+  }
+
+  .srxLeftContentRightImage .row .contentWrapper p {
+      font-size: 16px;
+  }
+  .curveLogoPostion.srx.darkBg .contentWrapper h2 {
+      line-height: 36px;
+  }
+  .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
+      font-size: 40px;
+      line-height: 0px;
+  }
+  .curveLogoPostion.srx.darkBg{
+      padding: 60px 0px;
+  }
+  .leftContentRightVideo .videoAndContentWrapper {
+      flex-direction: column;
+  }
+  .leftContentRightVideo .videoAndContentWrapper .contentWrapper {
+      padding-right: 0px;
+  }
+  .Banner-section .banner-img img {
+      max-width: 100%;
+  }
+}
+
+@media (max-width:568px) {
+  .curveLogoPostion.srx.darkBg .contentWrapper h2 {
+      line-height: 36px;
+  }
+  .clienLogoSection.curveLogoPostion.srx .contentWrapper h2 span {
+      font-size: 26px;
+      line-height: 0px;
+  }
+  .contentWrapper h3.headingText {
+      font-size: 27px;
+      line-height: 32px;
+  }
+}
+
+@media (max-width:425px) {
+  .clienLogoSection.curveLogoPostion ul li {
+      width: 100%;
+      margin: 10px;
+  }
+}
+
+.company-card .company-card-inner {
+  border-radius: 20px;
+  background: #fff;
+  backdrop-filter: blur(1.8734697103500366px);
+  background-image: url(..//img/company-card-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: transparent linear-gradient(244deg, #ffd9af, #adadf7) 0 0 no-repeat padding-box; */
+}
+
+.company-card-content {
+  border-radius: 25px;
+  background-image: url(../img/international-shipping/map-globe-1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+
+
+/* new css 21/10/2023 */
+.section-hero {
+  /* background-color: #fdf2e9; */
+  padding: 8.4rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  align-items: center;
+  gap: 0 9.6rem;
+}
+
+.heading-primary {
+  font-size: 3.1rem;
+  color: #070330;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.hero-description {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+.hero-img-box {
+  grid-column: 2/3;
+  grid-row: 1 / 3;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+
+  transition: background-color 500ms;
+}
+
+.btn--fill:link,
+.btn--fill:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  color: #555;
+  background-color: #fff;
+}
+
+.btn--fill:hover,
+.btn--fill:active {
+  background-color: #cf711f;
+  text-decoration: underline;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0px 0px 0px 3px #fff;
+  text-decoration: underline;
+}
+
+.margin-right-btn {
+  margin-right: 2.4rem;
+}
+
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  margin-top: 3rem;
+}
+
+.delivered-imgs img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  outline: #fdf2e9 solid 3px;
+}
+
+.delivered-text {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.delivered-text span {
+  color: #3626f1;
+}
+
+@media (max-width: 1024px) {
+  .section-hero {
+      padding: 4.4rem 0 4.4rem 0;
+  }
+  .hero {
+      padding: 0;
+      gap: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading-primary {
+      font-size: 3.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .section-hero {
+      padding: 2rem 0 2rem 0;
+  }
+  .heading-primary {
+      font-size: 2rem;
+  }
+  .hero-description {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 0.8rem;
+  }
+  .blueBtn {
+      font-size: 20px;
+      padding: 8px 18px;
+  }
+  .delivered-meals {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .section-hero {
+      padding: 2rem 0 2rem 0;
+  }
+  .heading-primary {
+      font-size: 2rem;
+  }
+  .hero-description {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 0.8rem;
+  }
+  .blueBtn {
+      font-size: 20px;
+      padding: 8px 18px;
+  }
+  .delivered-meals {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 20px;
+  }
 }
 @media (max-width: 1200px) {
   .company-card .company-card-inner .company-card-content h1 {
