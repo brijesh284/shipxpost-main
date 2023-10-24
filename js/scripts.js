@@ -158,4 +158,7 @@ counters.forEach((counter) => {
   updateCounter();
 });
 
+AOS.init({
+  duration: 1000,
+});
 

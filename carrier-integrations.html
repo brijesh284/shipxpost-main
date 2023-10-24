@@ -1,1043 +1,770 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ShipXPost - carrier-integrations</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- contact css link -->
-    <link rel="stylesheet" href="css/carrier-integrations.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShipXPost - carrier-integrations</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg header-wrap header-sticky">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img src="img/Logo.svg" alt="logo" class="img-fluid"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="30px"
-                viewBox="0 0 448 512"
-              >
-                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path
-                  d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
-                />
-              </svg>
-            </span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto header-menu-wrap">
-              <li class="nav-item">
-                <a class="" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="" href="about.html">About us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- contact css link -->
+  <link rel="stylesheet" href="css/carrier-integrations.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg header-wrap header-sticky">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/Logo.svg" alt="logo" class="img-fluid" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 448 512">
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto header-menu-wrap">
+            <li class="nav-item">
+              <a class="" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="about.html">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="domestic-shipping.html">Domestic Shipping</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="international-shipping.html">International Shipping</a>
+                </li>
+                <!-- <li><a class="dropdown-item" href="#"></a></li> -->
+                <li>
+                  <a class="dropdown-item" href="b2c_filfillment.html">B2C fulfillment</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="b2b_filfillment.html">B2B fulfillment</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="active-menu" href="carrier-integrations.html" tabindex="-1" aria-disabled="true">Carrier</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+          <a href="login.html" class="login-btn">
+            <img src="img/login.svg" alt="login" class="img-fluid" /> Login/
+            Register
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- baner section -->
+  <section class="Section caseStudyBanner integration gradientBanner carrierIntegration" id="caseStudyBanner">
+    <div>
+      <div class="leftCards" id="leftCards">
+        <img data-lazyloaded="1" src="img/carrier-integrations/main-right-1.png" width="190" height="190" />
+        <img data-lazyloaded="1" src="img/carrier-integrations/main-right-2.png" width="174" height="174" />
+        <img data-lazyloaded="1" src="img/carrier-integrations/main-right-3.png" width="170" height="170" />
+        <img data-lazyloaded="1" src="img/carrier-integrations/main-right-4.png" width="188" height="188" />
+      </div>
+      <div class="rightCards" id="rightCards">
+        <img data-lazyloaded="1" src="img/carrier-integrations/main-left-1.png" width="152" height="152" />
+        <img data-lazyloaded="1" src="img/carrier-integrations/main-left-2.png" width="152" height="152" />
+        <img data-lazyloaded="1" src="img/carrier-integrations/main-left-3.png" width="196" height="196" />
+        <img data-lazyloaded="1" src="img/carrier-integrations/main-left-4.png" width="194" height="196" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12">
+            <div class="contentWrapper"  data-aos="fade-up" data-aos-duration="2000">
+              <h1 class="fontSize72">
+                Native integrations for couriers that redefine reach
+              </h1>
+              <p class="fontSize18">
+                Our AI-enabled courier recommendation system helps you reach
+                any corner of the globe with the help of 25+ courier partners
+                on board.
+              </p>
+              <a href="#" class="blueBtn scrollToSection link-click" rel="noopener">See all integrations</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- stepModule section -->
+  <section class="Section caseStudyLogos integration carrierIntegration srx">
+    <div class="container">
+      <div class="row">
+        <div class="stepModule">
+          <div class="upperCotentWrapper textCenter"  data-aos="fade-up" data-aos-duration="2000">
+            <h2>It's not a choice to only have one option.</h2>
+            <p>
+              It appears to be a stroll in the park to deliver to more than
+              24000 pin codes in India using various courier services.
+            </p>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="logos">
+            <div class="caseStudyLogo">
+              <div class="logo">
+                <img data-lazyloaded="1" src="img/carrier-integrations/crl-1.png" class="img-fluid" />
+              </div>
+              <div class="content">
+                <p>
+                  One of the express logistics service providers in India with
+                  the highest rate of expansion is Xpressbees. They specialize
+                  in same-day and next-day delivery, cash on delivery, reverse
+                  pickup, and reverse shipping.
+                </p>
+                <div class="option">
+                  <p>Serviceability:</p>
+                  <p>20000 pin codes</p>
+                </div>
+                <div class="option">
+                  <p>Cash on delivery:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>Tracking:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>International courier facility:</p>
+                  <p>No</p>
+                </div>
+                <div class="option">
+                  <p>Domestic courier facility:</p>
+                  <p>Yes</p>
+                </div>
+              </div>
+              <div class="link">
+                <a href="#" class="linkBtn link-click">More Info</a>
+              </div>
+            </div>
+            <div class="caseStudyLogo">
+              <div class="logo">
+                <img data-lazyloaded="1" src="img/carrier-integrations/crl-2.png"" class=" img-fluid">
+              </div>
+              <div class="content">
+                <p>
+                  The fastest-growing courier service in India is Delhivery,
+                  which offers same- and next-day delivery options. Offering
+                  48-96 hour deliveries for long-distance orders, it serves
+                  over 18000 pin codes in India.
+                </p>
+                <div class="option">
+                  <p>Serviceability:</p>
+                  <p>18000 pin codes</p>
+                </div>
+                <div class="option">
+                  <p>Cash on delivery:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>Tracking:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>International courier facility:</p>
+                  <p>No</p>
+                </div>
+                <div class="option">
+                  <p>Domestic courier facility:</p>
+                  <p>Yes</p>
+                </div>
+              </div>
+              <div class="link">
+                <a href="#" class="linkBtn link-click">More Info</a>
+              </div>
+            </div>
+            <div class="caseStudyLogo">
+              <div class="logo">
+                <img data-lazyloaded="1" src="img/carrier-integrations/crl-3.png"" class=" img-fluid">
+              </div>
+              <div class="content">
+                <p>
+                  Leading provider of end-to-end logistics services, Ecom
+                  Express provides comprehensive services. It puts a strong
+                  emphasis on customization, scalability, delivery
+                  capabilities, and sustainability.
+                </p>
+                <div class="option">
+                  <p>Serviceability:</p>
+                  <p>27000 pin codes</p>
+                </div>
+                <div class="option">
+                  <p>Cash on delivery:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>Tracking:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>International courier facility:</p>
+                  <p>No</p>
+                </div>
+                <div class="option">
+                  <p>Domestic courier facility:</p>
+                  <p>Yes</p>
+                </div>
+              </div>
+              <div class="link">
+                <a href="#" class="linkBtn link-click">More Info</a>
+              </div>
+            </div>
+            <div class="caseStudyLogo">
+              <div class="logo">
+                <img data-lazyloaded="1" src="img/carrier-integrations/crl-4.png"" class=" img-fluid">
+              </div>
+              <div class="content">
+                <p>
+                  Consignments are delivered securely and dependably to more
+                  than 35000 locations in India by Blue Dart Shipping, the top
+                  fast air and integrated transportation & distribution firm
+                  in South Asia.
+                </p>
+                <div class="option">
+                  <p>Serviceability:</p>
+                  <p>17000 pin codes</p>
+                </div>
+                <div class="option">
+                  <p>Cash on delivery:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>Tracking:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>International courier facility:</p>
+                  <p>No</p>
+                </div>
+                <div class="option">
+                  <p>Domestic courier facility:</p>
+                  <p>Yes</p>
+                </div>
+              </div>
+              <div class="link">
+                <a href="#" class="linkBtn link-click">More Info</a>
+              </div>
+            </div>
+            <div class="caseStudyLogo">
+              <div class="logo">
+                <img data-lazyloaded="1" src="img/carrier-integrations/crl-8.png"" class=" img-fluid">
+              </div>
+              <div class="content">
+                <p>
+                  Having been established in 1969, DHL is one of the top
+                  international providers of logistics services. DHL eCommerce
+                  offers reliable transit times and customs clearances for its
+                  international standard parcel delivery services.
+                </p>
+                <div class="option">
+                  <p>Serviceability:</p>
+                  <p>220+ Countries</p>
+                </div>
+                <div class="option">
+                  <p>Cash on delivery:</p>
+                  <p>No</p>
+                </div>
+                <div class="option">
+                  <p>Tracking:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>International courier facility:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>Domestic courier facility:</p>
+                  <p>No</p>
+                </div>
+              </div>
+              <div class="link">
+                <a href="#" class="linkBtn link-click">More Info</a>
+              </div>
+            </div>
+            <div class="caseStudyLogo">
+              <div class="logo">
+                <img data-lazyloaded="1" src="img/carrier-integrations/crl-9.png"" class=" img-fluid">
+              </div>
+              <div class="content">
+                <p>
+                  As the internal supply chain division of Flipkart, Ekart
+                  Logistics began operations in 2009. With both COD and
+                  prepaid payment options, it delivers to more than 3800 pin
+                  codes in India.
+                </p>
+                <div class="option">
+                  <p>Serviceability:</p>
+                  <p>3800 pin codes</p>
+                </div>
+                <div class="option">
+                  <p>Cash on delivery:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>Tracking:</p>
+                  <p>Yes</p>
+                </div>
+                <div class="option">
+                  <p>International courier facility:</p>
+                  <p>No</p>
+                </div>
+                <div class="option">
+                  <p>Domestic courier facility:</p>
+                  <p>Yes</p>
+                </div>
+              </div>
+              <div class="link">
+                <a href="#" class="linkBtn link-click">More Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Trusted Brand -->
+  <section class="trusted-brand">
+    <div class="container">
+      <div class="trusted-title">
+        <h2  data-aos="fade-up" data-aos-duration="2000">Our Trusted Brand</h2>
+      </div>
+      <div class="trusted-body">
+        <div class="trusted-brand-slider owl-carousel">
+          <img src="img/trusted/trusted-1.svg" alt="trusted-1" class="img-fluid" />
+          <img src="img/trusted/trusted-2.svg" alt="trusted-2" class="img-fluid" />
+          <img src="img/trusted/trusted-3.svg" alt="trusted-3" class="img-fluid" />
+          <img src="img/trusted/trusted-4.svg" alt="trusted-4" class="img-fluid" />
+          <img src="img/trusted/trusted-5.svg" alt="trusted-5" class="img-fluid" />
+          <img src="img/trusted/trusted-6.svg" alt="trusted-6" class="img-fluid" />
+          <img src="img/trusted/trusted-7.svg" alt="trusted-7" class="img-fluid" />
+          <img src="img/trusted/trusted-8.svg" alt="trusted-8" class="img-fluid" />
+          <img src="img/trusted/trusted-9.svg" alt="trusted-9" class="img-fluid" />
+          <img src="img/trusted/trusted-10.svg" alt="trusted-1" class="img-fluid" />
+          <img src="img/trusted/trusted-11.svg" alt="trusted-11" class="img-fluid" />
+          <img src="img/trusted/trusted-13.svg" alt="trusted-13" class="img-fluid" />
+          <img src="img/trusted/trusted-14.svg" alt="trusted-14" class="img-fluid" />
+          <img src="img/trusted/trusted-15.svg" alt="trusted-15" class="img-fluid" />
+          <img src="img/trusted/trusted-16.svg" alt="trusted-16" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- faq-section section -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="contentWrapper">
+            <h2 class="headingText"  data-aos="fade-up" data-aos-duration="2000">
+              <span class="blueOrangeGradient">Frequently</span> asked
+              questions
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="accordion" id="regularAccordionRobots">
+              <div class="accordion-item">
+                <h2 id="regularHeading1" class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse1" aria-expanded="true" aria-controls="regularCollapse1">
+                    The Mechanics of Mechanics
+                  </button>
+                </h2>
+                <div id="regularCollapse1" class="accordion-collapse collapse show" aria-labelledby="regularHeading1"
+                  data-bs-parent="#regularAccordionRobots">
+                  <div class="accordion-body">
+                    Overview of the basic fundamentals of robot kinesiology,
+                    including rotational motion, laws of thermodynamics,
+                    space, time, and momentum. Students will learn to analyze
+                    and explain workings and gesticulations, identify and
+                    describe metals and fluids at rest and in motion, and
+                    explain the impact that the laws of gravity have on
+                    different forms of energy.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="regularHeading2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse2" aria-expanded="false" aria-controls="regularCollapse2">
+                    The Social Impact of Collective Artificial Intelligence
+                  </button>
+                </h2>
+                <div id="regularCollapse2" class="accordion-collapse collapse" aria-labelledby="regularHeading2"
+                  data-bs-parent="#regularAccordionRobots">
+                  <div class="accordion-body">
+                    Throughout history, robots have both embraced and rejected
+                    the act of working with other robots in a collective.
+                    While science has shown that collective artificial
+                    intelligence helps both intellectual and technological
+                    development, it has also shown that some robots really
+                    want to just be and think by themselves. How do we harness
+                    the benefits of both while avoiding the downfall of each?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="regularHeading3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse3" aria-expanded="false" aria-controls="regularCollapse3">
+                    The Social Impact of Collective Artificial Intelligence
+                  </button>
+                </h2>
+                <div id="regularCollapse3" class="accordion-collapse collapse" aria-labelledby="regularHeading3"
+                  data-bs-parent="#regularAccordionRobots">
+                  <div class="accordion-body">
+                    Throughout history, robots have both embraced and rejected
+                    the act of working with other robots in a collective.
+                    While science has shown that collective artificial
+                    intelligence helps both intellectual and technological
+                    development, it has also shown that some robots really
+                    want to just be and think by themselves. How do we harness
+                    the benefits of both while avoiding the downfall of each?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="regularHeading4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse4" aria-expanded="false" aria-controls="regularCollapse4">
+                    The Social Impact of Collective Artificial Intelligence
+                  </button>
+                </h2>
+                <div id="regularCollapse4" class="accordion-collapse collapse" aria-labelledby="regularHeading4"
+                  data-bs-parent="#regularAccordionRobots">
+                  <div class="accordion-body">
+                    Throughout history, robots have both embraced and rejected
+                    the act of working with other robots in a collective.
+                    While science has shown that collective artificial
+                    intelligence helps both intellectual and technological
+                    development, it has also shown that some robots really
+                    want to just be and think by themselves. How do we harness
+                    the benefits of both while avoiding the downfall of each?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="regularHeading5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse5" aria-expanded="false" aria-controls="regularCollapse5">
+                    The Social Impact of Collective Artificial Intelligence
+                  </button>
+                </h2>
+                <div id="regularCollapse5" class="accordion-collapse collapse" aria-labelledby="regularHeading5"
+                  data-bs-parent="#regularAccordionRobots">
+                  <div class="accordion-body">
+                    Throughout history, robots have both embraced and rejected
+                    the act of working with other robots in a collective.
+                    While science has shown that collective artificial
+                    intelligence helps both intellectual and technological
+                    development, it has also shown that some robots really
+                    want to just be and think by themselves. How do we harness
+                    the benefits of both while avoiding the downfall of each?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="accordion" id="second">
+              <div class="accordion-item">
+                <h2 id="regularHeading6" class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse6" aria-expanded="true" aria-controls="regularCollapse6">
+                    The Mechanics of Mechanics
+                  </button>
+                </h2>
+                <div id="regularCollapse6" class="accordion-collapse collapse show" aria-labelledby="regularHeading6"
+                  data-bs-parent="#second">
+                  <div class="accordion-body">
+                    Overview of the basic fundamentals of robot kinesiology,
+                    including rotational motion, laws of thermodynamics,
+                    space, time, and momentum. Students will learn to analyze
+                    and explain workings and gesticulations, identify and
+                    describe metals and fluids at rest and in motion, and
+                    explain the impact that the laws of gravity have on
+                    different forms of energy.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="regularHeading7">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse7" aria-expanded="false" aria-controls="regularCollapse7">
+                    The Social Impact of Collective Artificial Intelligence
+                  </button>
+                </h2>
+                <div id="regularCollapse7" class="accordion-collapse collapse" aria-labelledby="regularHeading7"
+                  data-bs-parent="#second">
+                  <div class="accordion-body">
+                    Throughout history, robots have both embraced and rejected
+                    the act of working with other robots in a collective.
+                    While science has shown that collective artificial
+                    intelligence helps both intellectual and technological
+                    development, it has also shown that some robots really
+                    want to just be and think by themselves. How do we harness
+                    the benefits of both while avoiding the downfall of each?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="regularHeading8">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse8" aria-expanded="false" aria-controls="regularCollapse8">
+                    The Social Impact of Collective Artificial Intelligence
+                  </button>
+                </h2>
+                <div id="regularCollapse8" class="accordion-collapse collapse" aria-labelledby="regularHeading8"
+                  data-bs-parent="#second">
+                  <div class="accordion-body">
+                    Throughout history, robots have both embraced and rejected
+                    the act of working with other robots in a collective.
+                    While science has shown that collective artificial
+                    intelligence helps both intellectual and technological
+                    development, it has also shown that some robots really
+                    want to just be and think by themselves. How do we harness
+                    the benefits of both while avoiding the downfall of each?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="regularHeading9">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse9" aria-expanded="false" aria-controls="regularCollapse9">
+                    The Social Impact of Collective Artificial Intelligence
+                  </button>
+                </h2>
+                <div id="regularCollapse9" class="accordion-collapse collapse" aria-labelledby="regularHeading9"
+                  data-bs-parent="#second">
+                  <div class="accordion-body">
+                    Throughout history, robots have both embraced and rejected
+                    the act of working with other robots in a collective.
+                    While science has shown that collective artificial
+                    intelligence helps both intellectual and technological
+                    development, it has also shown that some robots really
+                    want to just be and think by themselves. How do we harness
+                    the benefits of both while avoiding the downfall of each?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="regularHeading10">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#regularCollapse10" aria-expanded="false" aria-controls="regularCollapse10">
+                    The Social Impact of Collective Artificial Intelligence
+                  </button>
+                </h2>
+                <div id="regularCollapse10" class="accordion-collapse collapse" aria-labelledby="regularHeading10"
+                  data-bs-parent="#second">
+                  <div class="accordion-body">
+                    Throughout history, robots have both embraced and rejected
+                    the act of working with other robots in a collective.
+                    While science has shown that collective artificial
+                    intelligence helps both intellectual and technological
+                    development, it has also shown that some robots really
+                    want to just be and think by themselves. How do we harness
+                    the benefits of both while avoiding the downfall of each?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- repeat purchases -->
+  <section class="repeat-purchases">
+    <div class="container">
+      <div class="purchases-title">
+        <h2  data-aos="fade-up" data-aos-duration="2000"><span>250K+ sellers helped</span> to achieve their aims</h2>
+      </div>
+      <div class="purchases-slider owl-carousel">
+        <div class="purchases-wrapper">
+          <div class="purchases-img">
+            <img src="img/carrier-integrations/c-1.jpg" alt="c-1" class="img-fluid" />
+          </div>
+          <div class="purchases-content">
+            <h4>Oliver Phillips</h4>
+            <p>
+              ShipXpost has significantly decreased shipping errors.
+              Additionally, integrating my order, importing orders, and
+              shipping goods have all been simpler. I'll suggest it to any
+              e-commerce site!
+            </p>
+          </div>
+        </div>
+        <div class="purchases-wrapper">
+          <div class="purchases-img">
+            <img src="img/carrier-integrations/c-2.jpg" alt="c-2" class="img-fluid" />
+          </div>
+          <div class="purchases-content">
+            <h4>Natasha Carey</h4>
+            <p>
+              ShipXpost has significantly decreased shipping errors.
+              Additionally, integrating my order, importing orders, and
+              shipping goods have all been simpler. I'll suggest it to any
+              e-commerce site!
+            </p>
+          </div>
+        </div>
+        <div class="purchases-wrapper">
+          <div class="purchases-img">
+            <img src="img/carrier-integrations/c-3.jpg" alt="c-3" class="img-fluid" />
+          </div>
+          <div class="purchases-content">
+            <h4>Bethany Johnson</h4>
+            <p>
+              ShipXpost has significantly decreased shipping errors.
+              Additionally, integrating my order, importing orders, and
+              shipping goods have all been simpler. I'll suggest it to any
+              e-commerce site!
+            </p>
+          </div>
+        </div>
+        <div class="purchases-wrapper">
+          <div class="purchases-img">
+            <img src="img/carrier-integrations/c-4.jpg" alt="c-4" class="img-fluid" />
+          </div>
+          <div class="purchases-content">
+            <h4>Erica Kernan</h4>
+            <p>
+              ShipXpost has significantly decreased shipping errors.
+              Additionally, integrating my order, importing orders, and
+              shipping goods have all been simpler. I'll suggest it to any
+              e-commerce site!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer-section">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="footer-content">
+              <img src="img/footer-Logo.svg" alt="footer-Logo" class="img-fluid" />
+              <p>
+                we are india's number 1 shipping solutions provider. Sell,
+                ship, and track with ease by choosing multiple courier
+                partners through one single shipping platform
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="footer-content">
+              <div class="footer-title">
+                <h3>Quick Links</h3>
+              </div>
+              <div class="footer-menus">
+                <ul>
+                  <li><a href="index.html"> Home</a></li>
+                  <li><a href="about.html"> about us</a></li>
+                  <li><a href="Information.html">Information </a></li>
+                  <li><a href="services.html">services</a></li>
+                  <li><a href="contact.html">Contact us </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="footer-content">
+              <div class="footer-title">
+                <h3>Features</h3>
+              </div>
+              <div class="footer-menus">
+                <ul>
+                  <li><a href="login.html"> Login</a></li>
+                  <li><a href="register.html"> Register</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="footer-content">
+              <div class="footer-title">
+                <h3>Information</h3>
+              </div>
+              <div class="footer-menus">
+                <ul>
+                  <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
                   <li>
-                    <a class="dropdown-item" href="domestic-shipping.html"
-                      >Domestic Shipping</a
-                    >
+                    <a href="Refunds-Cancellations.html">
+                      Refunds & Cancellations</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="international-shipping.html"
-                      >International Shipping</a
-                    >
-                  </li>
-                  <!-- <li><a class="dropdown-item" href="#"></a></li> -->
-                  <li>
-                    <a class="dropdown-item" href="b2c_filfillment.html"
-                      >B2C fulfillment</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="b2b_filfillment.html"
-                      >B2B fulfillment</a
-                    >
+                    <a href="Terms-Conditions.html"> Terms & Conditions</a>
                   </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="active-menu"
-                  href="carrier-integrations.html"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Carrier</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class=""
-                  href="contact.html"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-            <a href="login.html" class="login-btn">
-              <img src="img/login.svg" alt="login" class="img-fluid" /> Login/
-              Register
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- baner section -->
-    <section
-      class="Section caseStudyBanner integration gradientBanner carrierIntegration"
-      id="caseStudyBanner"
-    >
-      <div>
-        <div class="leftCards" id="leftCards">
-          <img
-            data-lazyloaded="1"
-            src="img/carrier-integrations/main-right-1.png"
-            width="190"
-            height="190"
-          />
-          <img
-            data-lazyloaded="1"
-            src="img/carrier-integrations/main-right-2.png"
-            width="174"
-            height="174"
-          />
-          <img
-            data-lazyloaded="1"
-            src="img/carrier-integrations/main-right-3.png"
-            width="170"
-            height="170"
-          />
-          <img
-            data-lazyloaded="1"
-            src="img/carrier-integrations/main-right-4.png"
-            width="188"
-            height="188"
-          />
-        </div>
-        <div class="rightCards" id="rightCards">
-          <img
-            data-lazyloaded="1"
-            src="img/carrier-integrations/main-left-1.png"
-            width="152"
-            height="152"
-          />
-          <img
-            data-lazyloaded="1"
-            src="img/carrier-integrations/main-left-2.png"
-            width="152"
-            height="152"
-          />
-          <img
-            data-lazyloaded="1"
-            src="img/carrier-integrations/main-left-3.png"
-            width="196"
-            height="196"
-          />
-          <img
-            data-lazyloaded="1"
-            src="img/carrier-integrations/main-left-4.png"
-            width="194"
-            height="196"
-          />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
-              <div class="contentWrapper">
-                <h1 class="fontSize72">
-                  Native integrations for couriers that redefine reach
-                </h1>
-                <p class="fontSize18">
-                  Our AI-enabled courier recommendation system helps you reach
-                  any corner of the globe with the help of 25+ courier partners
-                  on board.
-                </p>
-                <a
-                  href="#"
-                  class="blueBtn scrollToSection link-click"
-                  rel="noopener"
-                  >See all integrations</a
-                >
               </div>
             </div>
           </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-content">
+              <div class="footer-title">
+                <h3>Information</h3>
+              </div>
+              <div class="footer-info">
+                <input type="email" placeholder="Email address" />
+                <img src="img/Information-email.svg" alt="Information-email" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-end">
+          <img src="img/footer-bottom-bg.svg" alt="" />
         </div>
       </div>
-    </section>
-    <!-- stepModule section -->
-    <section class="Section caseStudyLogos integration carrierIntegration srx">
-      <div class="container">
-        <div class="row">
-          <div class="stepModule">
-            <div class="upperCotentWrapper textCenter">
-              <h2>It's not a choice to only have one option.</h2>
-              <p>
-                It appears to be a stroll in the park to deliver to more than
-                24000 pin codes in India using various courier services.
-              </p>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="logos">
-              <div class="caseStudyLogo">
-                <div class="logo">
-                  <img
-                    data-lazyloaded="1"
-                    src="img/carrier-integrations/crl-1.png"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="content">
-                  <p>
-                    One of the express logistics service providers in India with
-                    the highest rate of expansion is Xpressbees. They specialize
-                    in same-day and next-day delivery, cash on delivery, reverse
-                    pickup, and reverse shipping.
-                  </p>
-                  <div class="option">
-                    <p>Serviceability:</p>
-                    <p>20000 pin codes</p>
-                  </div>
-                  <div class="option">
-                    <p>Cash on delivery:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>Tracking:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>International courier facility:</p>
-                    <p>No</p>
-                  </div>
-                  <div class="option">
-                    <p>Domestic courier facility:</p>
-                    <p>Yes</p>
-                  </div>
-                </div>
-                <div class="link">
-                  <a href="#" class="linkBtn link-click">More Info</a>
-                </div>
-              </div>
-              <div class="caseStudyLogo">
-                <div class="logo">
-                  <img data-lazyloaded="1"
-                  src="img/carrier-integrations/crl-2.png"" class=" img-fluid">
-                </div>
-                <div class="content">
-                  <p>
-                    The fastest-growing courier service in India is Delhivery,
-                    which offers same- and next-day delivery options. Offering
-                    48-96 hour deliveries for long-distance orders, it serves
-                    over 18000 pin codes in India.
-                  </p>
-                  <div class="option">
-                    <p>Serviceability:</p>
-                    <p>18000 pin codes</p>
-                  </div>
-                  <div class="option">
-                    <p>Cash on delivery:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>Tracking:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>International courier facility:</p>
-                    <p>No</p>
-                  </div>
-                  <div class="option">
-                    <p>Domestic courier facility:</p>
-                    <p>Yes</p>
-                  </div>
-                </div>
-                <div class="link">
-                  <a href="#" class="linkBtn link-click">More Info</a>
-                </div>
-              </div>
-              <div class="caseStudyLogo">
-                <div class="logo">
-                  <img data-lazyloaded="1"
-                  src="img/carrier-integrations/crl-3.png"" class=" img-fluid">
-                </div>
-                <div class="content">
-                  <p>
-                    Leading provider of end-to-end logistics services, Ecom
-                    Express provides comprehensive services. It puts a strong
-                    emphasis on customization, scalability, delivery
-                    capabilities, and sustainability.
-                  </p>
-                  <div class="option">
-                    <p>Serviceability:</p>
-                    <p>27000 pin codes</p>
-                  </div>
-                  <div class="option">
-                    <p>Cash on delivery:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>Tracking:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>International courier facility:</p>
-                    <p>No</p>
-                  </div>
-                  <div class="option">
-                    <p>Domestic courier facility:</p>
-                    <p>Yes</p>
-                  </div>
-                </div>
-                <div class="link">
-                  <a href="#" class="linkBtn link-click">More Info</a>
-                </div>
-              </div>
-              <div class="caseStudyLogo">
-                <div class="logo">
-                  <img data-lazyloaded="1"
-                  src="img/carrier-integrations/crl-4.png"" class=" img-fluid">
-                </div>
-                <div class="content">
-                  <p>
-                    Consignments are delivered securely and dependably to more
-                    than 35000 locations in India by Blue Dart Shipping, the top
-                    fast air and integrated transportation & distribution firm
-                    in South Asia.
-                  </p>
-                  <div class="option">
-                    <p>Serviceability:</p>
-                    <p>17000 pin codes</p>
-                  </div>
-                  <div class="option">
-                    <p>Cash on delivery:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>Tracking:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>International courier facility:</p>
-                    <p>No</p>
-                  </div>
-                  <div class="option">
-                    <p>Domestic courier facility:</p>
-                    <p>Yes</p>
-                  </div>
-                </div>
-                <div class="link">
-                  <a href="#" class="linkBtn link-click">More Info</a>
-                </div>
-              </div>
-              <div class="caseStudyLogo">
-                <div class="logo">
-                  <img data-lazyloaded="1"
-                  src="img/carrier-integrations/crl-8.png"" class=" img-fluid">
-                </div>
-                <div class="content">
-                  <p>
-                    Having been established in 1969, DHL is one of the top
-                    international providers of logistics services. DHL eCommerce
-                    offers reliable transit times and customs clearances for its
-                    international standard parcel delivery services.
-                  </p>
-                  <div class="option">
-                    <p>Serviceability:</p>
-                    <p>220+ Countries</p>
-                  </div>
-                  <div class="option">
-                    <p>Cash on delivery:</p>
-                    <p>No</p>
-                  </div>
-                  <div class="option">
-                    <p>Tracking:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>International courier facility:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>Domestic courier facility:</p>
-                    <p>No</p>
-                  </div>
-                </div>
-                <div class="link">
-                  <a href="#" class="linkBtn link-click">More Info</a>
-                </div>
-              </div>
-              <div class="caseStudyLogo">
-                <div class="logo">
-                  <img data-lazyloaded="1"
-                  src="img/carrier-integrations/crl-9.png"" class=" img-fluid">
-                </div>
-                <div class="content">
-                  <p>
-                    As the internal supply chain division of Flipkart, Ekart
-                    Logistics began operations in 2009. With both COD and
-                    prepaid payment options, it delivers to more than 3800 pin
-                    codes in India.
-                  </p>
-                  <div class="option">
-                    <p>Serviceability:</p>
-                    <p>3800 pin codes</p>
-                  </div>
-                  <div class="option">
-                    <p>Cash on delivery:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>Tracking:</p>
-                    <p>Yes</p>
-                  </div>
-                  <div class="option">
-                    <p>International courier facility:</p>
-                    <p>No</p>
-                  </div>
-                  <div class="option">
-                    <p>Domestic courier facility:</p>
-                    <p>Yes</p>
-                  </div>
-                </div>
-                <div class="link">
-                  <a href="#" class="linkBtn link-click">More Info</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>
+  <!-- #page -->
+  <a id="back-to-top" href="#" class="back-to-top-h3"><img src="img/back-to-top.svg" alt="back-to-top"
+      class="img-fluid" /></a>
 
-    <!-- Our Trusted Brand -->
-    <section class="trusted-brand">
-      <div class="container">
-        <div class="trusted-title">
-          <h2>Our Trusted Brand</h2>
-        </div>
-        <div class="trusted-body">
-          <div class="trusted-brand-slider owl-carousel">
-            <img
-              src="img/trusted/trusted-1.svg"
-              alt="trusted-1"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-2.svg"
-              alt="trusted-2"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-3.svg"
-              alt="trusted-3"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-4.svg"
-              alt="trusted-4"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-5.svg"
-              alt="trusted-5"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-6.svg"
-              alt="trusted-6"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-7.svg"
-              alt="trusted-7"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-8.svg"
-              alt="trusted-8"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-9.svg"
-              alt="trusted-9"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-10.svg"
-              alt="trusted-1"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-11.svg"
-              alt="trusted-11"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-13.svg"
-              alt="trusted-13"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-14.svg"
-              alt="trusted-14"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-15.svg"
-              alt="trusted-15"
-              class="img-fluid"
-            />
-            <img
-              src="img/trusted/trusted-16.svg"
-              alt="trusted-16"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/slick-carousel_min.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
 
-    <!-- faq-section section -->
-    <section class="faq-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="contentWrapper">
-              <h2 class="headingText">
-                <span class="blueOrangeGradient">Frequently</span> asked
-                questions
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-12 col-12">
-              <div class="accordion" id="regularAccordionRobots">
-                <div class="accordion-item">
-                  <h2 id="regularHeading1" class="accordion-header">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse1"
-                      aria-expanded="true"
-                      aria-controls="regularCollapse1"
-                    >
-                      The Mechanics of Mechanics
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse1"
-                    class="accordion-collapse collapse show"
-                    aria-labelledby="regularHeading1"
-                    data-bs-parent="#regularAccordionRobots"
-                  >
-                    <div class="accordion-body">
-                      Overview of the basic fundamentals of robot kinesiology,
-                      including rotational motion, laws of thermodynamics,
-                      space, time, and momentum. Students will learn to analyze
-                      and explain workings and gesticulations, identify and
-                      describe metals and fluids at rest and in motion, and
-                      explain the impact that the laws of gravity have on
-                      different forms of energy.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="regularHeading2">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse2"
-                      aria-expanded="false"
-                      aria-controls="regularCollapse2"
-                    >
-                      The Social Impact of Collective Artificial Intelligence
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse2"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="regularHeading2"
-                    data-bs-parent="#regularAccordionRobots"
-                  >
-                    <div class="accordion-body">
-                      Throughout history, robots have both embraced and rejected
-                      the act of working with other robots in a collective.
-                      While science has shown that collective artificial
-                      intelligence helps both intellectual and technological
-                      development, it has also shown that some robots really
-                      want to just be and think by themselves. How do we harness
-                      the benefits of both while avoiding the downfall of each?
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="regularHeading3">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse3"
-                      aria-expanded="false"
-                      aria-controls="regularCollapse3"
-                    >
-                      The Social Impact of Collective Artificial Intelligence
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse3"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="regularHeading3"
-                    data-bs-parent="#regularAccordionRobots"
-                  >
-                    <div class="accordion-body">
-                      Throughout history, robots have both embraced and rejected
-                      the act of working with other robots in a collective.
-                      While science has shown that collective artificial
-                      intelligence helps both intellectual and technological
-                      development, it has also shown that some robots really
-                      want to just be and think by themselves. How do we harness
-                      the benefits of both while avoiding the downfall of each?
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="regularHeading4">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse4"
-                      aria-expanded="false"
-                      aria-controls="regularCollapse4"
-                    >
-                      The Social Impact of Collective Artificial Intelligence
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse4"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="regularHeading4"
-                    data-bs-parent="#regularAccordionRobots"
-                  >
-                    <div class="accordion-body">
-                      Throughout history, robots have both embraced and rejected
-                      the act of working with other robots in a collective.
-                      While science has shown that collective artificial
-                      intelligence helps both intellectual and technological
-                      development, it has also shown that some robots really
-                      want to just be and think by themselves. How do we harness
-                      the benefits of both while avoiding the downfall of each?
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="regularHeading5">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse5"
-                      aria-expanded="false"
-                      aria-controls="regularCollapse5"
-                    >
-                      The Social Impact of Collective Artificial Intelligence
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse5"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="regularHeading5"
-                    data-bs-parent="#regularAccordionRobots"
-                  >
-                    <div class="accordion-body">
-                      Throughout history, robots have both embraced and rejected
-                      the act of working with other robots in a collective.
-                      While science has shown that collective artificial
-                      intelligence helps both intellectual and technological
-                      development, it has also shown that some robots really
-                      want to just be and think by themselves. How do we harness
-                      the benefits of both while avoiding the downfall of each?
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-12">
-              <div class="accordion" id="second">
-                <div class="accordion-item">
-                  <h2 id="regularHeading6" class="accordion-header">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse6"
-                      aria-expanded="true"
-                      aria-controls="regularCollapse6"
-                    >
-                      The Mechanics of Mechanics
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse6"
-                    class="accordion-collapse collapse show"
-                    aria-labelledby="regularHeading6"
-                    data-bs-parent="#second"
-                  >
-                    <div class="accordion-body">
-                      Overview of the basic fundamentals of robot kinesiology,
-                      including rotational motion, laws of thermodynamics,
-                      space, time, and momentum. Students will learn to analyze
-                      and explain workings and gesticulations, identify and
-                      describe metals and fluids at rest and in motion, and
-                      explain the impact that the laws of gravity have on
-                      different forms of energy.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="regularHeading7">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse7"
-                      aria-expanded="false"
-                      aria-controls="regularCollapse7"
-                    >
-                      The Social Impact of Collective Artificial Intelligence
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse7"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="regularHeading7"
-                    data-bs-parent="#second"
-                  >
-                    <div class="accordion-body">
-                      Throughout history, robots have both embraced and rejected
-                      the act of working with other robots in a collective.
-                      While science has shown that collective artificial
-                      intelligence helps both intellectual and technological
-                      development, it has also shown that some robots really
-                      want to just be and think by themselves. How do we harness
-                      the benefits of both while avoiding the downfall of each?
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="regularHeading8">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse8"
-                      aria-expanded="false"
-                      aria-controls="regularCollapse8"
-                    >
-                      The Social Impact of Collective Artificial Intelligence
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse8"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="regularHeading8"
-                    data-bs-parent="#second"
-                  >
-                    <div class="accordion-body">
-                      Throughout history, robots have both embraced and rejected
-                      the act of working with other robots in a collective.
-                      While science has shown that collective artificial
-                      intelligence helps both intellectual and technological
-                      development, it has also shown that some robots really
-                      want to just be and think by themselves. How do we harness
-                      the benefits of both while avoiding the downfall of each?
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="regularHeading9">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse9"
-                      aria-expanded="false"
-                      aria-controls="regularCollapse9"
-                    >
-                      The Social Impact of Collective Artificial Intelligence
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse9"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="regularHeading9"
-                    data-bs-parent="#second"
-                  >
-                    <div class="accordion-body">
-                      Throughout history, robots have both embraced and rejected
-                      the act of working with other robots in a collective.
-                      While science has shown that collective artificial
-                      intelligence helps both intellectual and technological
-                      development, it has also shown that some robots really
-                      want to just be and think by themselves. How do we harness
-                      the benefits of both while avoiding the downfall of each?
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="regularHeading10">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#regularCollapse10"
-                      aria-expanded="false"
-                      aria-controls="regularCollapse10"
-                    >
-                      The Social Impact of Collective Artificial Intelligence
-                    </button>
-                  </h2>
-                  <div
-                    id="regularCollapse10"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="regularHeading10"
-                    data-bs-parent="#second"
-                  >
-                    <div class="accordion-body">
-                      Throughout history, robots have both embraced and rejected
-                      the act of working with other robots in a collective.
-                      While science has shown that collective artificial
-                      intelligence helps both intellectual and technological
-                      development, it has also shown that some robots really
-                      want to just be and think by themselves. How do we harness
-                      the benefits of both while avoiding the downfall of each?
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+</body>
 
-    <!-- repeat purchases -->
-    <section class="repeat-purchases">
-      <div class="container">
-        <div class="purchases-title">
-          <h2><span>250K+ sellers helped</span> to achieve their aims</h2>
-        </div>
-        <div class="purchases-slider owl-carousel">
-          <div class="purchases-wrapper">
-            <div class="purchases-img">
-              <img
-                src="img/carrier-integrations/c-1.jpg"
-                alt="c-1"
-                class="img-fluid"
-              />
-            </div>
-            <div class="purchases-content">
-              <h4>Oliver Phillips</h4>
-              <p>
-                ShipXpost has significantly decreased shipping errors.
-                Additionally, integrating my order, importing orders, and
-                shipping goods have all been simpler. I'll suggest it to any
-                e-commerce site!
-              </p>
-            </div>
-          </div>
-          <div class="purchases-wrapper">
-            <div class="purchases-img">
-              <img
-                src="img/carrier-integrations/c-2.jpg"
-                alt="c-2"
-                class="img-fluid"
-              />
-            </div>
-            <div class="purchases-content">
-              <h4>Natasha Carey</h4>
-              <p>
-                ShipXpost has significantly decreased shipping errors.
-                Additionally, integrating my order, importing orders, and
-                shipping goods have all been simpler. I'll suggest it to any
-                e-commerce site!
-              </p>
-            </div>
-          </div>
-          <div class="purchases-wrapper">
-            <div class="purchases-img">
-              <img
-                src="img/carrier-integrations/c-3.jpg"
-                alt="c-3"
-                class="img-fluid"
-              />
-            </div>
-            <div class="purchases-content">
-              <h4>Bethany Johnson</h4>
-              <p>
-                ShipXpost has significantly decreased shipping errors.
-                Additionally, integrating my order, importing orders, and
-                shipping goods have all been simpler. I'll suggest it to any
-                e-commerce site!
-              </p>
-            </div>
-          </div>
-          <div class="purchases-wrapper">
-            <div class="purchases-img">
-              <img
-                src="img/carrier-integrations/c-4.jpg"
-                alt="c-4"
-                class="img-fluid"
-              />
-            </div>
-            <div class="purchases-content">
-              <h4>Erica Kernan</h4>
-              <p>
-                ShipXpost has significantly decreased shipping errors.
-                Additionally, integrating my order, importing orders, and
-                shipping goods have all been simpler. I'll suggest it to any
-                e-commerce site!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <section class="footer-section">
-      <div class="container">
-        <div class="footer-inner">
-          <div class="row">
-            <div class="col-lg-3">
-              <div class="footer-content">
-                <img
-                  src="img/footer-Logo.svg"
-                  alt="footer-Logo"
-                  class="img-fluid"
-                />
-                <p>
-                  we are india's number 1 shipping solutions provider. Sell,
-                  ship, and track with ease by choosing multiple courier
-                  partners through one single shipping platform
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Quick Links</h3>
-                </div>
-                <div class="footer-menus">
-                  <ul>
-                    <li><a href="index.html"> Home</a></li>
-                    <li><a href="about.html"> about us</a></li>
-                    <li><a href="Information.html">Information </a></li>
-                    <li><a href="services.html">services</a></li>
-                    <li><a href="contact.html">Contact us </a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Features</h3>
-                </div>
-                <div class="footer-menus">
-                  <ul>
-                    <li><a href="login.html"> Login</a></li>
-                    <li><a href="register.html"> Register</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Information</h3>
-                </div>
-                <div class="footer-menus">
-                  <ul>
-                    <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
-                    <li>
-                      <a href="Refunds-Cancellations.html">
-                        Refunds & Cancellations</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Terms-Conditions.html"> Terms & Conditions</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Information</h3>
-                </div>
-                <div class="footer-info">
-                  <input type="email" placeholder="Email address" />
-                  <img
-                    src="img/Information-email.svg"
-                    alt="Information-email"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer-end">
-            <img src="img/footer-bottom-bg.svg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- #page -->
-    <a id="back-to-top" href="#" class="back-to-top-h3"
-      ><img src="img/back-to-top.svg" alt="back-to-top" class="img-fluid"
-    /></a>
-
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/slick-carousel_min.js"></script>
-  </body>
 </html>
