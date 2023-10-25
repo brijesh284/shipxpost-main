@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.company-card-content.text-center h1 {
+  font-size: 52px !important;
+}
+
 .headerOne.gradientBanner:before {
   content: "";
   position: absolute;
@@ -21,22 +25,6 @@
   z-index: 1;
 }
 
-/* .headerOne.gradientBanner:after {
-    transform: rotate(-3deg);
-    bottom: -50px;
-    right: -5px;
-    z-index: 0;
-    width: 102%;
-    height: 100px;
-    background: linear-gradient(
-        0deg,
-        #d2ddf3 -14.39%,
-        rgba(226, 234, 247, 0.67) 47.39%,
-        rgba(255, 255, 255, 0.1) 97.67%
-      );
-    position: absolute;
-    content: "";
-} */
 .imageWrapper img {
   max-width: 120%;
 }
