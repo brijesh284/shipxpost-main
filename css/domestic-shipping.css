@@ -12,7 +12,7 @@
 .company-card-content.text-center h1 {
   font-size: 52px !important;
 }
-
+/* 
 .headerOne.gradientBanner:before {
   content: "";
   position: absolute;
@@ -23,7 +23,7 @@
   height: 20%;
   top: -60px;
   z-index: 1;
-}
+} */
 
 .imageWrapper img {
   max-width: 120%;
@@ -67,7 +67,7 @@
 }
 
 .contentWithCards.twoGridLayout.largeHeading {
-  padding: 80px 0 80px;
+  padding: 0 0 80px;
 }
 
 .contentWrapper .headingAboveText {

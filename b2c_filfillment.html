@@ -301,7 +301,7 @@
                 convinces them to make a purchase right away.
               </p>
             </div>
-            <div class="banner-wrap-btn"  data-aos="fade-up" data-aos-duration="2400">
+            <div class="banner-wrap-btn" data-aos="fade-up" data-aos-duration="2400">
               <a href="#" class="read-btn">Read more</a>
             </div>
           </div>
@@ -321,7 +321,7 @@
     <div class="container">
       <div class="row">
         <div class="request">
-          <h1  data-aos="fade-up" data-aos-duration="500">Request a call back
+          <h1 data-aos="fade-up" data-aos-duration="500">Request a call back
           </h1>
           <form class="input-div">
             <div class="form-detail">
@@ -352,7 +352,113 @@
           </form>
         </div>
       </div>
-  </section>
+  </section class="tab-btn">
+  <div class="container">
+    <!-- nav and tab section -->
+    <div class="wrapper">
+
+      <div class="tab-wrapper">
+        <ul class="tabs">
+          <li class="tab-link active" data-tab="1">Phool</li>
+          <li class="tab-link" data-tab="2">Tasya</li>
+          <li class="tab-link" data-tab="3">coffees</li>
+          <li class="tab-link" data-tab="4">Homemade Love</li>
+        </ul>
+      </div>
+
+      <div class="content-wrapper">
+
+        <div id="tab-1" class="tab-content active">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="tab-para">
+                  <p>Coming from a tier 2 city like Kanpur we found it very difficult to deliver
+                    orders on time. Shiprocket helped us stock our products in multiple warehouses across the country
+                    which helped
+                    us in decreasing our delivery timelines.</p>
+                  <pre>Santosh Kakkirala- Manager, Operations</pre>
+
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tab-img-div">
+                  <img src="img/B2C fulfillment/Coming.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div id="tab-2" class="tab-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="tab-para">
+                  <p>Coming from a tier 2 city like Kanpur we found it very difficult to deliver
+                    orders on time. Shiprocket helped us stock our products in multiple warehouses across the country
+                    which helped
+                    us in decreasing our delivery timelines.</p>
+                  <pre>Santosh Kakkirala- Manager, Operations</pre>
+
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tab-img-div">
+                  <img src="img/B2C fulfillment/cost.png" alt="">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tab-3" class="tab-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="tab-para">
+                  <p>Coming from a tier 2 city like Kanpur we found it very difficult to deliver
+                    orders on time. Shiprocket helped us stock our products in multiple warehouses across the country
+                    which helped
+                    us in decreasing our delivery timelines.</p>
+                  <pre>Santosh Kakkirala- Manager, Operations</pre>
+
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tab-img-div">
+                  <img src="img/B2C fulfillment/coffees.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tab-4" class="tab-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="tab-para">
+                  <p>Coming from a tier 2 city like Kanpur we found it very difficult to deliver
+                    orders on time. Shiprocket helped us stock our products in multiple warehouses across the country
+                    which helped
+                    us in decreasing our delivery timelines.</p>
+                  <pre>Santosh Kakkirala- Manager, Operations</pre>
+
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tab-img-div">
+                  <img src="img/B2C fulfillment/coffees.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
   <!-- slider section -->
 
   <section class="slide-option">
@@ -408,14 +514,15 @@
     </div>
   </section>
 
+
   <!-- know more section -->
   <section class=" knowmore-section">
     <div class="container-fluid">
       <div class="row align-items-center know-more-detail">
         <div class="col-lg-8">
           <div class="knowmore-contain">
-            <div class="know_more"  data-aos="fade-up" data-aos-duration="1000">
-              <h2 >Want to know more?</h2>
+            <div class="know_more" data-aos="fade-up" data-aos-duration="1000">
+              <h2>Want to know more?</h2>
               <p>
                 Manage All Channels In A Single View Andreach Nationwide
                 Efficiently With AI-Basedcourier Selection
@@ -430,9 +537,24 @@
             <img src="img/B2C fulfillment/know-more.jpg" alt="" />
           </div>
         </div>
+        <div class="area">
+          <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
+
 
   <!-- Footer -->
   <section class="footer-section one-footer">
@@ -595,6 +717,13 @@
       duration: 1000,
     });
 
+  </script>
+  <script>
+    $('.tab-link').click(function () {
+      var tabID = $(this).attr('data-tab');
+      $(this).addClass('active').siblings().removeClass('active');
+      $('#tab-' + tabID).addClass('active').siblings().removeClass('active');
+    });
   </script>
 </body>
 
