@@ -335,7 +335,7 @@ body {
 .trusted-brand .trusted-title h2 {
   color: #070330;
   font-family: Cambon-SemiBold;
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 28px;
   position: relative;
   display: inline-block;
@@ -2255,7 +2255,11 @@ input[type="radio"]:checked + label span {
 
 /* width */
 ::-webkit-scrollbar {
+<<<<<<< HEAD
   width: 10px;
+=======
+  width: 5px;
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
 }
 
 /* Track */
@@ -2265,19 +2269,33 @@ input[type="radio"]:checked + label span {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
+<<<<<<< HEAD
   background: #534064;
 }
 
 .area{
+=======
+  background: #0048d9;
+}
+
+.area {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   /* background: #4e54c8;  
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
   width: 100%;
   height:100vh;
    */
+<<<<<<< HEAD
  z-index: -1;
 }
 
 .circles{
+=======
+  z-index: -1;
+}
+
+.circles {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   position: absolute;
   top: 0;
   left: 0;
@@ -2286,7 +2304,11 @@ input[type="radio"]:checked + label span {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 .circles li{
+=======
+.circles li {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   position: absolute;
   display: block;
   list-style: none;
@@ -2296,18 +2318,28 @@ input[type="radio"]:checked + label span {
   background: #0000ff36;
   animation: animate 25s linear infinite;
   bottom: -150px;
+<<<<<<< HEAD
   
 }
 
 .circles li:nth-child(1){
+=======
+}
+
+.circles li:nth-child(1) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 25%;
   width: 80px;
   height: 80px;
   animation-delay: 0s;
 }
 
+<<<<<<< HEAD
 
 .circles li:nth-child(2){
+=======
+.circles li:nth-child(2) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 10%;
   width: 20px;
   height: 20px;
@@ -2315,14 +2347,22 @@ input[type="radio"]:checked + label span {
   animation-duration: 12s;
 }
 
+<<<<<<< HEAD
 .circles li:nth-child(3){
+=======
+.circles li:nth-child(3) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 70%;
   width: 20px;
   height: 20px;
   animation-delay: 4s;
 }
 
+<<<<<<< HEAD
 .circles li:nth-child(4){
+=======
+.circles li:nth-child(4) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 40%;
   width: 60px;
   height: 60px;
@@ -2330,28 +2370,44 @@ input[type="radio"]:checked + label span {
   animation-duration: 18s;
 }
 
+<<<<<<< HEAD
 .circles li:nth-child(5){
+=======
+.circles li:nth-child(5) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 65%;
   width: 20px;
   height: 20px;
   animation-delay: 0s;
 }
 
+<<<<<<< HEAD
 .circles li:nth-child(6){
+=======
+.circles li:nth-child(6) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 75%;
   width: 110px;
   height: 110px;
   animation-delay: 3s;
 }
 
+<<<<<<< HEAD
 .circles li:nth-child(7){
+=======
+.circles li:nth-child(7) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 35%;
   width: 150px;
   height: 150px;
   animation-delay: 7s;
 }
 
+<<<<<<< HEAD
 .circles li:nth-child(8){
+=======
+.circles li:nth-child(8) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 50%;
   width: 25px;
   height: 25px;
@@ -2359,7 +2415,11 @@ input[type="radio"]:checked + label span {
   animation-duration: 45s;
 }
 
+<<<<<<< HEAD
 .circles li:nth-child(9){
+=======
+.circles li:nth-child(9) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 20%;
   width: 15px;
   height: 15px;
@@ -2367,7 +2427,11 @@ input[type="radio"]:checked + label span {
   animation-duration: 35s;
 }
 
+<<<<<<< HEAD
 .circles li:nth-child(10){
+=======
+.circles li:nth-child(10) {
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
   left: 85%;
   width: 150px;
   height: 150px;
@@ -2375,6 +2439,7 @@ input[type="radio"]:checked + label span {
   animation-duration: 11s;
 }
 
+<<<<<<< HEAD
 
 
 @keyframes animate {
@@ -2391,6 +2456,20 @@ input[type="radio"]:checked + label span {
       border-radius: 50%;
   }
 
+=======
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
 }
 /* slider start */
 
@@ -2429,7 +2508,11 @@ input[type="radio"]:checked + label span {
 }
 
 section.slide-option {
+<<<<<<< HEAD
   margin: 30px 0 50px 0;
+=======
+  margin: 30px 0 0px 0;
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
 }
 
 section.slide-option .no-marg {
@@ -2471,7 +2554,11 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 #infinite div.highway-barrier ul.highway-lane li.highway-car span img {
+<<<<<<< HEAD
   max-width: 110px;
+=======
+  max-width: 140px;
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
 }
 
 @-webkit-keyframes translatestf {
@@ -2521,7 +2608,11 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 #infinite div.highway-barrier {
   background: transparent;
+<<<<<<< HEAD
   box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.3);
+=======
+  /* box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.3); */
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
 }
 
 #infinite div.highway-barrier::before,
@@ -2538,7 +2629,11 @@ div.highway-slider ul.highway-lane li.highway-car {
   left: 0;
   background: linear-gradient(
     to right,
+<<<<<<< HEAD
     #ffffff 0%,
+=======
+    #dde5f6 0%,
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
     rgba(255, 255, 255, 0) 100%
   );
 }
@@ -2546,7 +2641,11 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier::after {
   top: 0;
   right: 0;
+<<<<<<< HEAD
   background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+=======
+  background: linear-gradient(to left, #dde5f6 0%, rgba(255, 255, 255, 0) 100%);
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
 }
 
 #infinite div.highway-barrier ul.highway-lane {
@@ -2565,7 +2664,13 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 /* slider end */
 
+<<<<<<< HEAD
 
 .trusted-brand .trusted-title h2.aos-init.aos-animate {
   margin-bottom: 0;
 }
+=======
+.trusted-brand .trusted-title h2.aos-init.aos-animate {
+  margin-bottom: 0;
+}
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375

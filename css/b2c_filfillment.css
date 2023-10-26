@@ -75,7 +75,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 #infinite div.highway-barrier ul.highway-lane li.highway-car span img {
-  max-width: 110px;
+  max-width: 140px;
 }
 
 @-webkit-keyframes translatestf {
@@ -125,7 +125,6 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 #infinite div.highway-barrier {
   background: transparent;
-  box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.3);
 }
 
 #infinite div.highway-barrier::before,
@@ -140,15 +139,23 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier::before {
   top: 0;
   left: 0;
+<<<<<<< HEAD
   background: linear-gradient(to right,
       #ffffff 0%,
       rgba(255, 255, 255, 0) 100%);
+=======
+  background: linear-gradient(
+    to right,
+    #dee6f6  0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+>>>>>>> 458613c350028d67f1e60fa35be63ba313dbb375
 }
 
 #infinite div.highway-barrier::after {
   top: 0;
   right: 0;
-  background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to left, #dee6f6  0%, rgba(255, 255, 255, 0) 100%);
 }
 
 #infinite div.highway-barrier ul.highway-lane {
