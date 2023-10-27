@@ -24,7 +24,10 @@
 .banner-wrap-btn.get_started {
     margin: 0px 0 30px !important;
 }
-
+div#accordionExample .accordion-item {
+    border-radius: 10px;
+    overflow: hidden;
+}
 .per_detail {
     max-width: 80%;
     margin: auto;
@@ -123,6 +126,9 @@ h1.Inbuilt {
     margin-bottom: 16px;
 }
 
+.per_detail.text-center h1 {
+    font-weight: bold !important;
+}
 h1.faq_head span {
     color: blue;
 }
@@ -134,7 +140,7 @@ h1.faq_head span {
 h1.faq_head {
     color: #070330;
     font-family: Cambon-SemiBold;
-    font-size: 48px;
+    font-size: 58px;
     margin-bottom: 40px;
     text-align: left !important;
 }

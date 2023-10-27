@@ -1,96 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShipXPost - e-Commerce-Plugins</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ShipXPost - e-Commerce-Plugins</title>
-  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/domestic-shipping.css" />
+    <link rel="stylesheet" href="css/e-Commerce-Plugins.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css"
+    />
+  </head>
 
-  <link rel="stylesheet" href="css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/domestic-shipping.css" />
-  <link rel="stylesheet" href="css/e-Commerce-Plugins.css" />
-  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
-
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg header-wrap header-sticky">
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg header-wrap header-sticky">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="img/Logo.svg" alt="logo" class="img-fluid"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30px"
+                viewBox="0 0 448 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto header-menu-wrap">
+              <li class="nav-item">
+                <a class="" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="about.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="domestic-shipping.html"
+                      >Domestic Shipping</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="international-shipping.html"
+                      >International Shipping</a
+                    >
+                  </li>
+                  <!-- <li><a class="dropdown-item" href="#"></a></li> -->
+                  <li>
+                    <a class="dropdown-item" href="b2c_filfillment.html"
+                      >B2C fulfillment</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="b2b_filfillment.html"
+                      >B2B fulfillment</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class=""
+                  href="carrier-integrations.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Carrier</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class=""
+                  href="contact.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <a href="login.html" class="login-btn">
+              <img src="img/login.svg" alt="login" class="img-fluid" /> Login/
+              Register
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Banner-section -->
+    <!-- Banner-section -->
+    <section class="section-hero">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/Logo.svg" alt="logo" class="img-fluid" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 448 512">
-              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-              <path
-                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-            </svg>
-          </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto header-menu-wrap">
-            <li class="nav-item">
-              <a class="" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="" href="about.html">About us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="domestic-shipping.html">Domestic Shipping</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="international-shipping.html">International Shipping</a>
-                </li>
-                <!-- <li><a class="dropdown-item" href="#"></a></li> -->
-                <li>
-                  <a class="dropdown-item" href="b2c_filfillment.html">B2C fulfillment</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="b2b_filfillment.html">B2B fulfillment</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="" href="carrier-integrations.html" tabindex="-1" aria-disabled="true">Carrier</a>
-            </li>
-            <li class="nav-item">
-              <a class="" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
-            </li>
-          </ul>
-          <a href="login.html" class="login-btn">
-            <img src="img/login.svg" alt="login" class="img-fluid" /> Login/
-            Register
-          </a>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- Banner-section -->
-  <!-- Banner-section -->
-  <section class="section-hero">
-    <div class="container">
-      <div class="hero Self">
-        <div class="hero-text-box">
-          <h1 class="heading-primary" data-aos="fade-up" data-aos-duration="2000">Self-ship + ShipXPost on Amazon</h1>
-          <p class="hero-description" data-aos="fade-up" data-aos-duration="2200">
-            Send your Amazon orders at the best prices using a variety of
-            courier services.
-          </p>
-          <a href="#" class="blueBtn link-click" data-aos="fade-up" data-aos-duration="2400">Start Now </a>
-        </div>
-        <div class="hero-img-box">
-          <img src="img/e-Commerce-Plugins/Online shopping-pana.png" alt="shipping-imagers" class="hero-img" />
-        </div>
-        <!-- <div class="delivered-meals">
+        <div class="hero Self">
+          <div class="hero-text-box">
+            <h1
+              class="heading-primary"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              Self-ship + ShipXPost on Amazon
+            </h1>
+            <p
+              class="hero-description"
+              data-aos="fade-up"
+              data-aos-duration="2200"
+            >
+              Send your Amazon orders at the best prices using a variety of
+              courier services.
+            </p>
+            <a
+              href="#"
+              class="blueBtn link-click"
+              data-aos="fade-up"
+              data-aos-duration="2400"
+              >Start Now
+            </a>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/e-Commerce-Plugins/Online shopping-pana.png"
+              alt="shipping-imagers"
+              class="hero-img"
+            />
+          </div>
+          <!-- <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img src="https://prayagtandon.github.io/Omnifood-Project/Hero-section/img/customers/customer-1.jpg" alt="Customer photo" />
                 <img src="https://prayagtandon.github.io/Omnifood-Project/Hero-section/img/customers/customer-2.jpg" alt="Customer photo" />
@@ -103,329 +165,456 @@
                 <span>250,000+</span> items that were delivered last year!
               </p>
             </div> -->
-      </div>
-    </div>
-  </section>
-  <!-- content with cards section -->
-  <section class="Section contentWithCards withOutBG twoGridLayout threeGidLayout largeHeading">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="contentWrapper">
-            <div class="upperWrap">
-              <h3 class="headingAboveText" data-aos="fade-up" data-aos-duration="2000">Technology-driven</h3>
-              <h2 class="headingText">
-                <span class="blueOrangeGradient" data-aos="fade-up" data-aos-duration="2200">Simplify Shipping with
-                  Powerful Tools.</span>
-              </h2>
-              <p class="content"></p>
-            </div>
-            <div class="cards">
-              <ul>
-                <li>
-                  <div class="iconWrap">
-                    <img data-lazyloaded="1" src="img/domestic-shipping/seamless.png" />
-                  </div>
-                  <h3>seamless integration of channels</h3>
-                  <p class="content">
-                    Sync all of your orders and inventory by integrating all
-                    of your online carts and marketplaces.
-                  </p>
-                  <a href="#" class="linkBtn link-click">Learn more </a>
-                </li>
-                <li>
-                  <div class="iconWrap">
-                    <img data-lazyloaded="1" src="img/domestic-shipping/courier.png" />
-                  </div>
-                  <h3>A suggestion engine for couriers</h3>
-                  <p class="content">
-                    Increase the effectiveness of your deliveries by using an
-                    AI-recommended courier.
-                  </p>
-                  <a href="#" target="_blank" class="linkBtn link-click">Learn more
-                  </a>
-                </li>
-                <li>
-                  <div class="iconWrap">
-                    <img data-lazyloaded="1" src="img/domestic-shipping/border.png" />
-                  </div>
-                  <h3>bulk generation of orders</h3>
-                  <p class="content">
-                    Easily manage order surges by adding numerous orders at
-                    once.
-                  </p>
-                  <a href="#" class="linkBtn link-click">Learn more </a>
-                </li>
-                <li>
-                  <div class="iconWrap">
-                    <img data-lazyloaded="1" src="img/domestic-shipping/document.png" />
-                  </div>
-                  <h3>Self-attestation</h3>
-                  <p class="content">
-                    Our system expedites the shipping process by automatically
-                    creating manifests and invoices.
-                  </p>
-                  <a href="#" class="linkBtn link-click">Learn more </a>
-                </li>
-                <li>
-                  <div class="iconWrap">
-                    <img data-lazyloaded="1" src="img/domestic-shipping/calculator.png" />
-                  </div>
-                  <h3>Calculate shipping rates</h3>
-                  <p class="content">
-                    Calculate shipping costs based on the pin codes of the
-                    origin and destination, weight, and dimensions.
-                  </p>
-                  <a href="#" class="linkBtn link-click">Learn more </a>
-                </li>
-                <li>
-                  <div class="iconWrap">
-                    <img data-lazyloaded="1" src="img/domestic-shipping/personality.png" />
-                  </div>
-                  <h3>Astute NDR resolution</h3>
-                  <p class="content">
-                    Use our AI assistant to automate delivery validation and
-                    make more successful retries.
-                  </p>
-                  <a href="#" class="linkBtn link-click">Learn more </a>
-                </li>
-                <li>
-                  <div class="iconWrap">
-                    <img data-lazyloaded="1" src="img/domestic-shipping/seamless.png" />
-                  </div>
-                  <h3>seamless integration of channels</h3>
-                  <p class="content">
-                    Sync all of your orders and inventory by integrating all
-                    of your online carts and marketplaces.
-                  </p>
-                  <a href="#" class="linkBtn link-click">Learn more </a>
-                </li>
-                <li>
-                  <div class="iconWrap">
-                    <img data-lazyloaded="1" src="img/domestic-shipping/border.png" />
-                  </div>
-                  <h3>bulk generation of orders</h3>
-                  <p class="content">
-                    Easily manage order surges by adding numerous orders at
-                    once.
-                  </p>
-                  <a href="#" class="linkBtn link-click">Learn more </a>
-                </li>
-                <li>
-                  <div class="iconWrap">
-                    <img data-lazyloaded="1" src="img/domestic-shipping/document.png" />
-                  </div>
-                  <h3>Self-attestation</h3>
-                  <p class="content">
-                    Our system expedites the shipping process by automatically
-                    creating manifests and invoices.
-                  </p>
-                  <a href="#" class="linkBtn link-click">Learn more </a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- world wide section -->
-  <section class="Section uppperHeadingContent">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="contentImageWrapper">
-            <div class="contentWrapper">
-              <h3 class="headingText" data-aos="fade-up" data-aos-duration="2000">
-                Advantages of self-shipping on Amazon
-              </h3>
-              <ul class="content">
-                <li>
-                  Easy Amazon shipping & adaptable return order handling
-                </li>
-                <li>
-                  order tracking and inventory management that is seamless
-                </li>
-                <li>
-                  zero reliance on Amazon for shipping, receiving, or sending
-                  money
-                </li>
-                <li>order processing done at your convenience</li>
-                <li>orders for pickup from various locations</li>
-                <li>Reduce returns and cancellations.</li>
-              </ul>
-            </div>
-            <div class="imageWrapper">
-              <img data-lazyloaded="1" src="img/international-shipping/map-globe-1.svg" width="1056" height="865"
-                class="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Our Trusted Brand -->
-  <section class="trusted-brand">
-    <div class="container">
-      <div class="trusted-title">
-        <h2 data-aos="fade-up" data-aos-duration="1000">Our Trusted Brand</h2>
-      </div>
-      <div class="trusted-body">
-        <div class="trusted-brand-slider owl-carousel">
-          <img src="img/trusted/trusted-1.svg" alt="trusted-1" class="img-fluid" />
-          <img src="img/trusted/trusted-2.svg" alt="trusted-2" class="img-fluid" />
-          <img src="img/trusted/trusted-3.svg" alt="trusted-3" class="img-fluid" />
-          <img src="img/trusted/trusted-4.svg" alt="trusted-4" class="img-fluid" />
-          <img src="img/trusted/trusted-5.svg" alt="trusted-5" class="img-fluid" />
-          <img src="img/trusted/trusted-6.svg" alt="trusted-6" class="img-fluid" />
-          <img src="img/trusted/trusted-7.svg" alt="trusted-7" class="img-fluid" />
-          <img src="img/trusted/trusted-8.svg" alt="trusted-8" class="img-fluid" />
-          <img src="img/trusted/trusted-9.svg" alt="trusted-9" class="img-fluid" />
-          <img src="img/trusted/trusted-10.svg" alt="trusted-1" class="img-fluid" />
-          <img src="img/trusted/trusted-11.svg" alt="trusted-11" class="img-fluid" />
-          <img src="img/trusted/trusted-13.svg" alt="trusted-13" class="img-fluid" />
-          <img src="img/trusted/trusted-14.svg" alt="trusted-14" class="img-fluid" />
-          <img src="img/trusted/trusted-15.svg" alt="trusted-15" class="img-fluid" />
-          <img src="img/trusted/trusted-16.svg" alt="trusted-16" class="img-fluid" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- company card -->
-  <section class="company-card sec-company-card">
-    <div class="container">
-      <div class="company-card-inner">
-        <div class="row align-items-center">
-          <div class="col-md-7">
-            <div class="company-card-content">
-              <h1 data-aos="fade-up" data-aos-duration="2000">
-                <span>From anyplace </span><br />
-                to anyplace
-              </h1>
-              <p data-aos="fade-up" data-aos-duration="2200">
-                With our multi-courier network spanning over 45,000 pin codes,
-                you can accept orders from even the most remote locations.
-              </p>
-              <a href="carrier-integrations.html" data-aos="fade-up" data-aos-duration="2400">Get Started</a>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <img src="img/e-Commerce-Plugins/trade-768x602.png" alt="plane" class="img-fluid" />
-          </div>
-          <div class="area">
-            <ul class="circles">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Footer -->
-  <section class="footer-section one-footer">
-    <div class="container">
-      <div class="footer-inner">
+    </section>
+    <!-- content with cards section -->
+    <section
+      class="Section contentWithCards withOutBG twoGridLayout threeGidLayout largeHeading"
+    >
+      <div class="container">
         <div class="row">
-          <div class="col-lg-3">
-            <div class="footer-content">
-              <img src="img/footer-Logo.svg" alt="footer-Logo" class="img-fluid" />
-              <p>
-                we are india's number 1 shipping solutions provider. Sell,
-                ship, and track with ease by choosing multiple courier
-                partners through one single shipping platform
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Quick Links</h3>
+          <div class="col-12">
+            <div class="contentWrapper">
+              <div class="upperWrap">
+                <h3
+                  class="headingAboveText"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  Technology-driven
+                </h3>
+                <h2 class="headingText">
+                  <span
+                    class="blueOrangeGradient"
+                    data-aos="fade-up"
+                    data-aos-duration="2200"
+                    >Simplify Shipping with Powerful Tools.</span
+                  >
+                </h2>
+                <p class="content"></p>
               </div>
-              <div class="footer-menus">
+              <div class="cards">
                 <ul>
-                  <li><a href="index.html"> Home</a></li>
-                  <li><a href="about.html"> about us</a></li>
-                  <li><a href="Information.html">Information </a></li>
-                  <li><a href="services.html">services</a></li>
-                  <li><a href="contact.html">Contact us </a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Features</h3>
-              </div>
-              <div class="footer-menus">
-                <ul>
-                  <li><a href="login.html"> Login</a></li>
-                  <li><a href="register.html"> Register</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Information</h3>
-              </div>
-              <div class="footer-menus">
-                <ul>
-                  <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
                   <li>
-                    <a href="Refunds-Cancellations.html">
-                      Refunds & Cancellations</a>
+                    <div class="iconWrap">
+                      <img
+                        data-lazyloaded="1"
+                        src="img/domestic-shipping/seamless.png"
+                      />
+                    </div>
+                    <h3>seamless integration of channels</h3>
+                    <p class="content">
+                      Sync all of your orders and inventory by integrating all
+                      of your online carts and marketplaces.
+                    </p>
+                    <a href="#" class="linkBtn link-click">Learn more </a>
                   </li>
                   <li>
-                    <a href="Terms-Conditions.html"> Terms & Conditions</a>
+                    <div class="iconWrap">
+                      <img
+                        data-lazyloaded="1"
+                        src="img/domestic-shipping/courier.png"
+                      />
+                    </div>
+                    <h3>A suggestion engine for couriers</h3>
+                    <p class="content">
+                      Increase the effectiveness of your deliveries by using an
+                      AI-recommended courier.
+                    </p>
+                    <a href="#" target="_blank" class="linkBtn link-click"
+                      >Learn more
+                    </a>
+                  </li>
+                  <li>
+                    <div class="iconWrap">
+                      <img
+                        data-lazyloaded="1"
+                        src="img/domestic-shipping/border.png"
+                      />
+                    </div>
+                    <h3>bulk generation of orders</h3>
+                    <p class="content">
+                      Easily manage order surges by adding numerous orders at
+                      once.
+                    </p>
+                    <a href="#" class="linkBtn link-click">Learn more </a>
+                  </li>
+                  <li>
+                    <div class="iconWrap">
+                      <img
+                        data-lazyloaded="1"
+                        src="img/domestic-shipping/document.png"
+                      />
+                    </div>
+                    <h3>Self-attestation</h3>
+                    <p class="content">
+                      Our system expedites the shipping process by automatically
+                      creating manifests and invoices.
+                    </p>
+                    <a href="#" class="linkBtn link-click">Learn more </a>
+                  </li>
+                  <li>
+                    <div class="iconWrap">
+                      <img
+                        data-lazyloaded="1"
+                        src="img/domestic-shipping/calculator.png"
+                      />
+                    </div>
+                    <h3>Calculate shipping rates</h3>
+                    <p class="content">
+                      Calculate shipping costs based on the pin codes of the
+                      origin and destination, weight, and dimensions.
+                    </p>
+                    <a href="#" class="linkBtn link-click">Learn more </a>
+                  </li>
+                  <li>
+                    <div class="iconWrap">
+                      <img
+                        data-lazyloaded="1"
+                        src="img/domestic-shipping/personality.png"
+                      />
+                    </div>
+                    <h3>Astute NDR resolution</h3>
+                    <p class="content">
+                      Use our AI assistant to automate delivery validation and
+                      make more successful retries.
+                    </p>
+                    <a href="#" class="linkBtn link-click">Learn more </a>
+                  </li>
+                  <li>
+                    <div class="iconWrap">
+                      <img
+                        data-lazyloaded="1"
+                        src="img/domestic-shipping/seamless.png"
+                      />
+                    </div>
+                    <h3>seamless integration of channels</h3>
+                    <p class="content">
+                      Sync all of your orders and inventory by integrating all
+                      of your online carts and marketplaces.
+                    </p>
+                    <a href="#" class="linkBtn link-click">Learn more </a>
+                  </li>
+                  <li>
+                    <div class="iconWrap">
+                      <img
+                        data-lazyloaded="1"
+                        src="img/domestic-shipping/border.png"
+                      />
+                    </div>
+                    <h3>bulk generation of orders</h3>
+                    <p class="content">
+                      Easily manage order surges by adding numerous orders at
+                      once.
+                    </p>
+                    <a href="#" class="linkBtn link-click">Learn more </a>
+                  </li>
+                  <li>
+                    <div class="iconWrap">
+                      <img
+                        data-lazyloaded="1"
+                        src="img/domestic-shipping/document.png"
+                      />
+                    </div>
+                    <h3>Self-attestation</h3>
+                    <p class="content">
+                      Our system expedites the shipping process by automatically
+                      creating manifests and invoices.
+                    </p>
+                    <a href="#" class="linkBtn link-click">Learn more </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Information</h3>
-              </div>
-              <div class="footer-info">
-                <input type="email" placeholder="Email address" />
-                <img src="img/Information-email.svg" alt="Information-email" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-end">
-          <img src="img/footer-bottom-bg.svg" alt="" />
         </div>
       </div>
-    </div>
-  </section>
-  <!-- #page -->
-  <a id="back-to-top" href="#" class="back-to-top-h3"><img src="img/back-to-top.svg" alt="back-to-top"
-      class="img-fluid" /></a>
+    </section>
+    <!-- world wide section -->
+    <section class="Section uppperHeadingContent">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="contentImageWrapper">
+              <div class="contentWrapper">
+                <h3
+                  class="headingText"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  Advantages of self-shipping on Amazon
+                </h3>
+                <ul class="content">
+                  <li>
+                    Easy Amazon shipping & adaptable return order handling
+                  </li>
+                  <li>
+                    order tracking and inventory management that is seamless
+                  </li>
+                  <li>
+                    zero reliance on Amazon for shipping, receiving, or sending
+                    money
+                  </li>
+                  <li>order processing done at your convenience</li>
+                  <li>orders for pickup from various locations</li>
+                  <li>Reduce returns and cancellations.</li>
+                </ul>
+              </div>
+              <div class="imageWrapper">
+                <img
+                  data-lazyloaded="1"
+                  src="img/international-shipping/map-globe-1.svg"
+                  width="1056"
+                  height="865"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Trusted Brand -->
+    <section class="trusted-brand">
+      <div class="container">
+        <div class="trusted-title">
+          <h2 data-aos="fade-up" data-aos-duration="1000">Our Trusted Brand</h2>
+        </div>
+        <div class="trusted-body">
+          <div class="trusted-brand-slider owl-carousel">
+            <img
+              src="img/trusted/trusted-1.svg"
+              alt="trusted-1"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-2.svg"
+              alt="trusted-2"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-3.svg"
+              alt="trusted-3"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-4.svg"
+              alt="trusted-4"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-5.svg"
+              alt="trusted-5"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-6.svg"
+              alt="trusted-6"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-7.svg"
+              alt="trusted-7"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-8.svg"
+              alt="trusted-8"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-9.svg"
+              alt="trusted-9"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-10.svg"
+              alt="trusted-1"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-11.svg"
+              alt="trusted-11"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-13.svg"
+              alt="trusted-13"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-14.svg"
+              alt="trusted-14"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-15.svg"
+              alt="trusted-15"
+              class="img-fluid"
+            />
+            <img
+              src="img/trusted/trusted-16.svg"
+              alt="trusted-16"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- company card -->
+    <section class="company-card sec-company-card">
+      <div class="container">
+        <div class="company-card-inner">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <div class="company-card-content">
+                <h1 data-aos="fade-up" data-aos-duration="2000">
+                  <span>From anyplace </span><br />
+                  to anyplace
+                </h1>
+                <p data-aos="fade-up" data-aos-duration="2200">
+                  With our multi-courier network spanning over 45,000 pin codes,
+                  you can accept orders from even the most remote locations.
+                </p>
+                <a
+                  href="carrier-integrations.html"
+                  data-aos="fade-up"
+                  data-aos-duration="2400"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img
+                src="img/e-Commerce-Plugins/trade-768x602.png"
+                alt="plane"
+                class="img-fluid"
+              />
+            </div>
+            <div class="area">
+              <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer-section one-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="footer-content">
+                <img
+                  src="img/footer-Logo.svg"
+                  alt="footer-Logo"
+                  class="img-fluid"
+                />
+                <p>
+                  we are india's number 1 shipping solutions provider. Sell,
+                  ship, and track with ease by choosing multiple courier
+                  partners through one single shipping platform
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Quick Links</h3>
+                </div>
+                <div class="footer-menus">
+                  <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="about.html"> about us</a></li>
+                    <li><a href="Information.html">Information </a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="contact.html">Contact us </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Features</h3>
+                </div>
+                <div class="footer-menus">
+                  <ul>
+                    <li><a href="login.html"> Login</a></li>
+                    <li><a href="register.html"> Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Information</h3>
+                </div>
+                <div class="footer-menus">
+                  <ul>
+                    <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
+                    <li>
+                      <a href="Refunds-Cancellations.html">
+                        Refunds & Cancellations</a
+                      >
+                    </li>
+                    <li>
+                      <a href="Terms-Conditions.html"> Terms & Conditions</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Information</h3>
+                </div>
+                <div class="footer-info">
+                  <input type="email" placeholder="Email address" />
+                  <img
+                    src="img/Information-email.svg"
+                    alt="Information-email"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-end">
+            <img src="img/footer-bottom-bg.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #page -->
+    <a id="back-to-top" href="#" class="back-to-top-h3"
+      ><img src="img/back-to-top.svg" alt="back-to-top" class="img-fluid"
+    /></a>
 
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <script src="js/slick-carousel_min.js"></script>
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-    });
-  </script>
-</body>
-
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/slick-carousel_min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+  </body>
 </html>

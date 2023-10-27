@@ -75,7 +75,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 #infinite div.highway-barrier ul.highway-lane li.highway-car span img {
-  max-width: 140px;
+  max-width: 110px;
 }
 
 @-webkit-keyframes translatestf {
@@ -125,6 +125,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 #infinite div.highway-barrier {
   background: transparent;
+  box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.3);
 }
 
 #infinite div.highway-barrier::before,
@@ -139,17 +140,15 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier::before {
   top: 0;
   left: 0;
-  background: linear-gradient(
-    to right,
-    #dee6f6  0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(to right,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%);
 }
 
 #infinite div.highway-barrier::after {
   top: 0;
   right: 0;
-  background: linear-gradient(to left, #dee6f6  0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 #infinite div.highway-barrier ul.highway-lane {
@@ -317,8 +316,7 @@ section.deliver {
   top: 0;
   height: 100%;
   width: 6px;
-  background: transparent linear-gradient(4deg, #ffc465 0%, #5338ff 100%) 0% 0%
-    no-repeat padding-box;
+  background: transparent linear-gradient(4deg, #ffc465 0%, #5338ff 100%) 0% 0% no-repeat padding-box;
 }
 
 a.read-btn {
@@ -488,6 +486,18 @@ section.request-sec {
 }
 
 @media only screen and (max-width: 1024px) {
+  .tab-img-div img {
+    max-width: 90%;
+  }
+
+  .tab-para p {
+    font-size: 20px !important;
+  }
+
+  .tab-link {
+    padding: 0 70px !important;
+  }
+
   .costs-img img {
     max-width: 100%;
   }
@@ -566,7 +576,12 @@ section.request-sec {
   }
 }
 
+
 @media only screen and (max-width: 768px) {
+  .tab-link {
+    padding: 0 40px !important;
+  }
+
   .know_more img {
     max-width: 60%;
   }
@@ -582,6 +597,10 @@ section.request-sec {
 }
 
 @media only screen and (max-width: 575px) {
+  .tab-link {
+    padding: 0 25px !important;
+  }
+
   .wrapper-title h1 {
     font-size: 30px;
   }
@@ -611,6 +630,25 @@ section.request-sec {
 }
 
 @media only screen and (max-width: 480px) {
+  .tab-para pre {
+    overflow: hidden;
+    font-size: 16px;
+  }
+
+  .tab-para p {
+    font-size: 18px !important;
+  }
+
+  .tab-wrapper {
+    overflow: auto;
+  }
+
+  .tab-link {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+
   .row.d-flex.align-items-center.cost-detail {
     padding: 30px 20px;
   }
@@ -755,6 +793,9 @@ section.request-sec {
 }
 
 @media only screen and (max-width: 320px) {
+  .tab-link {
+    padding: 0 10px!important;
+}
   .shipping-offer .wrapper-shipping {
     padding-top: 10px;
   }
@@ -763,4 +804,107 @@ section.request-sec {
     margin-bottom: 0;
     font-size: 22px;
   }
+}
+
+/* tab */
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.tab-wrapper {
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 100% !important;
+}
+
+.tabs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-link {
+  margin: 0 1%;
+  list-style: none;
+  padding: 10px 100px;
+  color: #aaa;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all ease 0.5s;
+  border-bottom: solid 3px rgba(255, 255, 255, 0);
+  letter-spacing: 1px;
+}
+
+.tab-link:hover {
+  color: #2310ff;
+  border-color: #2310ff;
+}
+
+.tab-link.active {
+  color: #000000;
+  border-color: #2310ff;
+}
+
+.tab-link:nth-of-type(1).active {
+  color: #000000;
+  border-color: #2310ff;
+}
+
+.tab-link:nth-of-type(2).active {
+  color: #000000;
+  border-color: #2310ff;
+}
+
+.tab-link:nth-of-type(3).active {
+  color: #000000;
+  border-color: #2310ff;
+}
+
+.content-wrapper {
+  padding: 40px 0px;
+}
+
+.tab-content {
+  display: none;
+  text-align: center;
+  color: #888;
+  font-weight: 300;
+  font-size: 15px;
+  opacity: 0;
+  /* transform: translateY(15px); */
+  animation: fadeIn 0.5s ease 1 forwards;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.content-wrapper .row {
+  display: flex;
+  align-items: center;
+}
+
+.tab-para p {
+  text-align: left;
+  font-size: 24px;
+  font-family: ProductSans-Bold;
+}
+
+.tab-para pre {
+  text-align: left;
+  margin: 0;
+  font-size: 18px;
 }
