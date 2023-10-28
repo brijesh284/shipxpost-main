@@ -1,219 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>forgot-OTP - ShipXPost</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg header-wrap sec-header">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img src="img/Logo.svg" alt="logo" class="img-fluid"
-          /></a>
-          <div class="justify-content-end">
-            <a href="register.html" class="login-btn">
-              <img src="img/login.svg" alt="login" class="img-fluid" />Register
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- forgot-password -->
-    <section class="forgot-password-popup">
-      <div class="forgot-img">
-        <img
-          src="img/forgot-password.png"
-          alt="forgot-password"
-          class="img-fluid"
-        />
-      </div>
-      <div class="forgot-popup">
-        <div class="forgot-head">
-          <h3>Forgot Password</h3>
-        </div>
-        <div class="Forgot-body">
-          <div class="otp-section">
-            <div class="otp-field">
-              <input type="text" maxlength="1" />
-              <input type="text" maxlength="1" />
-              <input class="space" type="text" maxlength="1" />
-              <input type="text" maxlength="1" />
-              <input type="text" maxlength="1" />
-              <input type="text" maxlength="1" />
-            </div>
-            <div class="resend-otp">
-              <a href="otp.html">Resend OTP</a>
-            </div>
-          </div>
-        </div>
-        <div class="Forgot-end">
-          <a href="register.html" class="back-btn">Back</a>
-          <a href="new-password.html" class="reset-btn">Reset Password</a>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <section class="footer-section">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>forgot-OTP - ShipXPost</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" />
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg header-wrap sec-header">
       <div class="container">
-        <div class="footer-inner">
-          <div class="row">
-            <div class="col-lg-3">
-              <div class="footer-content">
-                <img
-                  src="img/footer-Logo.svg"
-                  alt="footer-Logo"
-                  class="img-fluid"
-                />
-                <p>
-                  we are india's number 1 shipping solutions provider. Sell,
-                  ship, and track with ease by choosing multiple courier
-                  partners through one single shipping platform
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Quick Links</h3>
-                </div>
-                <div class="footer-menus">
-                  <ul>
-                    <li><a href="index.html"> Home</a></li>
-                    <li><a href="about.html"> about us</a></li>
-                    <li><a href="Information.html">Information </a></li>
-                    <li><a href="services.html">services</a></li>
-                    <li><a href="contact.html">Contact us </a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Features</h3>
-                </div>
-                <div class="footer-menus">
-                  <ul>
-                    <li><a href="login.html"> Login</a></li>
-                    <li><a href="register.html"> Register</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Information</h3>
-                </div>
-                <div class="footer-menus">
-                  <ul>
-                    <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
-                    <li>
-                      <a href="Refunds-Cancellations.html">
-                        Refunds & Cancellations</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Terms-Conditions.html"> Terms & Conditions</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Information</h3>
-                </div>
-                <div class="footer-info">
-                  <input type="email" placeholder="Email address" />
-                  <img
-                    src="img/Information-email.svg"
-                    alt="Information-email"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
+        <a class="navbar-brand" href="index.html"><img src="img/Logo.svg" alt="logo" class="img-fluid" /></a>
+        <div class="justify-content-end">
+          <a href="register.html" class="login-btn">
+            <img src="img/login.svg" alt="login" class="img-fluid" />Register
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- forgot-password -->
+  <section class="forgot-password-popup">
+    <div class="forgot-img">
+      <img src="img/forgot-password.png" alt="forgot-password" class="img-fluid" data-aos="fade-up" data-aos-duration="2000"/>
+    </div>
+    <div class="forgot-popup">
+      <div class="forgot-head">
+        <h3>Forgot Password</h3>
+      </div>
+      <div class="Forgot-body">
+        <div class="otp-section">
+          <div class="otp-field">
+            <input type="text" maxlength="1" />
+            <input type="text" maxlength="1" />
+            <input class="space" type="text" maxlength="1" />
+            <input type="text" maxlength="1" />
+            <input type="text" maxlength="1" />
+            <input type="text" maxlength="1" />
           </div>
-          <div class="footer-end">
-            <img src="img/footer-bottom-bg.svg" alt="" />
+          <div class="resend-otp">
+            <a href="otp.html">Resend OTP</a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- #page -->
-    <a id="back-to-top" href="#" class="back-to-top-h3"
-      ><img src="img/back-to-top.svg" alt="back-to-top" class="img-fluid"
-    /></a>
+      <div class="Forgot-end">
+        <a href="register.html" class="back-btn">Back</a>
+        <a href="new-password.html" class="reset-btn">Reset Password</a>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <!-- <section class="footer-section">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="footer-content">
+              <img src="img/footer-Logo.svg" alt="footer-Logo" class="img-fluid" />
+              <p>
+                we are india's number 1 shipping solutions provider. Sell,
+                ship, and track with ease by choosing multiple courier
+                partners through one single shipping platform
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="footer-content">
+              <div class="footer-title">
+                <h3>Quick Links</h3>
+              </div>
+              <div class="footer-menus">
+                <ul>
+                  <li><a href="index.html"> Home</a></li>
+                  <li><a href="about.html"> about us</a></li>
+                  <li><a href="Information.html">Information </a></li>
+                  <li><a href="services.html">services</a></li>
+                  <li><a href="contact.html">Contact us </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="footer-content">
+              <div class="footer-title">
+                <h3>Features</h3>
+              </div>
+              <div class="footer-menus">
+                <ul>
+                  <li><a href="login.html"> Login</a></li>
+                  <li><a href="register.html"> Register</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="footer-content">
+              <div class="footer-title">
+                <h3>Information</h3>
+              </div>
+              <div class="footer-menus">
+                <ul>
+                  <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
+                  <li>
+                    <a href="Refunds-Cancellations.html">
+                      Refunds & Cancellations</a>
+                  </li>
+                  <li>
+                    <a href="Terms-Conditions.html"> Terms & Conditions</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-content">
+              <div class="footer-title">
+                <h3>Information</h3>
+              </div>
+              <div class="footer-info">
+                <input type="email" placeholder="Email address" />
+                <img src="img/Information-email.svg" alt="Information-email" class="img-fluid"  />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-end">
+          <img src="img/footer-bottom-bg.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- #page -->
+  <a id="back-to-top" href="#" class="back-to-top-h3"><img src="img/back-to-top.svg" alt="back-to-top"
+      class="img-fluid" /></a>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script>
-      const inputs = document.querySelectorAll(".otp-field input");
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    const inputs = document.querySelectorAll(".otp-field input");
 
-      inputs.forEach((input, index) => {
-        input.dataset.index = index;
-        input.addEventListener("keyup", handleOtp);
-        input.addEventListener("paste", handleOnPasteOtp);
+    inputs.forEach((input, index) => {
+      input.dataset.index = index;
+      input.addEventListener("keyup", handleOtp);
+      input.addEventListener("paste", handleOnPasteOtp);
+    });
+
+    function handleOtp(e) {
+      /**
+       * <input type="text" 👉 maxlength="1" />
+       * 👉 NOTE: On mobile devices `maxlength` property isn't supported,
+       * So we to write our own logic to make it work. 🙂
+       */
+      const input = e.target;
+      let value = input.value;
+      let isValidInput = value.match(/[0-9a-z]/gi);
+      input.value = "";
+      input.value = isValidInput ? value[0] : "";
+
+      let fieldIndex = input.dataset.index;
+      if (fieldIndex < inputs.length - 1 && isValidInput) {
+        input.nextElementSibling.focus();
+      }
+
+      if (e.key === "Backspace" && fieldIndex > 0) {
+        input.previousElementSibling.focus();
+      }
+
+      if (fieldIndex == inputs.length - 1 && isValidInput) {
+        submit();
+      }
+    }
+
+    function handleOnPasteOtp(e) {
+      const data = e.clipboardData.getData("text");
+      const value = data.split("");
+      if (value.length === inputs.length) {
+        inputs.forEach((input, index) => (input.value = value[index]));
+        submit();
+      }
+    }
+
+    function submit() {
+      console.log("Submitting...");
+      // 👇 Entered OTP
+      let otp = "";
+      inputs.forEach((input) => {
+        otp += input.value;
+        input.disabled = true;
+        input.classList.add("disabled");
       });
+      console.log(otp);
+      // 👉 Call API below
+    }
+  </script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    })
+  </script>
+</body>
 
-      function handleOtp(e) {
-        /**
-         * <input type="text" 👉 maxlength="1" />
-         * 👉 NOTE: On mobile devices `maxlength` property isn't supported,
-         * So we to write our own logic to make it work. 🙂
-         */
-        const input = e.target;
-        let value = input.value;
-        let isValidInput = value.match(/[0-9a-z]/gi);
-        input.value = "";
-        input.value = isValidInput ? value[0] : "";
-
-        let fieldIndex = input.dataset.index;
-        if (fieldIndex < inputs.length - 1 && isValidInput) {
-          input.nextElementSibling.focus();
-        }
-
-        if (e.key === "Backspace" && fieldIndex > 0) {
-          input.previousElementSibling.focus();
-        }
-
-        if (fieldIndex == inputs.length - 1 && isValidInput) {
-          submit();
-        }
-      }
-
-      function handleOnPasteOtp(e) {
-        const data = e.clipboardData.getData("text");
-        const value = data.split("");
-        if (value.length === inputs.length) {
-          inputs.forEach((input, index) => (input.value = value[index]));
-          submit();
-        }
-      }
-
-      function submit() {
-        console.log("Submitting...");
-        // 👇 Entered OTP
-        let otp = "";
-        inputs.forEach((input) => {
-          otp += input.value;
-          input.disabled = true;
-          input.classList.add("disabled");
-        });
-        console.log(otp);
-        // 👉 Call API below
-      }
-    </script>
-  </body>
 </html>

@@ -1,838 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>register - ShipXPost</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg header-wrap header-sticky">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img src="img/Logo.svg" alt="logo" class="img-fluid"
-          /></a>
 
-          <div class="justify-content-end">
-            <a href="login.html" class="login-btn">
-              <img src="img/login.svg" alt="login" class="img-fluid" />Login
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- Register-section -->
-    <section class="wrapper-sd-section">
-      <div class="container-fluid">
-        <div class="wrapper-sd-inner">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <div class="wrapper-sd-content">
-                <div class="wrapper-sd-title">
-                  <h2>Create Your Account</h2>
-                  <p>Sign Up to your account</p>
-                </div>
-                <div class="google-content">
-                  <button>
-                    <img
-                      src="img/google-logo.svg"
-                      alt="google-logo"
-                      class="img-fluid"
-                    />
-                    Sign in with Google
-                  </button>
-                </div>
-                <div class="divider-dec">
-                  <p>Or With Email</p>
-                </div>
-                <div class="details-wraps">
-                  <form>
-                    <div class="row mb-3">
-                      <div class="col-lg-6">
-                        <div class="form-group">
-                          <label for="NameMain">Name*</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="NameMain"
-                            aria-describedby="emailHelp"
-                            placeholder="Enter your name"
-                          />
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <div class="form-group">
-                          <label for="UserName">Username*</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="UserName"
-                            aria-describedby="emailHelp"
-                            placeholder="Enter Username"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-group mb-3">
-                      <label for="PhoneNumber">Phone Number*</label>
-                      <input
-                        type="number"
-                        class="form-control"
-                        id="PhoneNumber"
-                        aria-describedby="emailHelp"
-                        placeholder="Enter Phone Number"
-                      />
-                    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>register - ShipXPost</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" />
 
-                    <div class="row mb-3">
-                      <div class="col-lg-6">
-                        <div class="form-group">
-                          <label for="CompanyName">Company Name</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="CompanyName"
-                            aria-describedby="emailHelp"
-                            placeholder="Company Name"
-                          />
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <div class="form-group">
-                          <label for="exampleInputPassword2">Password</label>
-                          <input
-                            type="password"
-                            class="form-control"
-                            id="exampleInputPassword2"
-                            placeholder="Password"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-check">
-                      <input
-                        type="checkbox"
-                        class="form-check-input"
-                        id="exampleCheck1"
-                      />
-                      <label
-                        class="form-check-label"
-                        for="exampleCheck1"
-                      ></label>
-                      By submitting this form, you agree to ShipXPost’s user
-                    </div>
-                    <a
-                      href="onboarding.html"
-                      class="btn btn-primary wrapper-sd-btn"
-                    >
-                      Sign In
-                    </a>
-                    <div class="wrapper-sd-end">
-                      <p>
-                        Don’t have a account? <a href="login.html">Login</a>
-                      </p>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="wrapper-sd-img">
-                <img src="img/login-bg.png" alt="login-bg" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+</head>
 
-    <!-- What We Offer -->
-    <section class="shipping-offer" id="shipping-offer">
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg header-wrap header-sticky">
       <div class="container">
-        <div class="wrapper-title">
-          <h1 data-aos="fade-up" data-aos-duration="1800">
-            Why Choose ShipXPost?
-          </h1>
-          <p data-aos="fade-up" data-aos-duration="2200">
-            Empowering eCommerce Brands with Automated Logistics Solutions
-          </p>
-        </div>
-        <div class="wrapper-shipping">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="wrapper-shipping-box">
-                <img
-                  src="img/Domestic-Shipping.svg"
-                  alt="Domestic-Shipping"
-                  class="img-fluid"
-                />
-                <h3>Domestic Shipping</h3>
-                <p>
-                  ShipXPost offers single-window automated shipping solutions
-                  for your comprehensive logistics needs at the most competitive
-                  rates.
-                </p>
-                <a href="domestic-shipping.html">Learn More...</a>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="wrapper-shipping-box">
-                <img
-                  src="img/International-Shipping.svg"
-                  alt="International Shipping"
-                  class="img-fluid"
-                />
-                <h3>International Shipping</h3>
-                <p>
-                  ShipXPost enables hassle-free cross-border trading across 196+
-                  countries for B2B, B2C, as well as individuals. Extensive
-                  reach and customized business solutions make us a preferred
-                  international shipping partner.
-                </p>
-                <a href="international-shipping.html">Learn More...</a>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="wrapper-shipping-box mb-0">
-                <img
-                  src="img/e-Commerce-Plugins.svg"
-                  alt="e-Commerce Plugins"
-                  class="img-fluid"
-                />
-                <h3>E-Commerce Plugins</h3>
-                <p>
-                  Our Api's & Plugins can be integrated with major e-commerce
-                  platorms & customised developed platforms.
-                </p>
-                <a href="e-Commerce-Plugins.html">Learn More...</a>
-              </div>
-            </div>
-          </div>
+        <a class="navbar-brand" href="index.html"><img src="img/Logo.svg" alt="logo" class="img-fluid" /></a>
+
+        <div class="justify-content-end">
+          <a href="login.html" class="login-btn">
+            <img src="img/login.svg" alt="login" class="img-fluid" />Login
+          </a>
         </div>
       </div>
-    </section>
-    <!-- Enhance your customer experience -->
-    <section class="Enhance-customer">
-      <div class="container">
-        <div class="Enhance-inner">
-          <div class="Enhance-title">
-            <h2 data-aos="fade-up" data-aos-duration="1000">
-              Enhance your <span>customer</span> experience
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="1200">
-              Avail of our Next-day fulfilment offerings across 300K cities
-              delivering 90% of market orders in 24 hours.
-            </p>
-          </div>
-          <div class="enables-wrapper">
-            <div class="row align-items-center">
-              <div class="col-lg-6 col-md-5">
-                <div class="Enhance-img text-center">
-                  <img
-                    src="img/Enhance-1.png"
-                    alt="Enhance-1"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-7">
-                <div class="Enhance-content">
-                  <h3 data-aos="fade-up" data-aos-duration="2000">
-                    Domestic shipping
-                  </h3>
-                  <p data-aos="fade-up" data-aos-duration="2200">
-                    Manage all channels in a single view andreach nationwide
-                    efficiently with AI-basedcourier selection
-                  </p>
-                  <a
-                    href="domestic-shipping.html"
-                    data-aos="fade-up"
-                    data-aos-duration="1400"
-                    >Explore More</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="enables-wrapper">
-            <div class="row align-items-center direction-reverse-mobile">
-              <div class="col-lg-6 col-md-7">
-                <div class="Enhance-content">
-                  <h3 data-aos="fade-up" data-aos-duration="2000">
-                    International shipping
-                  </h3>
-                  <p data-aos="fade-up" data-aos-duration="2200">
-                    Simplify exports and expand your business to more than 240+
-                    countries and territories
-                  </p>
-                  <a
-                    href="international-shipping.html"
-                    data-aos="fade-up"
-                    data-aos-duration="2400"
-                    >Explore More</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-5">
-                <div class="Enhance-img text-center">
-                  <img
-                    src="img/Enhance-2.png"
-                    alt="Enhance-2"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- repeat purchases -->
-    <section class="repeat-purchases">
-      <div class="container">
-        <div class="purchases-title">
-          <h2 data-aos="fade-up" data-aos-duration="2000">
-            Conversion Drive <span>repeat purchases</span>
-          </h2>
-        </div>
-        <div class="purchases-slider owl-carousel">
-          <div class="purchases-wrapper">
-            <div class="purchases-img">
-              <img
-                src="img/purchases-1.png"
-                alt="purchases-1"
-                class="img-fluid"
-              />
-            </div>
-            <div class="purchases-content">
-              <h4>Trust building</h4>
-              <p>
-                Show ShipXPost’s badge of trust throughout your website to boost
-                credibility
-              </p>
-              <a href="trust-building.html">Learn More ›</a>
-            </div>
-          </div>
-          <div class="purchases-wrapper">
-            <div class="purchases-img">
-              <img
-                src="img/purchases-2.png"
-                alt="purchases-2"
-                class="img-fluid"
-              />
-            </div>
-            <div class="purchases-content">
-              <h4>Customer engagement</h4>
-              <p>
-                Automate your marketing campaigns and increase conversions by
-                40%
-              </p>
-              <a href="customer-engagement.html">Learn More ›</a>
-            </div>
-          </div>
-          <div class="purchases-wrapper">
-            <div class="purchases-img">
-              <img
-                src="img/purchases-3.png"
-                alt="purchases-3"
-                class="img-fluid"
-              />
-            </div>
-            <div class="purchases-content">
-              <h4>Checkout optimisation</h4>
-              <p>
-                Automate your marketing campaigns and increase conversions by
-                40%
-              </p>
-              <a href="checkout-optimisation.html">Learn More ›</a>
-            </div>
-          </div>
-          <div class="purchases-wrapper">
-            <div class="purchases-img">
-              <img
-                src="img/purchases-4.png"
-                alt="purchases-4"
-                class="img-fluid"
-              />
-            </div>
-            <div class="purchases-content">
-              <h4>Customer retention</h4>
-              <p>
-                Re-engage with high-potential prospects and increase customer
-                retention by 25%
-              </p>
-              <a href="customer-retension.html">Learn More ›</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- deliveries-support -->
-    <section class="deliveries-support">
-      <div class="container">
+    </nav>
+  </header>
+  <!-- Register-section -->
+  <section class="wrapper-sd-section">
+    <div class="container-fluid">
+      <div class="wrapper-sd-inner">
         <div class="row align-items-center">
-          <div class="col-lg-4">
-            <div class="deliveries-img">
-              <img
-                src="img/deliveries-img.png"
-                alt="deliveries-img"
-                class="img-fluid"
-              />
+          <div class="col-md-6">
+            <div class="wrapper-sd-content">
+              <div class="wrapper-sd-title">
+                <h2 data-aos="slide-up" data-aos-duration="1000">Create Your Account</h2>
+                <p>Sign Up to your account</p>
+              </div>
+              <div class="google-content">
+                <button>
+                  <img src="img/google-logo.svg" alt="google-logo" class="img-fluid" />
+                  Sign in with Google
+                </button>
+              </div>
+              <div class="divider-dec">
+                <p>Or With Email</p>
+              </div>
+              <div class="details-wraps">
+                <form>
+                  <div class="row mb-3">
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="NameMain">Name*</label>
+                        <input type="text" class="form-control" id="NameMain" aria-describedby="emailHelp"
+                          placeholder="Enter your name" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="UserName">Username*</label>
+                        <input type="text" class="form-control" id="UserName" aria-describedby="emailHelp"
+                          placeholder="Enter Username" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group mb-3">
+                    <label for="PhoneNumber">Phone Number*</label>
+                    <input type="number" class="form-control" id="PhoneNumber" aria-describedby="emailHelp"
+                      placeholder="Enter Phone Number" />
+                  </div>
+
+                  <div class="row mb-3">
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="CompanyName">Company Name</label>
+                        <input type="text" class="form-control" id="CompanyName" aria-describedby="emailHelp"
+                          placeholder="Company Name" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="exampleInputPassword2">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                    <label class="form-check-label" for="exampleCheck1"></label>
+                    By submitting this form, you agree to ShipXPost’s user
+                  </div>
+                  <a href="onboarding.html" class="btn btn-primary wrapper-sd-btn">
+                    Sign In
+                  </a>
+                  <div class="wrapper-sd-end">
+                    <p>
+                      Don’t have a account? <a href="login.html">Login</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
-          <div class="col-lg-8">
-            <div class="deliveries-inner Flipped">
-              <div class="deliveries-content">
-                <img
-                  src="img/deliveries-icon-1.svg"
-                  alt="deliveries-icon-1"
-                  class="img-fluid"
-                />
-                <h2>Lowest Shipping Cost</h2>
-                <p>Start shipping eCommerce orders at 21/500gm</p>
-              </div>
-              <div class="deliveries-content">
-                <img
-                  src="img/deliveries-icon-2.svg"
-                  alt="deliveries-icon-2"
-                  class="img-fluid"
-                />
-                <h2>Multiple Courier Services</h2>
-                <p>Increase distribution reach with 27+ courier options</p>
-              </div>
-              <div class="deliveries-content">
-                <img
-                  src="img/deliveries-icon-3.svg"
-                  alt="deliveries-icon-3"
-                  class="img-fluid"
-                />
-                <h2>Widest Pin Code Network</h2>
-                <p>Deliver products across 29000+ pin codes</p>
-              </div>
-              <div class="deliveries-content">
-                <img
-                  src="img/deliveries-icon-4.svg"
-                  alt="deliveries-icon-4"
-                  class="img-fluid"
-                />
-                <h2>Swift Shipping</h2>
-                <p>
-                  Best first-mile/last-mile experience with quickest pickup &
-                  delivery
-                </p>
-              </div>
-              <div class="deliveries-content">
-                <img
-                  src="img/deliveries-icon-5.svg"
-                  alt="deliveries-icon-5"
-                  class="img-fluid"
-                />
-                <h2>30% Less RTO</h2>
-                <p>Reduce RTO losses and scale your eCommerce profits</p>
-              </div>
-              <div class="deliveries-content">
-                <img
-                  src="img/deliveries-icon-6.svg"
-                  alt="deliveries-icon-6"
-                  class="img-fluid"
-                />
-                <h2>One-day COD Remittance</h2>
-                <p>Early COD payments for uninterrupted cash flow</p>
-              </div>
-              <div class="deliveries-content">
-                <img
-                  src="img/deliveries-icon-7.svg"
-                  alt="deliveries-icon-7"
-                  class="img-fluid"
-                />
-                <h2>Enhanced Post-shipment Experience</h2>
-                <p>Get automated shipment updates in your inbox</p>
-              </div>
-              <div class="deliveries-content">
-                <img
-                  src="img/deliveries-icon-8.svg"
-                  alt="deliveries-icon-8"
-                  class="img-fluid"
-                />
-                <h2>Branded Tracking Page</h2>
-                <p>Drive post-purchase engagement with customers</p>
-              </div>
-              <div class="deliveries-content">
-                <img
-                  src="img/deliveries-icon-9.svg"
-                  alt="deliveries-icon-9"
-                  class="img-fluid"
-                />
-                <h2>24x7 Support</h2>
-                <p>
-                  Enjoy non-stop eCommerce shipping services with prompt support
-                </p>
-              </div>
+          <div class="col-md-6">
+            <div class="wrapper-sd-img">
+              <img src="img/login-bg.png" alt="login-bg" class="img-fluid" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- fulfillment -->
-    <section class="fulfillment-section">
-      <div class="container">
-        <div class="wrapper-title">
-          <h1 data-aos="fade-up" data-aos-duration="2000">Fulfillment</h1>
-          <p data-aos="fade-up" data-aos-duration="2200">Fulfill every need</p>
-        </div>
-      </div>
-      <div class="fulfillment-inner">
-        <div class="container">
-          <div class="row align-items-end">
-            <div class="col-lg-6">
-              <div class="fulfillment-img">
-                <img
-                  src="img/fulfillment-1.png"
-                  alt="fulfillment-1"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="fulfillment-content">
-                <h3>B2C fulfillment</h3>
-                <p>
-                  A comprehensive, tech-enabled, and end-to-end fulfillment
-                  solution designedfor retail and eCommerce brands to streamline
-                  B2B and B2C operations, improveefficiency, and deliver a
-                  superior customer experience
-                </p>
-                <a href="b2c_filfillment.html">Let’s Get Started</a>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-5 align-items-center direction-reverse">
-            <div class="col-lg-6">
-              <div class="fulfillment-content">
-                <h3>B2B fulfillment</h3>
-                <p>
-                  A comprehensive, tech-enabled, and end-to-end fulfillment
-                  solution designedfor retail and eCommerce brands to streamline
-                  B2B and B2C operations, improveefficiency, and deliver a
-                  superior customer experience
-                </p>
-                <a href="b2b_filfillment.html">Let’s Get Started</a>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="fulfillment-img">
-                <img
-                  src="img/fulfillment-2.png"
-                  alt="fulfillment-2"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- team-section -->
-    <section class="team-section">
-      <div class="container">
-        <div class="team-head">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <h1 data-aos="fade-up" data-aos-duration="2000">Our Team</h1>
-              <p data-aos="fade-up" data-aos-duration="2200">
-                Meet our team of exceptionally versed professionals in the
-                logistics business
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="team-member">
-          <div class="row">
-            <div class="col-lg-3 col-6">
-              <div class="team-wrap">
-                <img src="img/team-1.png" alt="team-1" class="img-fluid" />
-                <div class="team-content">
-                  <h3>Shnati Bhai Dobariya</h3>
-                  <p>Co-Founder & CEO</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-6">
-              <div class="team-wrap">
-                <img src="img/team-2.png" alt="team-2" class="img-fluid" />
-                <div class="team-content">
-                  <h3>N . S Patel</h3>
-                  <p>Co-Founder, Head OF Growth</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-6">
-              <div class="team-wrap">
-                <img src="img/team-3.png" alt="team-3" class="img-fluid" />
-                <div class="team-content">
-                  <h3>Rajnish Singh</h3>
-                  <p>Marketing Strategy & Global Expansion</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-6">
-              <div class="team-wrap">
-                <img src="img/team-4.png" alt="team-4" class="img-fluid" />
-                <div class="team-content">
-                  <h3>Rahul Vekariya</h3>
-                  <p>Co-Founder, Shipxpost Fulfillment</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- services-section -->
-    <section
-      class="services-section"
-      data-aos="fade-up"
-      data-aos-duration="2000"
-    >
-      <div class="services-logo-main">
-        <div class="services-logo-slide">
-          <img
-            src="img/services-ShipXpost.png"
-            alt="services-ShipXpost"
-            class="img-fluid"
-          />
-          <img
-            src="img/services-ShipXpost.png"
-            alt="services-ShipXpost"
-            class="img-fluid"
-          />
-          <img
-            src="img/services-ShipXpost.png"
-            alt="services-ShipXpost"
-            class="img-fluid"
-          />
-          <img
-            src="img/services-ShipXpost.png"
-            alt="services-ShipXpost"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-      <div class="container">
-        <div class="services-head">
-          <div class="row align-items-center">
-            <div class="col-8">
-              <h1 data-aos="fade-up" data-aos-duration="1000">
-                View Our Services By <br />
-                Watching This Short Video
-              </h1>
-            </div>
-            <div class="col-4">
-              <div class="rounded-logo">
-                <img
-                  src="img/ShipXpost-round.svg"
-                  alt="ShipXpost-round"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="services-inner-wrap">
-          <div class="row">
-            <div class="col-lg-9">
-              <div class="services-inner-video">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/la71fEYhVjw?si=CHXrVsle_gxmElHE"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="services-experiences counter-container">
-                <div class="services-content">
-                  <h3>
-                    <div class="counter" id="number1"></div>
-                    +
-                  </h3>
-                  <p>Happy clients</p>
-                </div>
-                <div class="services-content">
-                  <h3>
-                    <div class="counter" id="number2"></div>
-                    k
-                  </h3>
+    </div>
+  </section>
 
-                  <p>Daily Shipments</p>
-                </div>
-                <div class="services-content border-0">
-                  <h3>
-                    <div class="counter" id="number3"></div>
-                    k
-                  </h3>
 
-                  <p>Pin Codes</p>
-                </div>
-                <div class="services-content border-0">
-                  <h3>
-                    <div class="counter" data-target="240" id="number4"></div>
-                    +
-                  </h3>
+  <!-- #page -->
+  <a id="back-to-top" href="#" class="back-to-top-h3"><img src="img/back-to-top.svg" alt="back-to-top"
+      class="img-fluid" /></a>
 
-                  <p>Total countries</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <section class="footer-section">
-      <div class="container">
-        <div class="footer-inner">
-          <div class="row">
-            <div class="col-lg-3">
-              <div class="footer-content">
-                <img
-                  src="img/footer-Logo.svg"
-                  alt="footer-Logo"
-                  class="img-fluid"
-                />
-                <p>
-                  we are india's number 1 shipping solutions provider. Sell,
-                  ship, and track with ease by choosing multiple courier
-                  partners through one single shipping platform
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Quick Links</h3>
-                </div>
-                <div class="footer-menus">
-                  <ul>
-                    <li><a href="index.html"> Home</a></li>
-                    <li><a href="about.html"> about us</a></li>
-                    <li><a href="Information.html">Information </a></li>
-                    <li><a href="services.html">services</a></li>
-                    <li><a href="contact.html">Contact us </a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Features</h3>
-                </div>
-                <div class="footer-menus">
-                  <ul>
-                    <li><a href="login.html"> Login</a></li>
-                    <li><a href="register.html"> Register</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-4">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Information</h3>
-                </div>
-                <div class="footer-menus">
-                  <ul>
-                    <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
-                    <li>
-                      <a href="Refunds-Cancellations.html">
-                        Refunds & Cancellations</a
-                      >
-                    </li>
-                    <li>
-                      <a href="Terms-Conditions.html"> Terms & Conditions</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="footer-content">
-                <div class="footer-title">
-                  <h3>Information</h3>
-                </div>
-                <div class="footer-info">
-                  <input type="email" placeholder="Email address" />
-                  <img
-                    src="img/Information-email.svg"
-                    alt="Information-email"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer-end">
-            <img src="img/footer-bottom-bg.svg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- #page -->
-    <a id="back-to-top" href="#" class="back-to-top-h3"
-      ><img src="img/back-to-top.svg" alt="back-to-top" class="img-fluid"
-    /></a>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/slick-carousel_min.js"></script>
+  <script>
+    // Get titles from the DOM
+    var titleMain = $("#animatedHeading");
+    var titleSubs = titleMain.find("slick-active");
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/slick-carousel_min.js"></script>
-    <script>
-      // Get titles from the DOM
-      var titleMain = $("#animatedHeading");
-      var titleSubs = titleMain.find("slick-active");
+    if (titleMain.length) {
+      titleMain.slick({
+        autoplay: false,
+        arrows: false,
+        dots: false,
+        slidesToShow: 3,
+        centerPadding: "10px",
+        draggable: false,
+        infinite: true,
+        pauseOnHover: false,
+        swipe: false,
+        touchMove: false,
+        vertical: true,
+        verticalScrolling: true,
+        speed: 1000,
+        autoplaySpeed: 2000,
+        useTransform: true,
+        cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1.000)",
+        adaptiveHeight: true,
+      });
 
-      if (titleMain.length) {
-        titleMain.slick({
-          autoplay: false,
-          arrows: false,
-          dots: false,
-          slidesToShow: 3,
-          centerPadding: "10px",
-          draggable: false,
-          infinite: true,
-          pauseOnHover: false,
-          swipe: false,
-          touchMove: false,
-          vertical: true,
-          verticalScrolling: true,
-          speed: 1000,
-          autoplaySpeed: 2000,
-          useTransform: true,
-          cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1.000)",
-          adaptiveHeight: true,
-        });
+      // On init
+      $(".slick-dupe").each(function (index, el) {
+        $("#animatedHeading").slick(
+          "slickAdd",
+          "<div>" + el.innerHTML + "</div>"
+        );
+      });
 
-        // On init
-        $(".slick-dupe").each(function (index, el) {
-          $("#animatedHeading").slick(
-            "slickAdd",
-            "<div>" + el.innerHTML + "</div>"
-          );
-        });
+      // Manually refresh positioning of slick
+      titleMain.slick("slickPlay");
+    }
+  </script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    })
+  </script>
+</body>
 
-        // Manually refresh positioning of slick
-        titleMain.slick("slickPlay");
-      }
-    </script>
-  </body>
 </html>
