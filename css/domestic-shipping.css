@@ -13,7 +13,7 @@
   font-size: 52px !important;
 }
 
-.headerOne.gradientBanner:before {
+/* .headerOne.gradientBanner:before {
   content: "";
   position: absolute;
   background: #fff 0 0 no-repeat padding-box;
@@ -23,7 +23,7 @@
   height: 20%;
   top: -60px;
   z-index: 1;
-}
+} */
 
 .imageWrapper img {
   max-width: 120%;
@@ -36,6 +36,10 @@
   line-height: 76px;
   z-index: 3;
   font-family: Cambon-Bold;
+}
+
+.imageWrapper.new-wrapper img {
+  max-width: 100%;
 }
 
 .ShippingFromBanner .fontSize18 {

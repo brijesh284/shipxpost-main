@@ -161,6 +161,7 @@ body {
 .header-wrap .header-menu-wrap li ul li a {
   color: #000;
   margin: 0;
+  text-decoration: none;
 }
 
 .header-wrap .login-btn {
@@ -178,6 +179,7 @@ body {
 
 .header-wrap .login-btn:hover {
   background-color: #2310ff;
+  transition: all 0.5s;
 }
 
 .sec-header {
@@ -2936,6 +2938,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   margin-bottom: 0;
 }
 
+/* 
 .dropdown:hover > .dropdown-menu{
   display: block;
   margin-top: 0.125em;
@@ -2952,5 +2955,107 @@ div.highway-slider ul.highway-lane li.highway-car {
        opacity: 1;
        transform: scale(1)
   }
+} */
+
+
+
+ul li:hover .submenu {
+  height: auto;
+
 }
 
+ul li:hover a {
+  color: #3862a0;
+}
+
+ul li:hover a::before {
+  visibility: visible;
+  transform: scale(1, 1);
+}
+
+ul.submenu li a {
+  padding: 0px 10px !important;
+  color: #ffffff !important;
+}
+
+ul.submenu li a {
+  width: 210px;
+}
+
+ul.submenu {
+  border-radius: 8px;
+  padding-left: 10px !important;
+  width: 450px;
+  list-style: none;
+}
+
+.submenu {
+  overflow: hidden;
+  top: 42px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #3862a0;
+  height: 0;
+  line-height: 40px;
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out !important;
+  transition-delay: 1s !important;
+}
+
+ul li .submenu a {
+  color: #fff;
+  /* margin-top: 20px; */
+  font-size: 16px;
+}
+
+
+ul.submenu li a {
+  padding: 4px 20px !important;
+}
+
+/* ul li a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0, 0);
+  visibility: hidden;
+} */
+ul.submenu li a span img {
+  max-width: 32px;
+  margin-right: 12px;
+}
+
+ul.submenu li {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  width: -1% !important;
+}
+
+ul.submenu li a:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+
+ul.submenu li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+ul.submenu li a {
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+}
+
+ul.submenu li:first-child {
+  padding-top: 10px;
+}
