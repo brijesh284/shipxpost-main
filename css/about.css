@@ -341,6 +341,13 @@ section.Enhance-customer.acieve_section {
 }
 
 @media only screen and (max-width: 1024px) {
+  ul.Enhance-content {
+    padding-left: 50px;
+}
+
+.expe_newhead {
+    margin-left: 14px;
+}
   .about-Banner-section .about-Banner-dec h2 {
     font-size: 40px !important;
   }
@@ -376,6 +383,7 @@ section.Enhance-customer.acieve_section {
 @media only screen and (max-width: 768px) {}
 
 @media only screen and (max-width: 575px) {
+
   .wrapper-title h1::after {
     display: none;
   }
@@ -385,7 +393,7 @@ section.Enhance-customer.acieve_section {
   }
 
   ul.Enhance-content {
-    padding-left: 30px;
+    padding-left: 0px;
   }
 
   section.Enhance-customer.acieve_section {

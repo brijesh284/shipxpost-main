@@ -691,6 +691,9 @@
 }
 
 @media (max-width: 575px) {
+  .company-card .company-card-inner .company-card-content h1 {
+    font-size: 36px !important;
+}
   .headerOne.gradientBanner img.img-fluid {
     margin: 60px 0;
   }

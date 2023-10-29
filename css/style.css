@@ -229,7 +229,7 @@ body {
 
 .Banner-section .banner-content .banner-headingText .banner-volume {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .Banner-section .banner-content .banner-headingText .banner-volume::before {
@@ -1384,6 +1384,16 @@ body {
   }
 }
 
+@media only screen and (max-width: 1280px) {
+  .Banner-section .banner-content {
+    padding-left: 110px;
+  }
+
+  .Banner-section .banner-content .banner-headingText h2 {
+    font-size: 46px;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .Banner-section .banner-content .banner-headingText h2 {
     font-size: 34px;
@@ -1414,7 +1424,23 @@ body {
   }
 }
 
+@media only screen and (max-width: 993px) {
+  section.information-section h1 {
+    font-size: 34px !important;
+  }
+
+  .information-section p {
+    font-size: 19px !important;
+  }
+
+  .information-section h3 {
+    font-size: 28px !important;
+    margin-bottom: 14px !important;
+  }
+}
+
 @media only screen and (max-width: 992.5px) {
+
   .navbar-collapse {
     position: absolute;
     width: 90%;
@@ -2226,6 +2252,12 @@ body {
 @media only screen and (max-width: 768.5px) {
   .wrapper-sd-section .wrapper-sd-content {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  section.information-section h1 {
+    font-size: 32px !important;
   }
 }
 
