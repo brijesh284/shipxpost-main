@@ -433,6 +433,20 @@
 }
 
 @media (max-width: 480px) {
+  section.repeat-purchases {
+    padding-top: 0;
+}
+  .faq-section .accordion button {
+    font-size: 16px;
+}
+
+.faq-section .col-lg-6.col-md-12.col-12 {
+    padding: 0;
+}
+
+.faq-section .accordion .accordion-item {
+    margin-bottom: 10px;
+}
   .caseStudyBanner.gradientBanner .fontSize72 {
     font-size: 32px !important;
   }

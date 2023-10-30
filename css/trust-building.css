@@ -122,8 +122,16 @@
 .delivered-text span {
   color: #3626f1;
 }
+@media (max-width: 1200px) {
+  .heading-primary {
+    font-size: 40px;
+}
+}
 
 @media (max-width: 1024px) {
+  .testimonial_section .about_content .layer_content .section_title h2 {
+    font-size: 34px !important;
+}
   .section-hero {
     padding: 4.4rem 0 4.4rem 0;
   }
@@ -134,7 +142,10 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 993px) {
+  .company-card .company-card-inner .company-card-content h1 {
+    font-size: 46px;
+}
   .hero {
     display: flex;
     flex-direction: column;
@@ -142,9 +153,15 @@
 }
 
 @media (max-width: 768px) {
-  .heading-primary {
+  .faq-section .accordion .accordion-item {
+    margin-bottom: 14px;
+}
+  .hero.trust-new {
+    margin-bottom: 60px;
+}
+  /* .heading-primary {
     font-size: 3.5rem;
-  }
+  } */
 }
 
 @media (max-width: 767px) {
