@@ -16,10 +16,12 @@ a {
 
 body {
   font-family: ProductSans-Regular;
-  background: linear-gradient(134deg,
-      #d2ddf3 -14.39%,
-      rgba(226, 234, 247, 0.67) 47.39%,
-      rgba(255, 255, 255, 0.1) 97.67%);
+  background: linear-gradient(
+    134deg,
+    #d2ddf3 -14.39%,
+    rgba(226, 234, 247, 0.67) 47.39%,
+    rgba(255, 255, 255, 0.1) 97.67%
+  );
   /* box-shadow: 0px 9.9919px 209.82996px 0px rgba(13, 31, 79, 0.06),
     0px 9.9919px 534.56677px 0px rgba(0, 0, 0, 0.06),
     0px 9.9919px 159.87044px 0px rgba(0, 0, 0, 0.1);
@@ -495,15 +497,15 @@ body {
 }
 
 .animate--shrink,
-.hero__title .slick-current>span {
+.hero__title .slick-current > span {
   animation-duration: 1s;
   animation-name: shrink;
   animation-timing-function: "linear";
 }
 
 .animate--grow,
-.hero__title .slick-current+.slick-slide>span,
-.no-js .hero__title .slick-dupe:nth-child(2)>span {
+.hero__title .slick-current + .slick-slide > span,
+.no-js .hero__title .slick-dupe:nth-child(2) > span {
   animation-duration: 1s;
   animation-timing-function: "linear";
   animation-name: grow;
@@ -632,12 +634,12 @@ body {
   opacity: 0;
 }
 */
-.hero__title .slick-current>span {
+.hero__title .slick-current > span {
   box-sizing: border-box;
   display: block;
 }
 
-.no-js .hero__title .slick-dupe:nth-child(2)>span {
+.no-js .hero__title .slick-dupe:nth-child(2) > span {
   padding: 1em;
 }
 
@@ -745,10 +747,12 @@ body {
 .swiper .swipe-inner::after {
   content: "";
   position: absolute;
-  background: linear-gradient(180deg,
+  background: linear-gradient(
+      180deg,
       rgba(0, 0, 0, 0) 0%,
       rgb(255 255 255 / 27%) 62.47%,
-      #000 96.34%),
+      #000 96.34%
+    ),
     url(<path-to-image>), #ffffff00 50% / cover no-repeat;
   width: 100%;
   height: 80%;
@@ -1106,9 +1110,11 @@ body {
 .team-section .team-member .team-wrap::after {
   content: "";
   position: absolute;
-  background: linear-gradient(181deg,
-      rgba(47, 47, 47, 0) 2.42%,
-      #2f2d2d 99.07%);
+  background: linear-gradient(
+    181deg,
+    rgba(47, 47, 47, 0) 2.42%,
+    #2f2d2d 99.07%
+  );
   bottom: 0;
   left: 0;
   width: 100%;
@@ -1440,7 +1446,6 @@ body {
 }
 
 @media only screen and (max-width: 992.5px) {
-
   .navbar-collapse {
     position: absolute;
     width: 90%;
@@ -2095,9 +2100,11 @@ body {
 .forgot-password-popup .forgot-popup {
   border-radius: 16px;
   border: 2px solid var(--Outline-radial, rgba(255, 255, 255, 0.77));
-  background: linear-gradient(134deg,
-      #eef4ff -14.39%,
-      rgba(243, 247, 255, 0.22) 84.59%);
+  background: linear-gradient(
+    134deg,
+    #eef4ff -14.39%,
+    rgba(243, 247, 255, 0.22) 84.59%
+  );
   width: 480px;
   /* Boxy Effect */
   box-shadow: 0px 4px 84px 0px rgba(13, 31, 79, 0.06),
@@ -2108,9 +2115,11 @@ body {
 .forgot-password-popup .forgot-popup .forgot-head {
   border-radius: 16px 16px 0px 0px;
   border: 2px solid rgba(255, 255, 255, 0.77);
-  background: linear-gradient(134deg,
-      #eef4ff -14.39%,
-      rgba(243, 247, 255, 0.22) 84.59%);
+  background: linear-gradient(
+    134deg,
+    #eef4ff -14.39%,
+    rgba(243, 247, 255, 0.22) 84.59%
+  );
   box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(17px);
 }
@@ -2526,12 +2535,12 @@ input[type="radio"] {
   display: none;
 }
 
-input[type="radio"]+label {
+input[type="radio"] + label {
   color: #000;
   font-size: 20px;
 }
 
-input[type="radio"]+label span {
+input[type="radio"] + label span {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -2542,18 +2551,18 @@ input[type="radio"]+label span {
   border-radius: 50%;
 }
 
-input[type="radio"]+label span {
+input[type="radio"] + label span {
   background-color: transparent;
   border: 3px solid #474852;
 }
 
-input[type="radio"]:checked+label span {
+input[type="radio"]:checked + label span {
   border: 3px solid #0048d9;
   background: transparent;
 }
 
-input[type="radio"]+label span,
-input[type="radio"]:checked+label span {
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span {
   -webkit-transition: background-color 0.2s ease-in-out;
   -o-transition: background-color 0.2s ease-in-out;
   -moz-transition: background-color 0.2s ease-in-out;
@@ -2611,7 +2620,7 @@ input[type="radio"]:checked+label span {
 }
 
 @media only screen and (max-width: 526.5px) {
-  input[type="radio"]+label {
+  input[type="radio"] + label {
     font-size: 14px;
   }
 
@@ -2644,7 +2653,7 @@ input[type="radio"]:checked+label span {
     width: 130px;
   }
 
-  input[type="radio"]+label span {
+  input[type="radio"] + label span {
     width: 15px;
     height: 15px;
     margin: -2px 0px 0 0;
@@ -2655,7 +2664,8 @@ input[type="radio"]:checked+label span {
   }
 }
 
-@media only screen and (max-width: 380px) {}
+@media only screen and (max-width: 380px) {
+}
 
 /* .container-main.web-view.pad_main {
   padding: 0;
@@ -2939,9 +2949,11 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier::before {
   top: 0;
   left: 0;
-  background: linear-gradient(to right,
-      #dde5f6 0%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to right,
+    #dde5f6 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 #infinite div.highway-barrier::after {
@@ -2989,11 +3001,8 @@ div.highway-slider ul.highway-lane li.highway-car {
   }
 } */
 
-
-
 ul li:hover .submenu {
   height: auto;
-
 }
 
 ul li:hover a {
@@ -3040,7 +3049,6 @@ ul li .submenu a {
   /* margin-top: 20px; */
   font-size: 16px;
 }
-
 
 ul.submenu li a {
   padding: 4px 20px !important;

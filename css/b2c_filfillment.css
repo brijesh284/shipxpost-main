@@ -140,9 +140,11 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier::before {
   top: 0;
   left: 0;
-  background: linear-gradient(to right,
-      #ffffff 0%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 #infinite div.highway-barrier::after {
@@ -316,7 +318,8 @@ section.deliver {
   top: 0;
   height: 100%;
   width: 6px;
-  background: transparent linear-gradient(4deg, #ffc465 0%, #5338ff 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(4deg, #ffc465 0%, #5338ff 100%) 0% 0%
+    no-repeat padding-box;
 }
 
 a.read-btn {
@@ -576,7 +579,6 @@ section.request-sec {
   }
 }
 
-
 @media only screen and (max-width: 768px) {
   .tab-link {
     padding: 0 40px !important;
@@ -794,8 +796,8 @@ section.request-sec {
 
 @media only screen and (max-width: 320px) {
   .tab-link {
-    padding: 0 10px!important;
-}
+    padding: 0 10px !important;
+  }
   .shipping-offer .wrapper-shipping {
     padding-top: 10px;
   }

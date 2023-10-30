@@ -285,7 +285,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   left: 0;
   background: linear-gradient(
     to right,
-    #dee6f6  0%,
+    #dee6f6 0%,
     rgba(255, 255, 255, 0) 100%
   );
 }
@@ -293,7 +293,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier::after {
   top: 0;
   right: 0;
-  background: linear-gradient(to left, #dee6f6  0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to left, #dee6f6 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 #infinite div.highway-barrier ul.highway-lane {

@@ -1,64 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShipXPost - Get Your Ecommerce</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ShipXPost - Get Your Ecommerce</title>
-  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- contact css link -->
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/carrier-integrations.css" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css"
+    />
+  </head>
 
-  <link rel="stylesheet" href="css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <!-- contact css link -->
-  <link rel="stylesheet" href="css/contact.css" />
-  <link rel="stylesheet" href="css/carrier-integrations.css" />
-  <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
-  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" />
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg header-wrap header-sticky">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/Logo.svg" alt="logo" class="img-fluid" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 448 512">
-              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-              <path
-                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-            </svg>
-          </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto header-menu-wrap">
-            <li class="nav-item">
-              <a class="" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="" href="about.html">About us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Services
-              </a>
-              <ul class="submenu">
-                <li>
-                  <a class="dropdown-item" href="domestic-shipping.html"><span><img src="img/Domestic.png"
-                        alt=""></span> Domestic Shipping</a>
-                  <a class="dropdown-item" href="international-shipping.html"><span><img src="img/International.png"
-                        alt=""></span>International Shipping</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="b2c_filfillment.html"><span><img src="img/b2c.png" alt=""></span>B2C
-                    fulfillment</a>
-                  <a class="dropdown-item" href="b2b_filfillment.html"><span><img src="img/b2b.png" alt=""></span>B2B
-                    fulfillment</a>
-                </li>
-              </ul>
-              <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg header-wrap header-sticky">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="img/Logo.svg" alt="logo" class="img-fluid"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30px"
+                viewBox="0 0 448 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto header-menu-wrap">
+              <li class="nav-item">
+                <a class="" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="about.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a class="dropdown-item" href="domestic-shipping.html"
+                      ><span><img src="img/Domestic.png" alt="" /></span>
+                      Domestic Shipping</a
+                    >
+                    <a class="dropdown-item" href="international-shipping.html"
+                      ><span><img src="img/International.png" alt="" /></span
+                      >International Shipping</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="b2c_filfillment.html"
+                      ><span><img src="img/b2c.png" alt="" /></span>B2C
+                      fulfillment</a
+                    >
+                    <a class="dropdown-item" href="b2b_filfillment.html"
+                      ><span><img src="img/b2b.png" alt="" /></span>B2B
+                      fulfillment</a
+                    >
+                  </li>
+                </ul>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <a class="dropdown-item" href="domestic-shipping.html"
                       >Domestic Shipping</a
@@ -81,277 +112,353 @@
                     >
                   </li>
                 </ul> -->
-            </li>
-            <li class="nav-item">
-              <a class="" href="carrier-integrations.html" tabindex="-1" aria-disabled="true">Carrier</a>
-            </li>
-            <li class="nav-item">
-              <a class="active-menu" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
-            </li>
-          </ul>
-          <a href="login.html" class="login-btn">
-            <img src="img/login.svg" alt="login" class="img-fluid" /> Login/
-            Register
-          </a>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- contact info section-->
-  <!-- Banner-section -->
-
-  <section class="Section caseStudyBanner integration gradientBanner carrierIntegration" id="caseStudyBanner">
-    <div>
-      <div class="floatImageLeft">
-        <span class="iconsContactUs"> </span>
-        <span class="iconsContactUs"> </span>
-        <span class="iconsContactUs"> </span>
-      </div>
-      <div class="floatImageRight">
-        <span class="iconsContactUs"> </span>
-        <span class="iconsContactUs"> </span>
-        <span class="iconsContactUs"> </span>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-12 col-lg-6 m-auto">
-            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="2000">
-              <h2 class="">We’d <span> Love</span> To Help You</h2>
-              <p class="">
-                There are many variations of passages of Lorem Ipsum
-                available, but the majority have suffered alteration in some
-                form.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact-us section">
-    <div class="container">
-      <div class="contact-head">
-        <div class="contact-info">
-          <div class="row">
-            <div class="col-lg-4 col-md-12 col-12">
-              <div class="single-info" data-aos="fade-up" data-aos-duration="2000">
-                <i class="lni lni-map"></i>
-                <h3>Address</h3>
-                <ul>
-                  <li>3333 Raleigh St, Houston, TX 77021, USA.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-12">
-              <div class="single-info" data-aos="fade-up" data-aos-duration="2400">
-                <i class="lni lni-phone"></i>
-                <h3>Call us on</h3>
-                <ul>
-                  <li>
-                    <a href="tel:+18005554400">+1 800 555 44 00 (Toll free)</a>
-                  </li>
-                  <li><a href="tel:+321556667890">+321 55 666 7890</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-12">
-              <div class="single-info" data-aos="fade-up" data-aos-duration="2800">
-                <i class="lni lni-envelope"></i>
-                <h3>Mail at</h3>
-                <ul>
-                  <li>
-                    <a href="mailto:supportteam@example.com">supportteam@shipxpost.com</a>
-                  </li>
-                  <li>
-                    <a href="mailto:career@example.com">career@shipxpost.com</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- contact form  section -->
-  <div class="contact-form-head section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 col-md-12 col-12">
-          <div class="contact-inner-title">
-            <h2 data-aos="fade-up" data-aos-duration="2000">
-              New Case? <br />Send Message Us
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="2200">
-              Just send us your questions or concerns to starting a new
-              project.
-            </p>
-            <div class="question">
-              <img src="img/contact/avatar-1.jpg" alt="#" />
-              <h4>
-                <span>HAVE A QUESTION?</span>
-                +888 445 55 678
-              </h4>
-            </div>
-            <ul class="day-list">
-              <li>Monday - Friday:</li>
-              <li>9.00 - 6.00</li>
-              <li>Sunday &amp; Public Holidays (Closed)</li>
+              </li>
+              <li class="nav-item">
+                <a
+                  class=""
+                  href="carrier-integrations.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Carrier</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="active-menu"
+                  href="contact.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Contact</a
+                >
+              </li>
             </ul>
-            <a href="javascript:void(0)" class="call-back">Request a call back <i class="lni lni-arrow-right"></i></a>
+            <a href="login.html" class="login-btn">
+              <img src="img/login.svg" alt="login" class="img-fluid" /> Login/
+              Register
+            </a>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12 col-12">
-          <div class="form-main">
-            <form class="form">
-              <div class="row">
-                <div class="col-lg-6 col-12">
-                  <div class="form-group">
-                    <input name="name" type="text" placeholder="Your Name" required="required" />
-                  </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                  <div class="form-group">
-                    <input name="subject" type="text" placeholder="Your Subject" required="required" />
-                  </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                  <div class="form-group">
-                    <input name="email" type="email" placeholder="Your Email" required="required" />
-                  </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                  <div class="form-group">
-                    <input name="phone" type="text" placeholder="Your Phone" required="required" />
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group message">
-                    <textarea name="message" placeholder="Your Message"></textarea>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group button">
-                    <button type="submit" class="btn">Submit Message</button>
-                  </div>
+      </nav>
+    </header>
+    <!-- contact info section-->
+    <!-- Banner-section -->
+
+    <section
+      class="Section caseStudyBanner integration gradientBanner carrierIntegration"
+      id="caseStudyBanner"
+    >
+      <div>
+        <div class="floatImageLeft">
+          <span class="iconsContactUs"> </span>
+          <span class="iconsContactUs"> </span>
+          <span class="iconsContactUs"> </span>
+        </div>
+        <div class="floatImageRight">
+          <span class="iconsContactUs"> </span>
+          <span class="iconsContactUs"> </span>
+          <span class="iconsContactUs"> </span>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-6 m-auto">
+              <div
+                class="section-title text-center"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <h2 class="">We’d <span> Love</span> To Help You</h2>
+                <p class="">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us section">
+      <div class="container">
+        <div class="contact-head">
+          <div class="contact-info">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-12">
+                <div
+                  class="single-info"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <i class="lni lni-map"></i>
+                  <h3>Address</h3>
+                  <ul>
+                    <li>3333 Raleigh St, Houston, TX 77021, USA.</li>
+                  </ul>
                 </div>
               </div>
-            </form>
+              <div class="col-lg-4 col-md-12 col-12">
+                <div
+                  class="single-info"
+                  data-aos="fade-up"
+                  data-aos-duration="2400"
+                >
+                  <i class="lni lni-phone"></i>
+                  <h3>Call us on</h3>
+                  <ul>
+                    <li>
+                      <a href="tel:+18005554400"
+                        >+1 800 555 44 00 (Toll free)</a
+                      >
+                    </li>
+                    <li><a href="tel:+321556667890">+321 55 666 7890</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-12">
+                <div
+                  class="single-info"
+                  data-aos="fade-up"
+                  data-aos-duration="2800"
+                >
+                  <i class="lni lni-envelope"></i>
+                  <h3>Mail at</h3>
+                  <ul>
+                    <li>
+                      <a href="mailto:supportteam@example.com"
+                        >supportteam@shipxpost.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mailto:career@example.com"
+                        >career@shipxpost.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- map section -->
-  <div class="map-section">
-    <div class="map-container">
-      <div class="mapouter">
-        <div class="gmap_canvas">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15371705.832072966!2d62.112894129071385!3d19.845965922875127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1697130005929!5m2!1sen!2sin"
-            width="100%" height="500" style="border: 0" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Footer -->
-  <section class="footer-section">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="footer-content">
-              <img src="img/footer-Logo.svg" alt="footer-Logo" class="img-fluid" />
-              <p>
-                we are india's number 1 shipping solutions provider. Sell,
-                ship, and track with ease by choosing multiple courier
-                partners through one single shipping platform
+    </section>
+    <!-- contact form  section -->
+    <div class="contact-form-head section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="contact-inner-title">
+              <h2 data-aos="fade-up" data-aos-duration="2000">
+                New Case? <br />Send Message Us
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="2200">
+                Just send us your questions or concerns to starting a new
+                project.
               </p>
+              <div class="question">
+                <img src="img/contact/avatar-1.jpg" alt="#" />
+                <h4>
+                  <span>HAVE A QUESTION?</span>
+                  +888 445 55 678
+                </h4>
+              </div>
+              <ul class="day-list">
+                <li>Monday - Friday:</li>
+                <li>9.00 - 6.00</li>
+                <li>Sunday &amp; Public Holidays (Closed)</li>
+              </ul>
+              <a href="javascript:void(0)" class="call-back"
+                >Request a call back <i class="lni lni-arrow-right"></i
+              ></a>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Quick Links</h3>
-              </div>
-              <div class="footer-menus">
-                <ul>
-                  <li><a href="index.html"> Home</a></li>
-                  <li><a href="about.html"> about us</a></li>
-                  <li><a href="Information.html">Information </a></li>
-                  <li><a href="services.html">services</a></li>
-                  <li><a href="contact.html">Contact us </a></li>
-                </ul>
-              </div>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="form-main">
+              <form class="form">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <div class="form-group">
+                      <input
+                        name="name"
+                        type="text"
+                        placeholder="Your Name"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <div class="form-group">
+                      <input
+                        name="subject"
+                        type="text"
+                        placeholder="Your Subject"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <div class="form-group">
+                      <input
+                        name="email"
+                        type="email"
+                        placeholder="Your Email"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <div class="form-group">
+                      <input
+                        name="phone"
+                        type="text"
+                        placeholder="Your Phone"
+                        required="required"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group message">
+                      <textarea
+                        name="message"
+                        placeholder="Your Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group button">
+                      <button type="submit" class="btn">Submit Message</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Features</h3>
-              </div>
-              <div class="footer-menus">
-                <ul>
-                  <li><a href="login.html"> Login</a></li>
-                  <li><a href="register.html">Register</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Information</h3>
-              </div>
-              <div class="footer-menus">
-                <ul>
-                  <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
-                  <li>
-                    <a href="Refunds-Cancellations.html">
-                      Refunds & Cancellations</a>
-                  </li>
-                  <li>
-                    <a href="Terms-Conditions.html"> Terms & Conditions</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Information</h3>
-              </div>
-              <div class="footer-info">
-                <input type="email" placeholder="Email address" />
-                <img src="img/Information-email.svg" alt="Information-email" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-end">
-          <img src="img/footer-bottom-bg.svg" alt="" />
         </div>
       </div>
     </div>
-  </section>
-  <!-- #page -->
-  <a id="back-to-top" href="#" class="back-to-top-h3"><img src="img/back-to-top.svg" alt="back-to-top"
-      class="img-fluid" /></a>
+    <!-- map section -->
+    <div class="map-section">
+      <div class="map-container">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15371705.832072966!2d62.112894129071385!3d19.845965922875127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1697130005929!5m2!1sen!2sin"
+              width="100%"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <section class="footer-section">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="footer-content">
+                <img
+                  src="img/footer-Logo.svg"
+                  alt="footer-Logo"
+                  class="img-fluid"
+                />
+                <p>
+                  we are india's number 1 shipping solutions provider. Sell,
+                  ship, and track with ease by choosing multiple courier
+                  partners through one single shipping platform
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Quick Links</h3>
+                </div>
+                <div class="footer-menus">
+                  <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="about.html"> about us</a></li>
+                    <li><a href="Information.html">Information </a></li>
+                    <li><a href="carrier-integrations.html">carrier</a></li>
+                    <li><a href="contact.html">Contact us </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Features</h3>
+                </div>
+                <div class="footer-menus">
+                  <ul>
+                    <li><a href="login.html"> Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Information</h3>
+                </div>
+                <div class="footer-menus">
+                  <ul>
+                    <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
+                    <li>
+                      <a href="Refunds-Cancellations.html">
+                        Refunds & Cancellations</a
+                      >
+                    </li>
+                    <li>
+                      <a href="Terms-Conditions.html"> Terms & Conditions</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Information</h3>
+                </div>
+                <div class="footer-info">
+                  <input type="email" placeholder="Email address" />
+                  <img
+                    src="img/Information-email.svg"
+                    alt="Information-email"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-end">
+            <img src="img/footer-bottom-bg.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #page -->
+    <a id="back-to-top" href="#" class="back-to-top-h3"
+      ><img src="img/back-to-top.svg" alt="back-to-top" class="img-fluid"
+    /></a>
 
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <script src="js/slick-carousel_min.js"></script>
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-    });
-  </script>
-</body>
-
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/slick-carousel_min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+  </body>
 </html>

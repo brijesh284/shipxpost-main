@@ -481,7 +481,7 @@ span.iconsContactUs {
 @media (max-width: 568px) {
   .contact-form-head .form-main {
     padding: 20px;
-}
+  }
   .floatImageLeft span:first-child {
     bottom: 20%;
     top: unset;
@@ -504,5 +504,5 @@ span.iconsContactUs {
   }
   .section-title p {
     font-size: 20px;
-}
+  }
 }

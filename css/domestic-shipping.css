@@ -1,5 +1,6 @@
 .headerOne.gradientBanner {
-  background: transparent linear-gradient(174deg, #3626f140, #e6edf8) 0 0 no-repeat padding-box;
+  background: transparent linear-gradient(174deg, #3626f140, #e6edf8) 0 0
+    no-repeat padding-box;
   background-position: bottom;
   z-index: 0;
   overflow: hidden;
@@ -225,7 +226,8 @@
 }
 
 .fourBlocks .blocks h4:before {
-  background: transparent linear-gradient(171deg, #3626f1 0%, #1e1745 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(171deg, #3626f1 0%, #1e1745 100%) 0%
+    0% no-repeat padding-box;
   border-radius: 12px;
 }
 
@@ -382,7 +384,7 @@
   z-index: 9;
 }
 
-.blogModule.liteBg .blogCards .blogCard>a img {
+.blogModule.liteBg .blogCards .blogCard > a img {
   min-height: 225px;
   border-radius: 20px 20px 0 0;
 }
@@ -460,7 +462,7 @@
   background: #d2ddf3;
 }
 
-.uppperHeadingContent .contentImageWrapper>div {
+.uppperHeadingContent .contentImageWrapper > div {
   flex-basis: calc(100% / 2 - 30px);
 }
 
@@ -579,7 +581,6 @@
   }
 }
 
-
 @media (max-width: 991px) {
   .gridBoxFeatures {
     padding: 4rem 0;
@@ -672,7 +673,6 @@
     max-width: 90%;
   }
 
-
   .blogCard {
     margin-bottom: 30px;
   }
@@ -693,7 +693,7 @@
 @media (max-width: 575px) {
   .company-card .company-card-inner .company-card-content h1 {
     font-size: 36px !important;
-}
+  }
   .headerOne.gradientBanner img.img-fluid {
     margin: 60px 0;
   }

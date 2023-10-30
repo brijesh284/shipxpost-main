@@ -17,10 +17,12 @@
   z-index: 0;
   width: 102%;
   height: 100px;
-  background: linear-gradient(0deg,
-      #d2ddf3 -14.39%,
-      rgba(226, 234, 247, 0.67) 47.39%,
-      rgba(255, 255, 255, 0.1) 97.67%);
+  background: linear-gradient(
+    0deg,
+    #d2ddf3 -14.39%,
+    rgba(226, 234, 247, 0.67) 47.39%,
+    rgba(255, 255, 255, 0.1) 97.67%
+  );
   position: absolute;
   content: "";
 }
@@ -197,17 +199,28 @@
   border-bottom: 1px solid #00000014;
 }
 
-.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .logo img {
+.caseStudyLogos.integration.srx.carrierIntegration
+  .logos
+  .caseStudyLogo
+  .logo
+  img {
   max-height: 44px;
   width: auto;
 }
 
-.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .content {
+.caseStudyLogos.integration.srx.carrierIntegration
+  .logos
+  .caseStudyLogo
+  .content {
   min-height: 260px;
   padding: 2rem;
 }
 
-.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .content>p {
+.caseStudyLogos.integration.srx.carrierIntegration
+  .logos
+  .caseStudyLogo
+  .content
+  > p {
   margin-bottom: 20px;
   color: #333333;
   font-size: 14px;
@@ -230,11 +243,19 @@
   margin: 0px 0px 12px;
 }
 
-.caseStudyLogos.integration.srx.carrierIntegration .logos .caseStudyLogo .content .option p:last-child {
+.caseStudyLogos.integration.srx.carrierIntegration
+  .logos
+  .caseStudyLogo
+  .content
+  .option
+  p:last-child {
   font-weight: bold;
 }
 
-.caseStudyLogos.integration .logos .caseStudyLogo div:not(.content):not(.option):not(.logo) {
+.caseStudyLogos.integration
+  .logos
+  .caseStudyLogo
+  div:not(.content):not(.option):not(.logo) {
   width: 100%;
   border-top: 1px solid #00000014;
   padding: 1.5rem;
@@ -327,7 +348,6 @@
 }
 
 @media (max-width: 1240px) {
-
   .caseStudyBanner.integration .leftCards img:first-child,
   .caseStudyBanner.integration .leftCards img:nth-child(2),
   .caseStudyBanner.integration .leftCards img:nth-child(3),
@@ -388,8 +408,6 @@
 }
 
 @media (max-width: 568px) {
-
-
   .stepModule .upperCotentWrapper h2 {
     font-size: 36px;
     line-height: normal;
@@ -435,18 +453,18 @@
 @media (max-width: 480px) {
   section.repeat-purchases {
     padding-top: 0;
-}
+  }
   .faq-section .accordion button {
     font-size: 16px;
-}
+  }
 
-.faq-section .col-lg-6.col-md-12.col-12 {
+  .faq-section .col-lg-6.col-md-12.col-12 {
     padding: 0;
-}
+  }
 
-.faq-section .accordion .accordion-item {
+  .faq-section .accordion .accordion-item {
     margin-bottom: 10px;
-}
+  }
   .caseStudyBanner.gradientBanner .fontSize72 {
     font-size: 32px !important;
   }
@@ -457,7 +475,6 @@
 }
 
 @media (max-width: 475px) {
-
   .caseStudyBanner.integration .leftCards img:first-child {
     top: 0px;
     left: 20px;
@@ -506,7 +523,6 @@
 }
 
 @media (max-width: 425px) {
-
   .caseStudyBanner.integration .leftCards img:first-child,
   .caseStudyBanner.integration .leftCards img:nth-child(2),
   .caseStudyBanner.integration .leftCards img:nth-child(3),
@@ -709,6 +725,10 @@
 }
 
 @keyframes crescendo {
-  0%   {transform: scale(.8);}
-  100% {transform: scale(1.0);}
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
