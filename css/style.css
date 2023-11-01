@@ -2265,6 +2265,13 @@ body {
 }
 
 @media only screen and (max-width: 575px) {
+  ul.submenu li {
+    display: block !important;
+  }
+
+  ul.submenu {
+    width: 260px !important;
+  }
   section.information-section h1 {
     font-size: 32px !important;
   }
@@ -3098,4 +3105,29 @@ ul.submenu li a {
 
 ul.submenu li:first-child {
   padding-top: 10px;
+}
+/* image animation */
+img.vert {
+  -webkit-animation: mover 1.5s infinite alternate;
+  animation: mover 1.5s infinite alternate;
+}
+img.vert {
+  -webkit-animation: mover 1.5s infinite alternate;
+  animation: mover 1.5s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
 }
