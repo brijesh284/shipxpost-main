@@ -15,6 +15,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css"
+    />
   </head>
 
   <body>
@@ -152,7 +156,7 @@
           </div>
           <div class="col-lg-5">
             <div class="banner-img">
-              <img src="img/banner.png" alt="banner" class="img-fluid vert" />
+              <img src="img/banner.png" alt="banner" class="img-fluid" />
             </div>
           </div>
         </div>
@@ -400,7 +404,7 @@
       <div class="container">
         <div class="company-card-inner">
           <div class="row">
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-8 col-md-6">
               <div class="company-card-content">
                 <h1 data-aos="fade-up" data-aos-duration="1600">
                   <span>From anywhere </span><br />
@@ -419,7 +423,7 @@
               </div>
             </div>
 
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-4 col-md-6">
               <div class="container-main web-view pad_main">
                 <div class="hero__title" id="animatedHeading">
                   <div class="slick-dupe">
@@ -582,8 +586,12 @@
             <div class="row align-items-center">
               <div class="col-lg-6 col-md-5">
                 <div class="Enhance-img text-center">
+                  <!-- <div class="cloud cloud1">
+                  <span><img src="img/planeimg.jpg" alt=""></span>
+                 
+                </div> -->
                   <img
-                    src="img/Enhance-1.png"
+                    src="img/domesticship.png"
                     alt="Enhance-1"
                     class="img-fluid"
                   />
@@ -632,7 +640,7 @@
                   <img
                     src="img/Enhance-2.png"
                     alt="Enhance-2"
-                    class="img-fluid vert"
+                    class="img-fluid"
                   />
                 </div>
               </div>
@@ -843,7 +851,9 @@
                 <img
                   src="img/fulfillment-1.png"
                   alt="fulfillment-1"
-                  class="img-fluid vert"
+                  class="img-fluid"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
                 />
               </div>
             </div>
@@ -865,7 +875,12 @@
           <div class="row mt-5 align-items-center direction-reverse">
             <div class="col-lg-6">
               <div class="fulfillment-content">
-                <h3 data-aos="fade-right" data-aos-duration="2000">
+                <h3
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                >
                   B2B fulfillment
                 </h3>
                 <p>
@@ -882,7 +897,9 @@
                 <img
                   src="img/fulfillment-2.png"
                   alt="fulfillment-2"
-                  class="img-fluid vert"
+                  class="img-fluid"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
                 />
               </div>
             </div>
@@ -1288,6 +1305,10 @@
       $("#number2").jQuerySimpleCounter({ end: 50, duration: 3000 });
       $("#number3").jQuerySimpleCounter({ end: 45, duration: 2000 });
       $("#number4").jQuerySimpleCounter({ end: 240, duration: 2500 });
+    </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <script>
+      AOS.init(500);
     </script>
   </body>
 </html>

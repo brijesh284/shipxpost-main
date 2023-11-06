@@ -28,6 +28,7 @@
 
 .imageWrapper img {
   max-width: 120%;
+  transform: rotate(-20deg);
 }
 
 .ShippingFromBanner .fontSize72 {
@@ -694,6 +695,7 @@
   .company-card .company-card-inner .company-card-content h1 {
     font-size: 36px !important;
   }
+
   .headerOne.gradientBanner img.img-fluid {
     margin: 60px 0;
   }
@@ -806,5 +808,246 @@
 @media (max-width: 320px) {
   .stepSix.stepModule p a.blueBtn {
     top: 230px;
+  }
+}
+
+.Section.ShippingFromBanner.gradientBanner.headerOne .imageWrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.Section.ShippingFromBanner.gradientBanner.headerOne
+  .imageWrapper
+  .box:nth-child(2) {
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  max-width: 100%;
+  animation: crescendo 1s alternate infinite ease-in;
+}
+
+.Section.ShippingFromBanner.gradientBanner.headerOne
+  .imageWrapper
+  .box:nth-child(3) {
+  position: absolute;
+  top: 18%;
+  right: 18%;
+  max-width: 100%;
+  animation: crescendo 1s alternate infinite ease-in;
+}
+
+.Section.ShippingFromBanner.gradientBanner.headerOne
+  .imageWrapper
+  .box:nth-child(4) {
+  position: absolute;
+  bottom: 18%;
+  left: 18%;
+  max-width: 100%;
+  animation: crescendo 1s alternate infinite ease-in;
+}
+
+.Section.ShippingFromBanner.gradientBanner.headerOne
+  .imageWrapper
+  .box:nth-child(5) {
+  position: absolute;
+  bottom: 18%;
+  right: 18%;
+  max-width: 100%;
+  animation: crescendo 1s alternate infinite ease-in;
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 1440px) {
+  /* .Section.ShippingFromBanner.gradientBanner.headerOne .imageWrapper .box{
+    top: 0%;
+    left: 0%;
+  } */
+}
+
+@media (max-width: 575px) {
+  .headerOne.gradientBanner img.img-fluid {
+    margin: 0px !important;
+  }
+
+  /* .Section.ShippingFromBanner.gradientBanner.headerOne .imageWrapper .box{
+    top: 0%;
+    left: 0%;
+  } */
+}
+
+.headerOne.gradientBanner {
+  height: 100vh !important;
+}
+
+.Section.uppperHeadingContent .imageWrapper-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.Section.uppperHeadingContent .imageWrapper-inner img {
+  max-width: 100%;
+}
+
+.Section.uppperHeadingContent .imageWrapper-inner .second-images {
+  position: absolute;
+  top: 10%;
+  transform: translate(-50%, 50%);
+  animation: moveclouds 10s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+  0% {
+    margin-left: 1000px;
+  }
+
+  100% {
+    margin-left: -1000px;
+  }
+}
+
+.quadrado:nth-child(2) {
+  animation: crescendo 3s alternate infinite ease-in;
+}
+
+.quadrado:nth-child(3) {
+  animation: crescendo-re 3s alternate infinite ease-in;
+}
+
+.quadrado:nth-child(4) {
+  animation: crescendo-re 3s alternate infinite ease-in;
+}
+
+.quadrado:nth-child(5) {
+  animation: crescendo 3s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+  0% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes crescendo-re {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 1024px) {
+  .headerOne.gradientBanner {
+    height: 100% !important;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(2) {
+    width: 60px;
+    height: 60px;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(3) {
+    width: 80px;
+    height: 60px;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(4) {
+    width: 60px;
+    height: 60px;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(5) {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .headerOne.gradientBanner {
+    height: 100% !important;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(2) {
+    width: 80px;
+    height: 80px;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(3) {
+    width: 120px;
+    height: 70px;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(4) {
+    width: 80px;
+    height: 80px;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(5) {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerOne.gradientBanner {
+    height: 100% !important;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(2) {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(3) {
+    width: 70px;
+    height: 50px;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(4) {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Section.ShippingFromBanner.gradientBanner.headerOne
+    .imageWrapper
+    .box:nth-child(5) {
+    width: 50px;
+    height: 50px;
   }
 }

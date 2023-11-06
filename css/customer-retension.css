@@ -195,10 +195,19 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 .banner-img.customer_engagement_img {
+  position: relative;
   text-align: center;
   max-width: 80%;
 }
-
+.banner-img.customer_engagement_img .location-img {
+  position: absolute;
+  width: 70%;
+  right: 0;
+  top: -50px;
+}
+.banner-img.customer_engagement_img .customerimg-img {
+  width: 80%;
+}
 .banner-retensiontext h2 span {
   color: #3626f1;
 }
@@ -448,6 +457,13 @@ h1.faq_head span:after {
     max-width: 100%;
     padding-left: 0px;
   }
+  .banner-img.customer_engagement_img .location-img {
+    position: absolute;
+    width: 40%;
+    top: 20px;
+    right: auto;
+    left: 40%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -479,13 +495,19 @@ h1.faq_head span:after {
   h1.faq_head {
     font-size: 38px;
   }
+  .accordian .accordion button {
+    font-size: 16px;
+  }
+  .accordion-body {
+    padding: 0rem 1.25rem 1rem;
+    font-size: 14px;
+  }
+  .accordian .accordion .accordion-item {
+    margin: 5px 0px 10px;
+  }
 }
 
 @media (max-width: 575px) {
-  .img-fluid {
-    margin-bottom: 40px;
-  }
-
   .shipping-service .wrapper-title h1::after {
     display: none;
   }
@@ -521,5 +543,18 @@ h1.faq_head span:after {
 @media (max-width: 350px) {
   section.Banner-section.customer_engangement {
     padding-top: 0;
+  }
+}
+
+.quadrado {
+  animation: crescendo 3s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0.9);
   }
 }

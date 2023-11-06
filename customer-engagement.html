@@ -1,66 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShipXPost - customer-engagement</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/customer-engagement.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ShipXPost - customer-engagement</title>
-  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
-  <link rel="stylesheet" href="css/owl.carousel.min.css" />
-  <link rel="stylesheet" href="css/bootstrap@5.0.2.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/customer-engagement.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css"
+    />
+  </head>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" />
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg header-wrap header-sticky">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/Logo.svg" alt="logo" class="img-fluid" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 448 512">
-              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-              <path
-                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-            </svg>
-          </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto header-menu-wrap">
-            <li class="nav-item">
-              <a class="" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="" href="about.html">About us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Services
-              </a>
-              <ul class="submenu">
-                <li>
-                  <a class="dropdown-item" href="domestic-shipping.html"><span><img src="img/Domestic.png"
-                        alt=""></span> Domestic Shipping</a>
-                  <a class="dropdown-item" href="international-shipping.html"><span><img src="img/International.png"
-                        alt=""></span>International Shipping</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="b2c_filfillment.html"><span><img src="img/b2c.png" alt=""></span>B2C
-                    fulfillment</a>
-                  <a class="dropdown-item" href="b2b_filfillment.html"><span><img src="img/b2b.png" alt=""></span>B2B
-                    fulfillment</a>
-                </li>
-              </ul>
-              <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg header-wrap header-sticky">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="img/Logo.svg" alt="logo" class="img-fluid"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30px"
+                viewBox="0 0 448 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto header-menu-wrap">
+              <li class="nav-item">
+                <a class="active-menu" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="" href="about.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a class="dropdown-item" href="domestic-shipping.html">
+                      <span><img src="img/Domestic.png" alt="" /></span>
+                      Domestic Shipping
+                    </a>
+                    <a class="dropdown-item" href="international-shipping.html">
+                      <span><img src="img/International.png" alt="" /></span
+                      >International Shipping
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="b2c_filfillment.html">
+                      <span><img src="img/b2c.png" alt="" /></span>B2C
+                      fulfillment
+                    </a>
+                    <a class="dropdown-item" href="b2b_filfillment.html">
+                      <span><img src="img/b2b.png" alt="" /></span>B2B
+                      fulfillment
+                    </a>
+                  </li>
+                </ul>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a class="dropdown-item" href="domestic-shipping.html">Domestic Shipping</a>
                 </li>
@@ -75,316 +113,431 @@
                   <a class="dropdown-item" href="b2b_filfillment.html">B2B fulfillment</a>
                 </li>
               </ul> -->
-            </li>
-            <li class="nav-item">
-              <a class="" href="carrier-integrations.html" tabindex="-1" aria-disabled="true">Carrier</a>
-            </li>
-            <li class="nav-item">
-              <a class="" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
-            </li>
-          </ul>
-          <a href="login.html" class="login-btn">
-            <img src="img/login.svg" alt="login" class="img-fluid" /> Login/
-            Register
-          </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class=""
+                  href="carrier-integrations.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Carrier</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class=""
+                  href="contact.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <a href="login.html" class="login-btn">
+              <img src="img/login.svg" alt="login" class="img-fluid" /> Login/
+              Register
+            </a>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <!-- Banner-section -->
-  <section class="Banner-section customer_engangement">
-    <div class="container-fluid">
-      <div class="row align-items-center">
-        <div class="col-lg-7">
-          <div class="banner-content">
-            <div class="banner-headingText" data-aos="fade-right" data-aos-duration="2000">
-              <h2 class="banner-light east_head">
-                <span>Conversions Made Easy,</span>
-              </h2>
-              <h2 class="banner-volume east_head">Shopping Made Fun</h2>
-            </div>
-            <div class="banner-wrap-dec superfast" data-aos="fade-left" data-aos-duration="2000">
-              <p>
-                Give your customers a superfast checkout experience under just
-                60 seconds.
-              </p>
-            </div>
-            <div class="banner-wrap-btn get_started">
-              <a href="#" class="banner-btn">Get started</a>
-              <a href="#"> See demo</a>
-            </div>
-            <div class="banner-wrap-div d-flex">
-              <div class="customer_herodetail">
-                <img src="img/customer-engagement/heroicon1.png" alt="" />
-                <span>140 million happy customers</span>
+    <!-- Banner-section -->
+    <section class="Banner-section customer_engangement">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="banner-content">
+              <div
+                class="banner-headingText"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <h2 class="banner-light east_head">
+                  <span>Conversions Made Easy,</span>
+                </h2>
+                <h2 class="banner-volume east_head">Shopping Made Fun</h2>
               </div>
-              <div class="customer_herodetail">
-                <img src="img/customer-engagement/heroicon2.png" alt="" />
-                <span>30+ delivery partners</span>
+              <div
+                class="banner-wrap-dec superfast"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <p>
+                  Give your customers a superfast checkout experience under just
+                  60 seconds.
+                </p>
+              </div>
+              <div class="banner-wrap-btn get_started">
+                <a href="#" class="banner-btn">Get started</a>
+                <a href="#"> See demo</a>
+              </div>
+              <div class="banner-wrap-div d-flex">
+                <div class="customer_herodetail">
+                  <img src="img/customer-engagement/heroicon1.png" alt="" />
+                  <span>140 million happy customers</span>
+                </div>
+                <div class="customer_herodetail">
+                  <img src="img/customer-engagement/heroicon2.png" alt="" />
+                  <span>30+ delivery partners</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-5">
-          <div class="banner-img customer_engagement_img">
-            <img src="img/customer-engagement/herosec_engaggeimg.jpg" alt="banner" class="img-fluid" />
+          <div class="col-lg-5">
+            <div class="banner-img customer_engagement_img">
+              <img
+                src="img/customer-engagement/herosec_engaggeimg-new.png"
+                alt="banner"
+                class="img-fluid vert"
+              />
+              <img
+                src="img/customer-engagement/herosec_engaggeimg-hover.png"
+                alt="banner"
+                class="img-fluid quadrado"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      <!-- <a href="#shipping-offer" id="scroll-down-animation">
+        <!-- <a href="#shipping-offer" id="scroll-down-animation">
         <span class="mouse">
           <span class="move"></span>
         </span>
       </a> -->
+      </div>
+    </section>
+    <div class="ot-image-animation1 service-images-animation-position1">
+      <img src="img/art-1.png" alt="" />
     </div>
-  </section>
-  <div class="ot-image-animation1 service-images-animation-position1">
-    <img src="img/art-1.png" alt="" />
-  </div>
 
-  <!-- know section -->
-  <section class="know_detail">
-    <div class="container">
-      <div class="wrapper-title" data-aos="fade-up" data-aos-duration="2000">
-        <h1>Did you know?</h1>
+    <!-- know section -->
+    <section class="know_detail">
+      <div class="container">
+        <div class="wrapper-title" data-aos="fade-up" data-aos-duration="2000">
+          <h1>Did you know?</h1>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-4">
+            <div class="per_detail text-center">
+              <img src="img/customer-engagement/handimg.png" alt="" />
+              <h1 class="first_per" data-aos="zoom-in" data-aos-duration="2000">
+                50%
+              </h1>
+              <p>buyers drop off due to long checkout and address forms</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="per_detail text-center">
+              <img src="img/customer-engagement/handimg.png" alt="" />
+              <h1 class="sec_per" data-aos="zoom-in" data-aos-duration="2000">
+                30%
+              </h1>
+              <p>
+                buyers drop off because desired payment method is not available
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="per_detail text-center">
+              <img src="img/customer-engagement/handimg.png" alt="" />
+              <h1 class="third_per" data-aos="zoom-in" data-aos-duration="2000">
+                40%
+              </h1>
+              <p>Cash on Delivery orders are not accepted by buyers</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row align-items-center justify-content-center">
-        <div class="col-lg-4">
-          <div class="per_detail text-center">
-            <img src="img/customer-engagement/handimg.png" alt="" />
-            <h1 class="first_per" data-aos="zoom-in" data-aos-duration="2000">50%</h1>
-            <p>buyers drop off due to long checkout and address forms</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="per_detail text-center">
-            <img src="img/customer-engagement/handimg.png" alt="" />
-            <h1 class="sec_per" data-aos="zoom-in" data-aos-duration="2000">30%</h1>
-            <p>
-              buyers drop off because desired payment method is not available
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="per_detail text-center">
-            <img src="img/customer-engagement/handimg.png" alt="" />
-            <h1 class="third_per" data-aos="zoom-in" data-aos-duration="2000">40%</h1>
-            <p>Cash on Delivery orders are not accepted by buyers</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- introducing -->
-  <section class="know_detail">
-    <div class="container">
-      <div class="wrapper-title checkout" data-aos="fade-up" data-aos-duration="2000">
-        <h1>Introducing <span>Shiprocket Checkout</span></h1>
-        <p>
-          Swift transactions, smoother purchases. Multiply your cart
-          conversions with our technology-backed, single-page checkout tool.
-        </p>
-        <img src="img/customer-engagement/checkout.jpg" alt="" />
+    <!-- introducing -->
+    <section class="know_detail">
+      <div class="container">
+        <div
+          class="wrapper-title checkout"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <h1>Introducing <span>Shiprocket Checkout</span></h1>
+          <p>
+            Swift transactions, smoother purchases. Multiply your cart
+            conversions with our technology-backed, single-page checkout tool.
+          </p>
+          <img src="img/customer-engagement/checkout.jpg" alt="" />
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- inbuild section -->
-  <section class="inbuild_detail">
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-lg-6">
-          <div class="awesome_img">
-            <img src="img/customer-engagement/awesomeness.webp" alt="" />
+    <!-- inbuild section -->
+    <section class="inbuild_detail">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6">
+            <div class="awesome_img" data-aos="flip-left">
+              <img
+                src="img/customer-engagement/awesomeness-new.png"
+                alt=""
+                class="vert"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="per_detail text-left"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <h1 class="Inbuilt">Inbuilt awesomeness</h1>
+              <p>
+                Whether its customised discount options or verifications,
+                deliver a smooth purchase experience to your customers
+                effortlessly with existing tools.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="per_detail text-left" data-aos="fade-up" data-aos-duration="2000">
-            <h1 class="Inbuilt">Inbuilt awesomeness</h1>
-            <p>
-              Whether its customised discount options or verifications,
-              deliver a smooth purchase experience to your customers
-              effortlessly with existing tools.
-            </p>
+        <div class="row align-items-center justify-content-center easy_new">
+          <div class="col-lg-6">
+            <div class="per_detail text-left">
+              <h1 class="Inbuilt" data-aos="fade-up" data-aos-duration="2000">
+                Easy navigation
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="2200">
+                From one-click login to quick address selection, offer your
+                customers a stress-free shopping journey with our easy-to-use
+                checkout process across every brand
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="awesome_img" data-aos="flip-right">
+              <img
+                src="img/customer-engagement/adressimg-new.png"
+                alt=""
+                class="vert"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div class="row align-items-center justify-content-center easy_new">
-        <div class="col-lg-6">
-          <div class="per_detail text-left">
-            <h1 class="Inbuilt" data-aos="fade-up" data-aos-duration="2000">
-              Easy navigation
+    </section>
+    <!-- build relation -->
+    <section class="inbuild_detail new-build">
+      <div class="container">
+        <div class="row align-items-center justify-content-center design-build">
+          <div class="col-lg-6">
+            <div class="awesome_img">
+              <img
+                src="img/customer-engagement/build-relationimg-removebg-preview.png"
+                alt=""
+                class="quadrado"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="per_detail text-left ai-enabled"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <span>AI-enabled suite</span>
+              <h1 class="Inbuilt">
+                Designed to Build<br />
+                Profitable relationships
+              </h1>
+              <p>
+                Whether its customised discount options or verifications,
+                deliver a smooth purchase experience to your customers
+                effortlessly with existing tools.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- inbuild section -->
+    <section class="inbuild_detail">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6">
+            <div class="awesome_img" data-aos="flip-left">
+              <img
+                src="img/customer-engagement/awesomeness-new.png"
+                alt=""
+                class="vert"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="per_detail text-left"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <h1 class="Inbuilt">Inbuilt awesomeness</h1>
+              <p>
+                Whether its customised discount options or verifications,
+                deliver a smooth purchase experience to your customers
+                effortlessly with existing tools.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center easy_new">
+          <div class="col-lg-6">
+            <div
+              class="per_detail text-left"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <h1 class="Inbuilt">Easy navigation</h1>
+              <p>
+                From one-click login to quick address selection, offer your
+                customers a stress-free shopping journey with our easy-to-use
+                checkout process across every brand
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="awesome_img" data-aos="flip-right">
+              <img
+                src="img/customer-engagement/adressimg-new.png"
+                alt=""
+                class="vert"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- accordian -->
+    <section class="accordian">
+      <div class="container">
+        <div class="row align-content-center justify-content-center">
+          <div class="col-lg-4">
+            <h1 class="faq_head" data-aos="fade-right" data-aos-duration="1000">
+              Frequently<br />
+              asked <br />
+              <span> questions</span>
             </h1>
-            <p data-aos="fade-up" data-aos-duration="2200">
-              From one-click login to quick address selection, offer your
-              customers a stress-free shopping journey with our easy-to-use
-              checkout process across every brand
-            </p>
           </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="awesome_img">
-            <img src="img/customer-engagement/adressimg.webp" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- build relation -->
-  <section class="inbuild_detail new-build">
-    <div class="container">
-      <div class="row align-items-center justify-content-center design-build">
-        <div class="col-lg-6">
-          <div class="awesome_img">
-            <img src="img/customer-engagement/build-relationimg-removebg-preview.png" alt="" />
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="per_detail text-left ai-enabled" data-aos="fade-up" data-aos-duration="2000">
-            <span>AI-enabled suite</span>
-            <h1 class="Inbuilt">
-              Designed to Build<br />
-              Profitable relationships
-            </h1>
-            <p>
-              Whether its customised discount options or verifications,
-              deliver a smooth purchase experience to your customers
-              effortlessly with existing tools.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- inbuild section -->
-  <section class="inbuild_detail">
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-lg-6">
-          <div class="awesome_img">
-            <img src="img/customer-engagement/awesomeness.webp" alt="" />
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="per_detail text-left" data-aos="fade-up" data-aos-duration="2000">
-            <h1 class="Inbuilt">Inbuilt awesomeness</h1>
-            <p>
-              Whether its customised discount options or verifications,
-              deliver a smooth purchase experience to your customers
-              effortlessly with existing tools.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row align-items-center justify-content-center easy_new">
-        <div class="col-lg-6">
-          <div class="per_detail text-left" data-aos="fade-up" data-aos-duration="2000">
-            <h1 class="Inbuilt">Easy navigation</h1>
-            <p>
-              From one-click login to quick address selection, offer your
-              customers a stress-free shopping journey with our easy-to-use
-              checkout process across every brand
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="awesome_img">
-            <img src="img/customer-engagement/adressimg.webp" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- accordian -->
-  <section class="accordian">
-    <div class="container">
-      <div class="row align-content-center justify-content-center">
-        <div class="col-lg-4">
-          <h1 class="faq_head" data-aos="fade-right" data-aos-duration="1000">
-            Frequently<br />
-            asked <br /><span> questions</span>
-          </h1>
-        </div>
-        <div class="col-lg-8">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  How does Shiprocket Checkout prefill addresses?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h4>
-                    Shiprocket has delivered orders to over 150 Mn customers
-                    so far. We prefill the addresses on the basis of our past
-                    delivery data for all the orders we have shipped to the
-                    customers.
-                  </h4>
+          <div class="col-lg-8">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    How does Shiprocket Checkout prefill addresses?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <h4>
+                      Shiprocket has delivered orders to over 150 Mn customers
+                      so far. We prefill the addresses on the basis of our past
+                      delivery data for all the orders we have shipped to the
+                      customers.
+                    </h4>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  What is the address prefill rate?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h4>
-                    Our address prefill rate of approximately 85%. Shiprocket
-                    has been in the delivery system for the past 10 years
-                    currently, delivering 2cr. order per month
-                  </h4>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    What is the address prefill rate?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <h4>
+                      Our address prefill rate of approximately 85%. Shiprocket
+                      has been in the delivery system for the past 10 years
+                      currently, delivering 2cr. order per month
+                    </h4>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  How much time will it take for Shiprocket Checkout to be
-                  integrated in my store?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h4>
-                    Shiprocket Checkout integration is a quick process. We can
-                    get your site up and running the same day.
-                  </h4>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How much time will it take for Shiprocket Checkout to be
+                    integrated in my store?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <h4>
+                      Shiprocket Checkout integration is a quick process. We can
+                      get your site up and running the same day.
+                    </h4>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingfour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
-                  How much time will it take for Shiprocket Checkout to be
-                  integrated in my store?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h4>
-                    Shiprocket Checkout integration is a quick process. We can
-                    get your site up and running the same day.
-                  </h4>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingfour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapsefour"
+                  >
+                    How much time will it take for Shiprocket Checkout to be
+                    integrated in my store?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <h4>
+                      Shiprocket Checkout integration is a quick process. We can
+                      get your site up and running the same day.
+                    </h4>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- <div class="accordion-item">
+              <!-- <div class="accordion-item">
               <h2 class="accordion-header" id="headingFive">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -429,13 +582,13 @@
                 </div>
               </div>
             </div> -->
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- join league -->
-  <!-- <section class="join_us">
+    </section>
+    <!-- join league -->
+    <!-- <section class="join_us">
     <div class="container">
       <div class="row">
         <div class="joinus_mainhead d-flex align-items-center justify-content-between">
@@ -465,195 +618,210 @@
     </div>
   </section> -->
 
-  <section class="company-card sec-company-card">
-    <div class="container">
-      <div class="company-card-inner">
-        <div class="row align-items-center">
-          <div class="col-md-9">
-            <div class="company-card-content">
-              <h1 data-aos="fade-up" data-aos-duration="2000">
-                Experience conversions<br />
-                with Shiprocket
-              </h1>
-              </h1>
-              <p data-aos="fade-up" data-aos-duration="2200">
-                Our multi-courier network spread across 45000+ pin codes lets
-                you say yes to every order, even from remote areas
-              </p>
-              <a href="carrier-integrations.html" data-aos="fade-up" data-aos-duration="2400">Let ’s Get Started</a>
+    <section class="company-card sec-company-card">
+      <div class="container">
+        <div class="company-card-inner">
+          <div class="row align-items-center">
+            <div class="col-md-9">
+              <div class="company-card-content">
+                <h1 data-aos="fade-up" data-aos-duration="2000">
+                  Experience conversions<br />
+                  with Shiprocket
+                </h1>
+                <p data-aos="fade-up" data-aos-duration="2200">
+                  Our multi-courier network spread across 45000+ pin codes lets
+                  you say yes to every order, even from remote areas
+                </p>
+                <a
+                  href="carrier-integrations.html"
+                  data-aos="fade-up"
+                  data-aos-duration="2400"
+                  >Let ’s Get Started</a
+                >
+              </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="Join_league">
-              <a href="#">Join the league</a>
+            <div class="col-md-3">
+              <div class="Join_league">
+                <a href="#">Join the league</a>
+              </div>
             </div>
-          </div>
-          <div class="area">
-            <ul class="circles">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
+            <div class="area">
+              <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Footer -->
-  <section class="footer-section one-footer">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="footer-content">
-              <img src="img/footer-Logo.svg" alt="footer-Logo" class="img-fluid" />
-              <p>
-                we are india's number 1 shipping solutions provider. Sell,
-                ship, and track with ease by choosing multiple courier
-                partners through one single shipping platform
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Quick Links</h3>
-              </div>
-              <div class="footer-menus">
-                <ul>
-                  <li><a href="index.html"> Home</a></li>
-                  <li><a href="about.html"> about us</a></li>
-                  <li><a href="Information.html">Information </a></li>
-                  <li><a href="carrier-integrations.html">carrier</a></li>
-                  <li><a href="contact.html">Contact us </a></li>
-                </ul>
+    </section>
+    <!-- Footer -->
+    <section class="footer-section one-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="footer-content">
+                <img
+                  src="img/footer-Logo.svg"
+                  alt="footer-Logo"
+                  class="img-fluid"
+                />
+                <p>
+                  we are india's number 1 shipping solutions provider. Sell,
+                  ship, and track with ease by choosing multiple courier
+                  partners through one single shipping platform
+                </p>
               </div>
             </div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Features</h3>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Quick Links</h3>
+                </div>
+                <div class="footer-menus">
+                  <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="about.html"> about us</a></li>
+                    <li><a href="Information.html">Information </a></li>
+                    <li><a href="carrier-integrations.html">carrier</a></li>
+                    <li><a href="contact.html">Contact us </a></li>
+                  </ul>
+                </div>
               </div>
-              <div class="footer-menus">
-                <ul>
-                  <li><a href="login.html"> Login</a></li>
-                  <li><a href="register.html"> Register</a></li>
-                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Features</h3>
+                </div>
+                <div class="footer-menus">
+                  <ul>
+                    <li><a href="login.html"> Login</a></li>
+                    <li><a href="register.html"> Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Information</h3>
+                </div>
+                <div class="footer-menus">
+                  <ul>
+                    <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
+                    <li>
+                      <a href="Refunds-Cancellations.html">
+                        Refunds & Cancellations</a
+                      >
+                    </li>
+                    <li>
+                      <a href="Terms-Conditions.html"> Terms & Conditions</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-content">
+                <div class="footer-title">
+                  <h3>Information</h3>
+                </div>
+                <div class="footer-info">
+                  <input type="email" placeholder="Email address" />
+                  <img
+                    src="img/Information-email.svg"
+                    alt="Information-email"
+                    class="img-fluid"
+                  />
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Information</h3>
-              </div>
-              <div class="footer-menus">
-                <ul>
-                  <li><a href="Privacy-Policy.html"> Privacy Policy</a></li>
-                  <li>
-                    <a href="Refunds-Cancellations.html">
-                      Refunds & Cancellations</a>
-                  </li>
-                  <li>
-                    <a href="Terms-Conditions.html"> Terms & Conditions</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div class="footer-end">
+            <img src="img/footer-bottom-bg.svg" alt="" />
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-content">
-              <div class="footer-title">
-                <h3>Information</h3>
-              </div>
-              <div class="footer-info">
-                <input type="email" placeholder="Email address" />
-                <img src="img/Information-email.svg" alt="Information-email" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-end">
-          <img src="img/footer-bottom-bg.svg" alt="" />
         </div>
       </div>
-    </div>
-  </section>
-  <!-- #page -->
-  <a id="back-to-top" href="#" class="back-to-top-h3"><img src="img/back-to-top.svg" alt="back-to-top"
-      class="img-fluid" /></a>
+    </section>
+    <!-- #page -->
+    <a id="back-to-top" href="#" class="back-to-top-h3"
+      ><img src="img/back-to-top.svg" alt="back-to-top" class="img-fluid"
+    /></a>
 
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <script src="js/slick-carousel_min.js"></script>
-  <script>
-    // Get titles from the DOM
-    var titleMain = $("#animatedHeading");
-    var titleSubs = titleMain.find("slick-active");
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/slick-carousel_min.js"></script>
+    <script>
+      // Get titles from the DOM
+      var titleMain = $("#animatedHeading");
+      var titleSubs = titleMain.find("slick-active");
 
-    if (titleMain.length) {
-      titleMain.slick({
-        autoplay: false,
-        arrows: false,
-        dots: false,
-        slidesToShow: 3,
-        centerPadding: "10px",
-        draggable: false,
-        infinite: true,
-        pauseOnHover: false,
-        swipe: false,
-        touchMove: false,
-        vertical: true,
-        verticalScrolling: true,
-        speed: 1000,
-        autoplaySpeed: 2000,
-        useTransform: true,
-        cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1.000)",
-        adaptiveHeight: true,
+      if (titleMain.length) {
+        titleMain.slick({
+          autoplay: false,
+          arrows: false,
+          dots: false,
+          slidesToShow: 3,
+          centerPadding: "10px",
+          draggable: false,
+          infinite: true,
+          pauseOnHover: false,
+          swipe: false,
+          touchMove: false,
+          vertical: true,
+          verticalScrolling: true,
+          speed: 1000,
+          autoplaySpeed: 2000,
+          useTransform: true,
+          cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1.000)",
+          adaptiveHeight: true,
+        });
+
+        // On init
+        $(".slick-dupe").each(function (index, el) {
+          $("#animatedHeading").slick(
+            "slickAdd",
+            "<div>" + el.innerHTML + "</div>"
+          );
+        });
+
+        // Manually refresh positioning of slick
+        titleMain.slick("slickPlay");
+      }
+    </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
       });
-
-      // On init
-      $(".slick-dupe").each(function (index, el) {
-        $("#animatedHeading").slick(
-          "slickAdd",
-          "<div>" + el.innerHTML + "</div>"
-        );
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+    >
+      SmoothScroll({
+        animationTime: 800,
+        stepSize: 150,
+        accelerationDelta: 30,
+        accelerationMax: 2,
+        keyboardSupport: true,
+        arrowScroll: 100,
+        pulseAlgorithm: true,
+        pulseScale: 4,
+        pulseNormalize: 1,
+        touchpadSupport: true,
       });
-
-      // Manually refresh positioning of slick
-      titleMain.slick("slickPlay");
-    }
-  </script>
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-    });
-  </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js">
-    SmoothScroll({
-      animationTime: 800,
-      stepSize: 150,
-      accelerationDelta: 30,
-      accelerationMax: 2,
-      keyboardSupport: true,
-      arrowScroll: 100,
-      pulseAlgorithm: true,
-      pulseScale: 4,
-      pulseNormalize: 1,
-      touchpadSupport: true,
-    });
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>

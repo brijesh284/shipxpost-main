@@ -153,6 +153,11 @@ body {
 .header-wrap .header-menu-wrap li .active-menu {
   background-color: #3626f1;
   border-radius: 12px;
+  color: #ffffff;
+}
+
+.header-wrap .header-menu-wrap li .active-menu:hover {
+  color: #ffffff !important;
 }
 
 .header-wrap .header-menu-wrap li ul {
@@ -1348,10 +1353,12 @@ body {
 .footer-section .footer-content .footer-menus ul li a {
   font-size: 16px;
   color: #f7f6f5;
+  background: transparent;
 }
 
 .footer-section .footer-content .footer-menus ul li a:hover {
   color: #fff;
+  background: transparent;
 }
 
 .footer-section .footer-content .footer-info {
@@ -2272,6 +2279,7 @@ body {
   ul.submenu {
     width: 260px !important;
   }
+
   section.information-section h1 {
     font-size: 32px !important;
   }
@@ -2617,6 +2625,9 @@ input[type="radio"]:checked + label span {
 
   .onboarding-section .onboarding-inner .onboarding-content {
     width: 100%;
+  }
+  .ot-image-animation1 {
+    width: 20px;
   }
 }
 
@@ -3058,7 +3069,7 @@ ul li .submenu a {
 }
 
 ul.submenu li a {
-  padding: 4px 20px !important;
+  padding: 4px 12px !important;
 }
 
 /* ul li a::before {
@@ -3082,6 +3093,7 @@ ul.submenu li {
   margin-bottom: 6px;
   display: flex;
   align-items: center;
+  gap: 10px;
   width: -1% !important;
 }
 
@@ -3106,28 +3118,77 @@ ul.submenu li a {
 ul.submenu li:first-child {
   padding-top: 10px;
 }
+
 /* image animation */
 img.vert {
   -webkit-animation: mover 1.5s infinite alternate;
   animation: mover 1.5s infinite alternate;
 }
+
 img.vert {
   -webkit-animation: mover 1.5s infinite alternate;
   animation: mover 1.5s infinite alternate;
 }
+
 @-webkit-keyframes mover {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-15px);
   }
 }
+
 @keyframes mover {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-15px);
+  }
+}
+
+.Enhance-title {
+  margin-bottom: 40px;
+}
+
+.Enhance-img.text-center {
+  max-width: 80%;
+  margin: auto;
+}
+
+.Enhance-img.text-center.hover-change {
+  position: relative;
+}
+
+.Enhance-img.text-center.hover-change img.img-fluid.hover-images {
+  position: absolute;
+  bottom: -10px;
+  max-width: 20%;
+  right: 50px;
+  animation: shake 10s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(3px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
   }
 }

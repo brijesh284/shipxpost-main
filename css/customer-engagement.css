@@ -545,3 +545,34 @@ section.join_us {
 }
 
 /* jump menu css */
+
+.banner-img.customer_engagement_img {
+  position: relative;
+  overflow: hidden;
+}
+.banner-img.customer_engagement_img .quadrado {
+  position: absolute;
+  top: 0px;
+  right: 50px;
+}
+.quadrado {
+  animation: crescendo 3s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-img.customer_engagement_img .quadrado {
+    right: 0px;
+  }
+  .Banner-section .banner-img {
+    width: 100%;
+  }
+}
