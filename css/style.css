@@ -1292,7 +1292,7 @@ body {
   background: #4a71ff;
   filter: blur(225px);
   left: -20%;
-  top: 0px;
+  top: -20px;
   z-index: 0;
 }
 
@@ -1306,7 +1306,7 @@ body {
   background: #4a71ff;
   filter: blur(225px);
   right: -20%;
-  top: 0px;
+  top: -20px;
   z-index: 0;
 }
 
@@ -1314,21 +1314,6 @@ body {
   position: relative;
   z-index: 9;
 }
-
-.footer-section .footer-inner::after {
-  content: "";
-  position: absolute;
-  width: 352px;
-  height: 525.347px;
-  border-radius: 525.347px;
-  opacity: 0.9;
-  background: #4a71ff;
-  filter: blur(225px);
-  left: 36%;
-  bottom: -50%;
-  z-index: -1;
-}
-
 .footer-section .footer-content p {
   font-size: 15px;
   padding: 20px 0px;
